@@ -1,0 +1,90 @@
+.header {
+  padding: 10px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+}
+
+.navMenu {
+  justify-content: flex-end;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: unset;
+  gap: 40px;
+}
+
+.menuLinks {
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-family: "Mulish", sans-serif;
+}
+
+.menuLinks:hover {
+  color: #40bee2;
+}
+
+.navLinks {
+  list-style: none;
+}
+
+.megaMenu {
+  visibility: hidden;
+  position: absolute;
+  border-radius: 4px;
+  border: 0;
+  box-shadow: 0 0 5px 0 #292929;
+  background-color: #40bee2;
+  width: 20.5%;
+  padding: 20px 20px;
+  margin-top: 5px;
+}
+
+.megaMenu li a {
+  color: #fff;
+  font-weight: 600;
+}
+
+.megaMenu li a:hover{
+    color: #000;
+}
+
+.servHover:hover .megaMenu {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: absolute;
+  top: 50px;
+  visibility: visible;
+}
+
+.valueNum {
+  position: relative;
+  left: -6px;
+}
+
+.headerTel {
+  font-size: 16px;
+  padding-left: 20px;
+  border-radius: 0;
+  border: 0;
+  color: #fff;
+  font-family: "Mulish", sans-serif;
+}
+
+.headerIcon {
+  text-decoration: none;
+  color: #40bee2;
+}
+
+.headerIcon:hover {
+  color: #000;
+}

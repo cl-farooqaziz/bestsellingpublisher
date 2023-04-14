@@ -1,0 +1,18 @@
+.homeBanner {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.bttns {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 50px;
+}
+
+.bannerImg {
+  text-align: center;
+}
