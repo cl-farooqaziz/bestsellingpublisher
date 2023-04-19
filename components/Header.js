@@ -6,6 +6,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from 'react-bootstrap/Navbar';
 import { Container } from 'react-bootstrap';
 import { FaPhoneAlt, FaAngleDown } from 'react-icons/fa';
+
+//image
 import logo from '../public/images/logo.png';
 
 

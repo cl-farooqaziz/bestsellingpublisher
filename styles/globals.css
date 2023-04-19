@@ -23,8 +23,6 @@ p {
 
 ul {
   list-style-type: none;
-  padding-left: 0px;
-  margin-bottom: 0px;
 }
 
 a {
@@ -173,12 +171,20 @@ a:hover {
 
 /*===================== bg-colors =====================*/
 
-.bg-white {
+.bg-prime {
+  background-color: #40bee2;
+}
+
+.bg-second {
   background-color: #f3f3f3;
 }
 
 .bg-gray {
   background-color: #f6f6f6;
+}
+
+.bg-black {
+  color: #000;
 }
 
 /*===================== colors =====================*/
@@ -189,6 +195,10 @@ a:hover {
 
 .txt-secondary {
   color: var(--secondary-color);
+}
+
+.txt-white {
+  color: #fff;
 }
 
 /*===================== font-family =====================*/
@@ -217,10 +227,14 @@ a:hover {
   text-transform: uppercase;
   animation: 5s infinite gradient;
   font-family: var(--secondary-fonts);
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
 .quoteBtns {
   width: 100%;
+  color: #fff;
+  background-color: var(--primary-color);
 }
 
 .btnBlack {

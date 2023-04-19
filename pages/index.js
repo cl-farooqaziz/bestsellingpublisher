@@ -7,6 +7,11 @@ import Tradition from '@/components/Tradition'
 import Climax from '@/components/Climax'
 import Enlisted from '@/components/Enlisted'
 import Dreams from '@/components/Dreams'
+import Audience from '@/components/Audience'
+import Broader from '@/components/Broader'
+import Advice from '@/components/Advice'
+import Plans from '@/components/Plans'
+import Bookshelf from '@/components/Bookshelf'
 
 const inter = Playfair_Display({ subsets: ['latin'] })
 const mulish = Mulish({ subsets: ['latin'] })
@@ -32,7 +37,7 @@ export default function Home() {
         <title>Best Book Publishing Company - Best Selling Publisher</title>
         <meta name="description" content="Best book publishing company, Best Selling Publishers, offer a wide range of professional publishing services for authors around the world" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="../public/images/favicon.png" />
+        <link rel="icon" href="/images/favicon.png" />
       </Head>
       {/*========= Banner =========*/}
       {bannertext.map((item, i) =>
@@ -55,6 +60,16 @@ export default function Home() {
       <Enlisted />
       {/*========= Dreams fold =========*/}
       <Dreams />
+      {/*========= Audience fold =========*/}
+      <Audience />
+      {/*========= Broader fold =========*/}
+      <Broader />
+      {/*========= Advice fold =========*/}
+      <Advice />
+      {/*========= Plans fold =========*/}
+      <Plans />
+      {/*========= Bookshelf fold =========*/}
+      <Bookshelf />
     </>
   )
 }

@@ -130,6 +130,7 @@ const Banner = (props) => {
                                 <Image className='img-fluid'
                                     src={bannerImg}
                                     alt='Best_Publisher'
+                                    priority
                                 />
                             </div>
                         </Col>

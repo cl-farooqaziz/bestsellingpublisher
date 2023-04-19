@@ -1,0 +1,32 @@
+.broaderFlod {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.broaderList {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.broaderList li {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Mulish", sans-serif;
+  position: relative;
+  padding-left: 20px;
+}
+
+.broaderList li::before {
+  content: url(../public/images/flods/list-style.png);
+  position: absolute;
+  left: 0;
+}
+
+.broaderImg img {
+  height: 475px;
+}

@@ -1,5 +1,4 @@
 import React from 'react'
-import Image from 'next/image'
 import Link from 'next/link'
 import styles from '@/styles/Dreams.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
@@ -21,14 +20,14 @@ const Dreams = () => {
                                 <Col md={4}>
                                     <div className={`${styles.dreamsCard} bg-gray text-center`}>
                                         <h3 className='font-26 fw-500 font-primary txt-secondary pb-2'>Top-Notch Services</h3>
-                                        <p className='font-15 font-secondary txt-secondary mt-3'>Best Selling Publisher offers a comprehensive suite of eBook publishing services that are designed to meet the needs of authors at every stage of the publishing process.</p>
+                                        <p className='font-15 font-secondary txt-secondary mt-3 pb-5'>Best Selling Publisher offers a comprehensive suite of eBook publishing services that are designed to meet the needs of authors at every stage of the publishing process.</p>
                                         <Link className='btns btnPrimary mt-5 mx-auto' href="#">Let's discuss</Link>
                                     </div>
                                 </Col>
                                 <Col md={4}>
                                     <div className={`${styles.dreamsCard} bg-gray text-center`}>
                                         <h3 className='font-26 fw-500 font-primary txt-secondary pb-2'>Experience and Dedication</h3>
-                                        <p className='font-15 font-secondary txt-secondary mt-3'>We have a team of experienced and professional eBook editors and publishers who are committed to helping authors publish their books successfully.</p>
+                                        <p className='font-15 font-secondary txt-secondary mt-3 pb-5'>We have a team of experienced and professional eBook editors and publishers who are committed to helping authors publish their books successfully.</p>
                                         <Link className='btns btnPrimary mt-5 mx-auto' href="#">Let's discuss</Link>
                                     </div>
                                 </Col>
