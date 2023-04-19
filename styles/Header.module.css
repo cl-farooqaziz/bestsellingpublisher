@@ -1,8 +1,5 @@
 .header {
   padding: 10px 0;
-  position: fixed;
-  top: 0;
-  left: 0;
   width: 100%;
   background-color: #fff;
 }
@@ -53,8 +50,8 @@
   font-weight: 600;
 }
 
-.megaMenu li a:hover{
-    color: #000;
+.megaMenu li a:hover {
+  color: #000;
 }
 
 .servHover:hover .megaMenu {
@@ -87,4 +84,58 @@
 
 .headerIcon:hover {
   color: #000;
+}
+
+/* ========= Media Queries ========= */
+
+@media screen and (max-width: 991px) {
+  .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 10px;
+  }
+
+  .menuLinks {
+    font-size: 18px;
+  }
+
+  .megaMenu {
+    position: unset;
+    visibility: visible;
+    display: none;
+    width: 100%;
+    box-shadow: none;
+    padding: 10px 5px;
+    margin-top: 10px;
+    background-color: transparent;
+  }
+
+  .servHover:hover .megaMenu {
+    position: unset;
+    display: none;
+    visibility: unset;
+  }
+
+  .header .megaMenu.active {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .megaMenu li a {
+    color: #000;
+    font-weight: 500;
+  }
+
+  .megaMenu li a:hover {
+    color: #40bee2;
+  }
+
+  .headerTel {
+    display: none;
+  }
+  
 }

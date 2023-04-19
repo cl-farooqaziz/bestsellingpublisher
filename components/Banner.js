@@ -20,9 +20,9 @@ const Banner = (props) => {
     return (
         <>
             <section className={`${styles.homeBanner}`}>
-                <Container fluid className='px-5'>
-                    <Row className='justify-content-center'>
-                        <Col md={6}>
+                <Container fluid className='px-md-5'>
+                    <Row>
+                        <Col lg={6}>
                             <div className={styles.bannerTxt}>
                                 {props.title ?
                                     props.title
@@ -81,8 +81,8 @@ const Banner = (props) => {
                                 }
                                 {props.bannercounter ?
                                     <div className={`${styles.count} mt-5`}>
-                                        <Row>
-                                            <Col className='col-4'>
+                                        <Row className={styles.counteRow}>
+                                            <Col>
                                                 <div className='d-flex align-items-center gap-3'>
                                                     <Image className='img-fluid'
                                                         src={alignicon}
@@ -94,7 +94,7 @@ const Banner = (props) => {
                                                     </div>
                                                 </div>
                                             </Col>
-                                            <Col className='col-4'>
+                                            <Col>
                                                 <div className='d-flex align-items-center gap-3'>
                                                     <Image className='img-fluid'
                                                         src={authoricon}
@@ -106,7 +106,7 @@ const Banner = (props) => {
                                                     </div>
                                                 </div>
                                             </Col>
-                                            <Col className='col-4'>
+                                            <Col md={4}>
                                                 <div className='d-flex align-items-center gap-3'>
                                                     <Image className='img-fluid'
                                                         src={cupicon}
@@ -125,7 +125,7 @@ const Banner = (props) => {
                                 }
                             </div>
                         </Col>
-                        <Col md={6}>
+                        <Col lg={6} className={styles.bannImg}>
                             <div className={styles.bannerImg}>
                                 <Image className='img-fluid'
                                     src={bannerImg}

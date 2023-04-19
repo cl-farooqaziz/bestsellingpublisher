@@ -19,13 +19,13 @@ const Header = () => {
 
     return (
         <>
-            <div className={styles.header}>
+            <header className={styles.header}>
                 <Navbar expand="lg">
-                    <Container fluid className='px-5'>
+                    <Container fluid className='px-md-5'>
                         <Link href="/">
                             <Image className={styles.logo}
                                 src={logo}
-                                alt='logo' />
+                                alt='Best_Publisher' />
                         </Link>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav" className={styles.navMenu}>
@@ -34,7 +34,7 @@ const Header = () => {
                                     <Link className={`${styles.menuLinks} active`} href="/">Home</Link>
                                 </li>
                                 <li onClick={toggle} className={`${styles.navLinks} ${styles.servHover}`}>
-                                    <Link className={styles.menuLinks} href="">Services
+                                    <Link className={styles.menuLinks} href="#">Services
                                         <FaAngleDown size={12} />
                                     </Link>
                                     <ul className={click ? `${styles.megaMenu} ${styles.active}` : `${styles.megaMenu}`}>
@@ -76,7 +76,7 @@ const Header = () => {
                         </Navbar.Collapse>
                     </Container>
                 </Navbar>
-            </div>
+            </header>
         </>
     )
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import styles from '@/styles/Clients.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -23,17 +24,21 @@ const Clients = () => {
         slidesToScroll: 1,
         responsive: [
             {
-                breakpoint: 600,
+                breakpoint: 992,
                 settings: {
                     slidesToShow: 3,
-                    slidesToScroll: 1,
                 }
             },
             {
-                breakpoint: 480,
+                breakpoint: 768,
                 settings: {
                     slidesToShow: 2,
-                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 575,
+                settings: {
+                    slidesToShow: 1,
                 }
             }
         ]
@@ -41,11 +46,11 @@ const Clients = () => {
 
     return (
         <>
-            <section>
-                <Container fluid>
+            <section className={styles.clientsFold}>
+                <Container fluid className='px-md-5'>
                     <Row className='justify-content-center'>
                         <Col md={10}>
-                            <div className='homebannerlogo'>
+                            <div className={styles.homebannerlogo}>
                                 <Slider {...bannerslider}>
                                     <div>
                                         <Image className='img-fluid'

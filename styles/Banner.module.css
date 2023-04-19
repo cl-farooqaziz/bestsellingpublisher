@@ -1,9 +1,10 @@
+/* ===================== Home Banner ===================== */
+
 .homeBanner {
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 100px;
 }
 
 .bttns {
@@ -15,4 +16,30 @@
 
 .bannerImg {
   text-align: center;
+}
+
+/* ===================== Media Queries ===================== */
+
+@media screen and (max-width: 991px) {
+  .bttns {
+    gap: 20px;
+  }
+
+  .bannImg {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .homeBanner {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+  }
+
+  .count .counteRow {
+    gap: 30px;
+  }
 }

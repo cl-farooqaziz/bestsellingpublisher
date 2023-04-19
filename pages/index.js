@@ -3,13 +3,17 @@ import { Playfair_Display, Mulish } from 'next/font/google'
 
 import Banner from '@/components/Banner'
 import Clients from '@/components/Clients'
+import Tradition from '@/components/Tradition'
+import Climax from '@/components/Climax'
+import Enlisted from '@/components/Enlisted'
+import Dreams from '@/components/Dreams'
 
 const inter = Playfair_Display({ subsets: ['latin'] })
 const mulish = Mulish({ subsets: ['latin'] })
 
 export default function Home() {
 
-  const newSpan = <h1 className='font-50 fw-700 font-primary txt-secondary mt-3'>Best Book Publishing <br /> Company – The Home Of <br /> Quality Publishing!</h1>;
+  const newSpan = <h1 className='font-50 fw-700 font-primary txt-secondary mt-3'>Best Book Publishing <br className='d-none d-lg-block' /> Company – The Home Of <br className='d-none d-lg-block' /> Quality Publishing!</h1>;
 
   const bannertext = [
     {
@@ -41,8 +45,16 @@ export default function Home() {
           bannershome={item.banners}
         />
       )}
-      {/*========= clients fold =========*/}
+      {/*========= Clients fold =========*/}
       <Clients />
+      {/*========= Tradition fold =========*/}
+      <Tradition />
+      {/*========= Climax fold =========*/}
+      <Climax />
+      {/*========= Enlisted fold =========*/}
+      <Enlisted />
+      {/*========= Dreams fold =========*/}
+      <Dreams />
     </>
   )
 }
