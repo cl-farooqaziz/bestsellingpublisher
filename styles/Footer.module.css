@@ -1,5 +1,6 @@
 .footer {
   padding: 80px 0 50px;
+  overflow: hidden;
 }
 
 .socialLinks {
@@ -78,4 +79,18 @@
 .awards .slick-slider img {
   width: 50px;
   height: 50px;
+}
+
+/* ===================== Media Queries ===================== */
+
+@media screen and (max-width: 1199px) {
+  .footer .footerRow {
+    row-gap: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    padding: 50px 0 50px;
+  }
 }

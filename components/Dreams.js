@@ -16,25 +16,25 @@ const Dreams = () => {
                             </div>
                         </Col>
                         <Col lg={12}>
-                            <Row className='justify-content-center pt-5'>
-                                <Col md={4}>
+                            <Row className={`${styles.dreamsRow} justify-content-center pt-5`}>
+                                <Col lg={4}>
                                     <div className={`${styles.dreamsCard} bg-gray text-center`}>
                                         <h3 className='font-26 fw-500 font-primary txt-secondary pb-2'>Top-Notch Services</h3>
                                         <p className='font-15 font-secondary txt-secondary mt-3 pb-5'>Best Selling Publisher offers a comprehensive suite of eBook publishing services that are designed to meet the needs of authors at every stage of the publishing process.</p>
                                         <Link className='btns btnPrimary mt-5 mx-auto' href="#">Let's discuss</Link>
                                     </div>
                                 </Col>
-                                <Col md={4}>
+                                <Col lg={4}>
                                     <div className={`${styles.dreamsCard} bg-gray text-center`}>
                                         <h3 className='font-26 fw-500 font-primary txt-secondary pb-2'>Experience and Dedication</h3>
                                         <p className='font-15 font-secondary txt-secondary mt-3 pb-5'>We have a team of experienced and professional eBook editors and publishers who are committed to helping authors publish their books successfully.</p>
                                         <Link className='btns btnPrimary mt-5 mx-auto' href="#">Let's discuss</Link>
                                     </div>
                                 </Col>
-                                <Col md={4}>
+                                <Col lg={4}>
                                     <div className={`${styles.dreamsCard} bg-gray text-center`}>
                                         <h3 className='font-26 fw-500 font-primary txt-secondary pb-2'>Cost-Effective Packages</h3>
-                                        <p className='font-15 font-secondary txt-secondary mt-3'>Our eBook publishing services are affordable and customizable, so you can choose the level of support that's right for you. Whether you're looking for a simple manuscript conversion or a comprehensive package that includes extensive assistance, we can help you meet your goals.</p>
+                                        <p className='font-15 font-secondary txt-secondary mt-3 pb-5 pb-lg-0'>Our eBook publishing services are affordable and customizable, so you can choose the level of support that's right for you. Whether you're looking for a simple manuscript conversion or a comprehensive package that includes extensive assistance, we can help you meet your goals.</p>
                                         <Link className='btns btnPrimary mt-5 mx-auto' href="#">Let's discuss</Link>
                                     </div>
                                 </Col>

@@ -10,8 +10,8 @@ const Bookshelf = () => {
         <>
             <section className={styles.bookshelfFlod}>
                 <Container fluid className='px-md-5'>
-                    <Row className='justify-content-between'>
-                        <Col lg={6}>
+                    <Row className={`${styles.bookshelfRow} justify-content-between`}>
+                        <Col xl={6}>
                             <div className={styles.bookshelfTxt}>
                                 <h4 className='font-24 fw-600 font-primary txt-primary mb-3'>Whether Bookshelf or Amazon Book Publishing</h4>
                                 <h2 className='font-50 fw-700 font-primary txt-secondary'>First-Class Traditional <br className='d-none d-md-block' /> Book Publishers</h2>
@@ -23,7 +23,7 @@ const Bookshelf = () => {
                                 </div>
                             </div>
                         </Col>
-                        <Col lg={6}>
+                        <Col xl={6}>
                             <div className={styles.bookshelfForm}>
                                 <Form className='mx-auto p-5'>
                                     <h3 className='font-30 fw-700 font-primary txt-secondary text-center mb-5'>

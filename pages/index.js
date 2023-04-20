@@ -18,7 +18,7 @@ const mulish = Mulish({ subsets: ['latin'] })
 
 export default function Home() {
 
-  const newSpan = <h1 className='font-50 fw-700 font-primary txt-secondary mt-3'>Best Book Publishing <br className='d-none d-lg-block' /> Company – The Home Of <br className='d-none d-lg-block' /> Quality Publishing!</h1>;
+  const newSpan = <h1 className='font-50 fw-700 font-primary txt-secondary mt-3'>Best Book Publishing <br /> Company – The Home Of <br /> Quality Publishing!</h1>;
 
   const bannertext = [
     {

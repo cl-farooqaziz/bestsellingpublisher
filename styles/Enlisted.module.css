@@ -39,10 +39,18 @@
 
 /* ========================== */
 
-.enlistedSlide{
-    padding: 50px 0;
+.enlistedSlide {
+  padding: 50px 0;
 }
 
-.enlistedLogo img{
-    width: 120px;
+.enlistedLogo img {
+  width: 120px;
+}
+
+/* ===================== Media Queries ===================== */
+
+@media screen and (max-width: 767px) {
+  .midImg {
+    margin-left: 30px;
+  }
 }

@@ -11,7 +11,7 @@ const Audience = () => {
         <>
             <section className={`${styles.audienceFlod} bg-prime`}>
                 <Container fluid className='px-md-5'>
-                    <Row className='justify-content-center align-items-center'>
+                    <Row className={`${styles.audienceRow} justify-content-center align-items-center`}>
                         <Col lg={6}>
                             <div className={styles.audienceTxt}>
                                 <h2 className='font-50 fw-300 font-primary txt-white mb-3'>Reach Your Audience Effectively with Our Digital <span className='bg-black txt-white mt-2 w-75 p-1 fw-500 d-block'>Publishing Services</span></h2>

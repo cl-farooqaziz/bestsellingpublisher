@@ -60,3 +60,26 @@
   color: var(--primary-color) !important;
   border: 2px solid var(--primary-color) !important;
 }
+
+/* ===================== Media Queries ===================== */
+
+@media screen and (max-width: 1199px) {
+  .bookshelfFlod .bookshelfRow {
+    row-gap: 40px;
+  }
+
+  .bookshelfForm form {
+    width: 100%;
+  }
+
+  .bttns {
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .bttns {
+    flex-direction: column;
+    gap: 20px;
+  }
+}

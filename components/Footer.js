@@ -64,8 +64,8 @@ const Footer = () => {
         <>
             <footer className={`${styles.footer} bg-second`}>
                 <Container fluid className='px-md-5'>
-                    <Row className='justify-content-between'>
-                        <Col lg={3}>
+                    <Row className={`${styles.footerRow} justify-content-between`}>
+                        <Col xl={3} lg={4}>
                             <div className={styles.footerLogo}>
                                 <Image className='img-fluid'
                                     src={logo}
@@ -94,7 +94,7 @@ const Footer = () => {
                                 </div>
                             </div>
                         </Col>
-                        <Col lg={2}>
+                        <Col xl={2} lg={4}>
                             <div className={styles.footerLinks}>
                                 <h3 className='font-16 fw-500 font-secondary txt-secondary'>Quick Links</h3>
                                 <ul className='p-0 m-0 mt-4'>
@@ -105,7 +105,7 @@ const Footer = () => {
                                 </ul>
                             </div>
                         </Col>
-                        <Col lg={2}>
+                        <Col xl={2} lg={4}>
                             <div className={styles.footerLinks}>
                                 <h3 className='font-16 fw-500 font-secondary txt-secondary'>Our Services</h3>
                                 <ul className='p-0 m-0 mt-4'>
@@ -117,7 +117,7 @@ const Footer = () => {
                                 </ul>
                             </div>
                         </Col>
-                        <Col lg={2}>
+                        <Col xl={2} lg={4}>
                             <div className={`${styles.footerLinks} ${styles.contct}`}>
                                 <h3 className='font-16 fw-500 font-secondary txt-secondary'>Contact Us</h3>
                                 <ul className='p-0 m-0 mt-4'>
@@ -139,7 +139,7 @@ const Footer = () => {
                                 </ul>
                             </div>
                         </Col>
-                        <Col lg={2}>
+                        <Col xl={2} lg={4}>
                             <div className={`${styles.footerLinks} ${styles.pyment}`}>
                                 <Image className='img-fluid'
                                     src={payment1}

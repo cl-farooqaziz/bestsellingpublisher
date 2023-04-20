@@ -10,7 +10,7 @@ const Advice = () => {
         <>
             <section className={styles.adviceFlod}>
                 <Container fluid className='px-md-5'>
-                    <Row className='justify-content-center align-items-center'>
+                    <Row className={`${styles.adviceRow} justify-content-center align-items-center`}>
                         <Col lg={6}>
                             <div className={styles.adviceImg}>
                                 <Image className='img-fluid'

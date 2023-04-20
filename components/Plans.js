@@ -13,8 +13,8 @@ const Plans = () => {
         <>
             <section className={`${styles.plansFlod} bg-prime`}>
                 <Container fluid className='px-md-5'>
-                    <Row className='justify-content-center align-items-center text-center'>
-                        <Col lg={3}>
+                    <Row className={`${styles.plansRow} justify-content-center align-items-center text-center`}>
+                        <Col lg={3} sm={6}>
                             <div className={styles.plans}>
                                 <Image className='img-fluid'
                                     src={rating}
@@ -25,7 +25,7 @@ const Plans = () => {
                                 </p>
                             </div>
                         </Col>
-                        <Col lg={3}>
+                        <Col lg={3} sm={6}>
                             <div className={styles.plans}>
                                 <Image className='img-fluid'
                                     src={globe}
@@ -36,7 +36,7 @@ const Plans = () => {
                                 </p>
                             </div>
                         </Col>
-                        <Col lg={3}>
+                        <Col lg={3} sm={6}>
                             <div className={styles.plans}>
                                 <Image className='img-fluid'
                                     src={project}
@@ -47,7 +47,7 @@ const Plans = () => {
                                 </p>
                             </div>
                         </Col>
-                        <Col lg={3}>
+                        <Col lg={3} sm={6}>
                             <div className={styles.plans}>
                                 <Image className='img-fluid'
                                     src={stamp}

@@ -283,6 +283,21 @@ a:hover {
   border: 0;
 }
 
+/* =============Scrollbar============= */
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #40bee2;
+}
+
+
 /*===================== Changes =====================*/
 
 /* .slick-slider::before {
@@ -312,6 +327,13 @@ a:hover {
 }
 
 /* ===================== Media Queries ===================== */
+
+@media screen and (max-width: 1360px) {
+  br{
+    display: none;
+  }
+}
+
 
 @media screen and (max-width: 991px) {
   .font-13 {

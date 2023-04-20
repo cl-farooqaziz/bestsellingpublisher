@@ -1,13 +1,36 @@
-.audienceFlod{
-    padding: 20px 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.audienceFlod {
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.bttns{
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 50px;
+.bttns {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 50px;
+}
+
+/* ===================== Media Queries ===================== */
+
+@media screen and (max-width: 991px) {
+  .audienceFlod {
+    padding: 50px 0;
+  }
+
+  .audienceFlod .audienceRow {
+    gap: 40px;
+  }
+
+  .bttns {
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .bttns {
+    flex-direction: column;
+    gap: 20px;
+  }
 }
