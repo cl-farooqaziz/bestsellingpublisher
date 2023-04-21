@@ -354,6 +354,12 @@ a:hover {
     display: none;
   }
 }
+@media screen and (max-width: 1280px) {
+  .contact {
+    display: flex;
+    align-items: center;
+}
+}
 
 
 @media screen and (max-width: 991px) {
