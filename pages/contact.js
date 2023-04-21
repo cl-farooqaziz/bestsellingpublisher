@@ -61,7 +61,7 @@ export default function Contact() {
 
       {/*========= Bookshelf fold =========*/}
       <Container fluid className='px-md-5'>
-        <Row className='contact'>
+        <Row className='contact  gy-5'>
           <Col md={6}>
             <Formdata />
           </Col>
