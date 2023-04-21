@@ -28,12 +28,11 @@ export default function About() {
   const bannertext = [
     {
       title: newSpan,
-      pra: '',
       discuss: 'LETS DISCUSS',
       homebannernum: '(800)781-9093',
       bannercounter: 'counter',
-      imageban : bannerImg,
-      banners: '',
+      imageban: bannerImg,
+      
     }
   ]
 
@@ -45,32 +44,35 @@ export default function About() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/images/favicon.png" />
       </Head>
+
+
       {/*========= Banner =========*/}
       {bannertext.map((item, i) =>
         <Banner key={i}
           title={item.title}
-          text={item.pra}
           discuss={item.discuss}
           homebannernum={item.homebannernum}
           bannercounter={item.bannercounter}
-          imageban ={item.imageban}
-          bannershome={item.banners}
+          imageban={item.imageban}
         />
       )}
-         {/*========= Clients fold =========*/}
-         <Clients />
 
-          {/*========= Climax =========*/}
-          <Climax
 
-      subtitle = 'We Publish Excellence!'
-      text = 'Every idea, every story, and plot are brilliant, but they need to be refined for success. Excellence doesn’t guarantee anything—it’s the right professionals who will help you find your way through our solutions. Whether you are a new author or a seasoned veteran, Best Selling Publisher makes it easy to get started in the wonderful world of publishing. We provide everything you need to write the perfect book – all in one place.'
-      text2= 'Every idea, every story, and plot are brilliant, but they need to be refined for success. Excellence doesn’t guarantee anything—it’s the right professionals who will help you find your way through our solutions. Whether you are a new author or a seasoned veteran, Best Selling Publisher makes it easy to get started in the wonderful world of publishing. We provide everything you need to write the perfect book – all in one place.'
-      text3= 'Every idea, every story, and plot are brilliant, but they need to be refined for success. Excellence doesn’t guarantee anything—it’s the right professionals who will help you find your way through our solutions. Whether you are a new author or a seasoned veteran, Best Selling Publisher makes it easy to get started in the wonderful world of publishing. We provide everything you need to write the perfect book – all in one place.'
-      btn1 = 'Let`s discuss'
-      btn2 = '(800)781-9093'
-      imagecli = {climax}
+      {/*========= Clients fold =========*/}
+      <Clients />
+
+
+      {/*========= Climax =========*/}
+      <Climax 
+        subtitle='We Publish Excellence!'
+        text='Every idea, every story, and plot are brilliant, but they need to be refined for success. Excellence doesn’t guarantee anything—it’s the right professionals who will help you find your way through our solutions. Whether you are a new author or a seasoned veteran, Best Selling Publisher makes it easy to get started in the wonderful world of publishing. We provide everything you need to write the perfect book – all in one place.'
+        text2='Every idea, every story, and plot are brilliant, but they need to be refined for success. Excellence doesn’t guarantee anything—it’s the right professionals who will help you find your way through our solutions. Whether you are a new author or a seasoned veteran, Best Selling Publisher makes it easy to get started in the wonderful world of publishing. We provide everything you need to write the perfect book – all in one place.'
+        text3='Every idea, every story, and plot are brilliant, but they need to be refined for success. Excellence doesn’t guarantee anything—it’s the right professionals who will help you find your way through our solutions. Whether you are a new author or a seasoned veteran, Best Selling Publisher makes it easy to get started in the wonderful world of publishing. We provide everything you need to write the perfect book – all in one place.'
+        btn1='Let`s discuss'
+        btn2='(800)781-9093'
+        imagecli={climax}
       />
+
 
     </>
   )

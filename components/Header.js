@@ -35,7 +35,7 @@ const Header = () => {
                                 <li className={styles.navLinks}>
                                     <Link className={`${styles.menuLinks} active`} href="/">Home</Link>
                                 </li>
-                                <li onClick={toggle} className={`${styles.navLinks} ${styles.servHover}`}>
+                                {/* <li onClick={toggle} className={`${styles.navLinks} ${styles.servHover}`}>
                                     <Link className={styles.menuLinks} href="#">Services
                                         <FaAngleDown size={12} />
                                     </Link>
@@ -56,13 +56,13 @@ const Header = () => {
                                             <Link className={styles.menuLinks} href="/self-publishing">Self Publishing</Link>
                                         </li>
                                     </ul>
-                                </li>
-                                <li className={styles.navLinks}>
+                                </li> */}
+                                {/* <li className={styles.navLinks}>
                                     <Link className={styles.menuLinks} href="/pricing">Pricing</Link>
                                 </li>
                                 <li className={styles.navLinks}>
                                     <Link className={styles.menuLinks} href="/blogs">Blogs</Link>
-                                </li>
+                                </li> */}
                                 <li className={styles.navLinks}>
                                     <Link className={styles.menuLinks} href="/about">About</Link>
                                 </li>
