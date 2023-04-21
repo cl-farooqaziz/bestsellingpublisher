@@ -24,7 +24,7 @@ const Climax = (props) => {
 
                                 {props.text2 ?
 
-                                    <p className='font-15 font-secondary txt-secondary mt-3'> {props.text2} </p>
+                                    <p className='font-15 font-secondary txt-secondary mt-2'> {props.text2} </p>
 
                                     :
 
@@ -35,7 +35,7 @@ const Climax = (props) => {
 
                                 {props.text3 ?
 
-                                    <p className='font-15 font-secondary txt-secondary mt-3'> {props.text3} </p>
+                                    <p className='font-15 font-secondary txt-secondary mt-2'> {props.text3} </p>
 
                                     :
 
