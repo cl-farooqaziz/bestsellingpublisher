@@ -14,13 +14,38 @@ const Climax = (props) => {
                     <Row className={`${styles.climaxRow} justify-content-center align-items-center`}>
                         <Col lg={6}>
                             <div className={styles.climaxTxt}>
-{ props.title ?  
-                                <h4 className='font-30 font-primary txt-primary'>{props.title}</h4>
-:
-''
-}
+                                {props.title ?
+                                    <h4 className='font-30 font-primary txt-primary'>{props.title}</h4>
+                                    :
+                                    ''
+                                }
                                 <h2 className='font-50 fw-500 font-primary txt-secondary'>{props.subtitle}</h2>
                                 <p className='font-15 font-secondary txt-secondary'> {props.text} </p>
+
+                                {props.text2 ?
+
+                                    <p className='font-15 font-secondary txt-secondary mt-3'> {props.text2} </p>
+
+                                    :
+
+                                    ''
+
+
+                                }
+
+                                {props.text3 ?
+
+                                    <p className='font-15 font-secondary txt-secondary mt-3'> {props.text3} </p>
+
+                                    :
+
+                                    ''
+
+
+                                }
+
+
+
                                 <div className={`${styles.bttns} mt-4 mb-5 mb-md-0`}>
                                     <Link className='btns btnPrimary' href="#"> {props.btn1} </Link>
                                     <Link className='btns btnSecondary' href="tel:(800)781-9093"> {props.btn2} </Link>

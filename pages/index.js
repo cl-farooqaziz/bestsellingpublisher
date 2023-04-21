@@ -86,8 +86,6 @@ export default function Home() {
       {/*========= Bookshelf fold =========*/}
       <Bookshelf
       
- 
-      
       />
     </>
   )

@@ -16,6 +16,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 
 // images
 import climax from '../public/images/flods/climax.png'
+import bannerImg from '../public/images/banner/banner.png'
 
 const inter = Playfair_Display({ subsets: ['latin'] })
 const mulish = Mulish({ subsets: ['latin'] })
@@ -31,6 +32,7 @@ export default function About() {
       discuss: 'LETS DISCUSS',
       homebannernum: '(800)781-9093',
       bannercounter: 'counter',
+      imageban : bannerImg,
       banners: '',
     }
   ]
@@ -51,6 +53,7 @@ export default function About() {
           discuss={item.discuss}
           homebannernum={item.homebannernum}
           bannercounter={item.bannercounter}
+          imageban ={item.imageban}
           bannershome={item.banners}
         />
       )}
@@ -62,6 +65,8 @@ export default function About() {
 
       subtitle = 'We Publish Excellence!'
       text = 'Every idea, every story, and plot are brilliant, but they need to be refined for success. Excellence doesn’t guarantee anything—it’s the right professionals who will help you find your way through our solutions. Whether you are a new author or a seasoned veteran, Best Selling Publisher makes it easy to get started in the wonderful world of publishing. We provide everything you need to write the perfect book – all in one place.'
+      text2= 'Every idea, every story, and plot are brilliant, but they need to be refined for success. Excellence doesn’t guarantee anything—it’s the right professionals who will help you find your way through our solutions. Whether you are a new author or a seasoned veteran, Best Selling Publisher makes it easy to get started in the wonderful world of publishing. We provide everything you need to write the perfect book – all in one place.'
+      text3= 'Every idea, every story, and plot are brilliant, but they need to be refined for success. Excellence doesn’t guarantee anything—it’s the right professionals who will help you find your way through our solutions. Whether you are a new author or a seasoned veteran, Best Selling Publisher makes it easy to get started in the wonderful world of publishing. We provide everything you need to write the perfect book – all in one place.'
       btn1 = 'Let`s discuss'
       btn2 = '(800)781-9093'
       imagecli = {climax}

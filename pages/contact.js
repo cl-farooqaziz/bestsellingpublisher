@@ -14,6 +14,8 @@ import Plans from '@/components/Plans'
 import Formdata from '@/components/Formdata'
 import { Container, Row, Col } from 'react-bootstrap'
 
+import bannerImg from '../public/images/banner/banner.png'
+
 const inter = Playfair_Display({ subsets: ['latin'] })
 const mulish = Mulish({ subsets: ['latin'] })
 
@@ -28,6 +30,7 @@ export default function Contact() {
       discuss: 'LETS DISCUSS',
       homebannernum: '(800)781-9093',
       bannercounter: 'counter',
+      imageban : bannerImg,
       banners: '',
     }
   ]
@@ -48,6 +51,7 @@ export default function Contact() {
           discuss={item.discuss}
           homebannernum={item.homebannernum}
           bannercounter={item.bannercounter}
+          imageban ={item.imageban}
           bannershome={item.banners}
         />
       )}
