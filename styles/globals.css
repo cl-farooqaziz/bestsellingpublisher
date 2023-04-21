@@ -343,6 +343,10 @@ a:hover {
   padding-bottom: 100px;
 }
 
+ .contact .mx-auto{
+  margin-left: unset!important;
+}
+
 /* ===================== Media Queries ===================== */
 
 @media screen and (max-width: 1360px) {
