@@ -21,12 +21,15 @@
 /* ===================== Media Queries ===================== */
 
 @media screen and (max-width: 991px) {
+
+
+  
   .bttns {
     gap: 20px;
   }
 
   .bannImg {
-    display: none;
+  margin-top: 10%;
   }
 }
 
@@ -48,5 +51,7 @@
   .bttns {
     flex-direction: column;
     gap: 20px;
+    align-items: flex-start;
   }
+
 }

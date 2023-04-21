@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { Playfair_Display, Mulish } from 'next/font/google'
+
 
 import Banner from '@/components/Banner'
 import Clients from '@/components/Clients'
@@ -17,8 +17,7 @@ import Bookshelf from '@/components/Bookshelf'
 import bannerImg from '../public/images/banner/banner.png'
 import climax from '../public/images/flods/climax.png'
 
-const inter = Playfair_Display({ subsets: ['latin'] })
-const mulish = Mulish({ subsets: ['latin'] })
+
 
 export default function Home() {
 

@@ -54,7 +54,7 @@ const Climax = (props) => {
                         </Col>
                         <Col lg={6}>
                             <div className={styles.climaxImg}>
-                                <Image className='img-fluid'
+                                <Image className='img-fluid w-100'
                                     src={props.imagecli}
                                     alt='Best_Publisher'
                                 />

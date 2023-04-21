@@ -46,3 +46,13 @@
     color: var(--primary-color) !important;
     border: 2px solid var(--primary-color) !important;
   }
+
+  @media screen and (max-width: 767px) { 
+
+    .bookshelfForm form {
+      width: 100%;
+      border: 3px solid #40bee2;
+      border-radius: 10px;
+    }
+
+  }

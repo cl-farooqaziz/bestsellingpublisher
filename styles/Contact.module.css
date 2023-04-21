@@ -1,11 +1,20 @@
 .dispost{
     display: flex;
-    margin-top: 5%;
+    margin-top: 3%;
     justify-content: space-between;
 }
 .bordercompany{
     border: 1px solid #40bee2;
-    padding: 2%;
+    padding: 4%;
     text-align: center;
     width: 180px;
+    height: 170px;
+ 
+}
+.bordercompany p a{
+    color: black;
+    font-family: 'Mulish', sans-serif;
+}
+.bordercompany p {
+    font-family: 'Mulish', sans-serif;
 }
