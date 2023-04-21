@@ -60,7 +60,7 @@ export default function Contact() {
       <Clients />
 
       {/*========= Bookshelf fold =========*/}
-      <Container fluid className='px-md-5'>
+      <Container fluid>
         <Row className='contact'>
           <Col md={6}>
             <Formdata />
