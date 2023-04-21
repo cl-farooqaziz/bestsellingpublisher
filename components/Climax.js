@@ -6,7 +6,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 // images
 import climax from '../public/images/flods/climax.png'
 
-const Climax = () => {
+const Climax = (props) => {
     return (
         <>
             <section className={styles.climaxFold}>
@@ -14,19 +14,23 @@ const Climax = () => {
                     <Row className={`${styles.climaxRow} justify-content-center align-items-center`}>
                         <Col lg={6}>
                             <div className={styles.climaxTxt}>
-                                <h4 className='font-30 font-primary txt-primary'>The Intro, The Climax and The Finale</h4>
-                                <h2 className='font-50 fw-500 font-primary txt-secondary'>We Publish Excellence!</h2>
-                                <p className='font-15 font-secondary txt-secondary'>Every idea, every story, and plot are brilliant, but they need to be refined for success. Excellence doesn’t guarantee anything—it’s the right professionals who will help you find your way through our solutions. Whether you are a new author or a seasoned veteran, Best Selling Publisher makes it easy to get started in the wonderful world of publishing. We provide everything you need to write the perfect book – all in one place.</p>
+{ props.title ?  
+                                <h4 className='font-30 font-primary txt-primary'>{props.title}</h4>
+:
+''
+}
+                                <h2 className='font-50 fw-500 font-primary txt-secondary'>{props.subtitle}</h2>
+                                <p className='font-15 font-secondary txt-secondary'> {props.text} </p>
                                 <div className={`${styles.bttns} mt-4 mb-5 mb-md-0`}>
-                                    <Link className='btns btnPrimary' href="#">Let's discuss</Link>
-                                    <Link className='btns btnSecondary' href="tel:(800)781-9093">(800)781-9093</Link>
+                                    <Link className='btns btnPrimary' href="#"> {props.btn1} </Link>
+                                    <Link className='btns btnSecondary' href="tel:(800)781-9093"> {props.btn2} </Link>
                                 </div>
                             </div>
                         </Col>
                         <Col lg={6}>
                             <div className={styles.climaxImg}>
                                 <Image className='img-fluid'
-                                    src={climax}
+                                    src={props.imagecli}
                                     alt='Best_Publisher'
                                 />
                             </div>

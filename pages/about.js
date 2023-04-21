@@ -11,18 +11,18 @@ import Audience from '@/components/Audience'
 import Broader from '@/components/Broader'
 import Advice from '@/components/Advice'
 import Plans from '@/components/Plans'
-import Bookshelf from '@/components/Bookshelf'
+import Formdata from '@/components/Formdata'
+import { Container, Row, Col } from 'react-bootstrap'
 
 // images
-import bannerImg from '../public/images/banner/banner.png'
 import climax from '../public/images/flods/climax.png'
 
 const inter = Playfair_Display({ subsets: ['latin'] })
 const mulish = Mulish({ subsets: ['latin'] })
 
-export default function Home() {
+export default function About() {
 
-  const newSpan = <h1 className='font-50 fw-700 font-primary txt-secondary mt-3'>Best Book Publishing <br /> Company – The Home Of <br /> Quality Publishing!</h1>;
+  const newSpan = <h1 className='font-50 fw-700 font-primary txt-secondary mt-3'>About Us</h1>;
 
   const bannertext = [
     {
@@ -31,7 +31,6 @@ export default function Home() {
       discuss: 'LETS DISCUSS',
       homebannernum: '(800)781-9093',
       bannercounter: 'counter',
-      imageban : bannerImg,
       banners: '',
     }
   ]
@@ -52,18 +51,15 @@ export default function Home() {
           discuss={item.discuss}
           homebannernum={item.homebannernum}
           bannercounter={item.bannercounter}
-          imageban ={item.imageban}
           bannershome={item.banners}
         />
       )}
-      {/*========= Clients fold =========*/}
-      <Clients />
-      {/*========= Tradition fold =========*/}
-      <Tradition />
-      {/*========= Climax fold =========*/}
-      
-      <Climax
-      title = 'The Intro, The Climax and The Finale'
+         {/*========= Clients fold =========*/}
+         <Clients />
+
+          {/*========= Climax =========*/}
+          <Climax
+
       subtitle = 'We Publish Excellence!'
       text = 'Every idea, every story, and plot are brilliant, but they need to be refined for success. Excellence doesn’t guarantee anything—it’s the right professionals who will help you find your way through our solutions. Whether you are a new author or a seasoned veteran, Best Selling Publisher makes it easy to get started in the wonderful world of publishing. We provide everything you need to write the perfect book – all in one place.'
       btn1 = 'Let`s discuss'
@@ -71,24 +67,6 @@ export default function Home() {
       imagecli = {climax}
       />
 
-      {/*========= Enlisted fold =========*/}
-      <Enlisted />
-      {/*========= Dreams fold =========*/}
-      <Dreams />
-      {/*========= Audience fold =========*/}
-      <Audience />
-      {/*========= Broader fold =========*/}
-      <Broader />
-      {/*========= Advice fold =========*/}
-      <Advice />
-      {/*========= Plans fold =========*/}
-      <Plans />
-      {/*========= Bookshelf fold =========*/}
-      <Bookshelf
-      
- 
-      
-      />
     </>
   )
 }

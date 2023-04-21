@@ -128,7 +128,7 @@ const Banner = (props) => {
                         <Col lg={6} className={styles.bannImg}>
                             <div className={styles.bannerImg}>
                                 <Image className='img-fluid'
-                                    src={bannerImg}
+                                    src={props.imageban}
                                     alt='Best_Publisher'
                                     priority
                                 />

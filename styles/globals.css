@@ -326,6 +326,12 @@ a:hover {
   margin: auto;
 }
 
+
+.contact{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
 /* ===================== Media Queries ===================== */
 
 @media screen and (max-width: 1360px) {
