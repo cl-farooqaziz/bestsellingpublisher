@@ -16,17 +16,17 @@ import Head from 'next/head'
 // import Plans from '@/components/Plans'
 // import Bookshelf from '@/components/Bookshelf'
 
-const Banner1 = dynamic(() => import('./Banner'));
-const Clients1 = dynamic(() => import('./Clients'));
-const Tradition1 = dynamic(() => import('./Tradition'));
-const Climax1 = dynamic(() => import('./Climax'));
-const Enlisted1 = dynamic(() => import('./Enlisted'));
-const Dreams1 = dynamic(() => import('./Dreams'));
-const Audience1 = dynamic(() => import('./Audience'));
-const Broader1 = dynamic(() => import('./Broader'));
-const Advice1 = dynamic(() => import('./Advice'));
-const Plans1 = dynamic(() => import('./Plans'));
-const Bookshelf1 = dynamic(() => import('./Bookshelf'));
+const Banner1 = dynamic(() => import('@/components/Banner'));
+const Clients1 = dynamic(() => import('@/components/Clients'));
+const Tradition1 = dynamic(() => import('@/components/Tradition'));
+const Climax1 = dynamic(() => import('@/components/Climax'));
+const Enlisted1 = dynamic(() => import('@/components/Enlisted'));
+const Dreams1 = dynamic(() => import('@/components/Dreams'));
+const Audience1 = dynamic(() => import('@/components/Audience'));
+const Broader1 = dynamic(() => import('@/components/Broader'));
+const Advice1 = dynamic(() => import('@/components/Advice'));
+const Plans1 = dynamic(() => import('@/components/Plans'));
+const Bookshelf1 = dynamic(() => import('@/components/Bookshelf'));
 
 
 

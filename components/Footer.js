@@ -104,7 +104,7 @@ const Footer = () => {
                                 </ul>
                             </div>
                         </Col>
-                      
+
                         <Col xl={3} lg={4}>
                             <div className={`${styles.footerLinks} ${styles.contct}`}>
                                 <h3 className='font-16 fw-500 font-secondary txt-secondary'>Contact Us</h3>
