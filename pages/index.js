@@ -4,29 +4,29 @@ import Head from 'next/head'
 
 
 
-// import Banner from '@/components/Banner'
-// import Clients from '@/components/Clients'
-// import Tradition from '@/components/Tradition'
-// import Climax from '@/components/Climax'
-// import Enlisted from '@/components/Enlisted'
-// import Dreams from '@/components/Dreams'
-// import Audience from '@/components/Audience'
-// import Broader from '@/components/Broader'
-// import Advice from '@/components/Advice'
-// import Plans from '@/components/Plans'
-// import Bookshelf from '@/components/Bookshelf'
+import Banner from '@/components/Banner'
+import Clients from '@/components/Clients'
+import Tradition from '@/components/Tradition'
+import Climax from '@/components/Climax'
+import Enlisted from '@/components/Enlisted'
+import Dreams from '@/components/Dreams'
+import Audience from '@/components/Audience'
+import Broader from '@/components/Broader'
+import Advice from '@/components/Advice'
+import Plans from '@/components/Plans'
+import Bookshelf from '@/components/Bookshelf'
 
-const Banner1 = dynamic(() => import('@/components/Banner'));
-const Clients1 = dynamic(() => import('@/components/Clients'));
-const Tradition1 = dynamic(() => import('@/components/Tradition'));
-const Climax1 = dynamic(() => import('@/components/Climax'));
-const Enlisted1 = dynamic(() => import('@/components/Enlisted'));
-const Dreams1 = dynamic(() => import('@/components/Dreams'));
-const Audience1 = dynamic(() => import('@/components/Audience'));
-const Broader1 = dynamic(() => import('@/components/Broader'));
-const Advice1 = dynamic(() => import('@/components/Advice'));
-const Plans1 = dynamic(() => import('@/components/Plans'));
-const Bookshelf1 = dynamic(() => import('@/components/Bookshelf'));
+// const Banner1 = dynamic(() => import('@/components/Banner'));
+// const Clients1 = dynamic(() => import('@/components/Clients'));
+// const Tradition1 = dynamic(() => import('@/components/Tradition'));
+// const Climax1 = dynamic(() => import('@/components/Climax'));
+// const Enlisted1 = dynamic(() => import('@/components/Enlisted'));
+// const Dreams1 = dynamic(() => import('@/components/Dreams'));
+// const Audience1 = dynamic(() => import('@/components/Audience'));
+// const Broader1 = dynamic(() => import('@/components/Broader'));
+// const Advice1 = dynamic(() => import('@/components/Advice'));
+// const Plans1 = dynamic(() => import('@/components/Plans'));
+// const Bookshelf1 = dynamic(() => import('@/components/Bookshelf'));
 
 
 
@@ -66,7 +66,7 @@ export default function Home() {
 
       {/*========= Banner =========*/}
       {bannertext.map((item, i) =>
-        <Banner1 key={i}
+        <Banner key={i}
           title={item.title}
           discuss={item.discuss}
           homebannernum={item.homebannernum}
@@ -77,15 +77,15 @@ export default function Home() {
 
 
       {/*========= Clients fold =========*/}
-      <Clients1 />
+      <Clients />
 
 
       {/*========= Tradition fold =========*/}
-      <Tradition1 />
+      <Tradition />
 
 
       {/*========= Climax fold =========*/}
-      <Climax1
+      <Climax
         title='The Intro, The Climax and The Finale'
         subtitle='We Publish Excellence!'
         text='Every idea, every story, and plot are brilliant, but they need to be refined for success. Excellence doesn’t guarantee anything—it’s the right professionals who will help you find your way through our solutions. Whether you are a new author or a seasoned veteran, Best Selling Publisher makes it easy to get started in the wonderful world of publishing. We provide everything you need to write the perfect book – all in one place.'
@@ -96,31 +96,31 @@ export default function Home() {
 
 
       {/*========= Enlisted fold =========*/}
-      <Enlisted1 />
+      <Enlisted />
 
 
       {/*========= Dreams fold =========*/}
-      <Dreams1 />
+      <Dreams />
 
 
       {/*========= Audience fold =========*/}
-      <Audience1 />
+      <Audience />
 
 
       {/*========= Broader fold =========*/}
-      <Broader1 />
+      <Broader />
 
 
       {/*========= Advice fold =========*/}
-      <Advice1 />
+      <Advice />
 
 
       {/*========= Plans fold =========*/}
-      <Plans1 />
+      <Plans />
 
 
       {/*========= Bookshelf fold =========*/}
-      <Bookshelf1
+      <Bookshelf
 
       />
     </>
