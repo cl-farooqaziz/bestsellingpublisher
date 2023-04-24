@@ -16,56 +16,16 @@ import Head from 'next/head'
 // import Plans from '@/components/Plans'
 // import Bookshelf from '@/components/Bookshelf'
 
-const Banner1 = dynamic(() => import('./Banner'), {
-  ssr:false,
-  loading: () => <p>Loading</p>
-
-});
-const Clients1 = dynamic(() => import('./Clients'), {
-  ssr:false,
-  loading: () => <p>Loading</p>
-
-});
-const Tradition1 = dynamic(() => import('./Tradition'), {
-  ssr:false,
-  loading: () => <p>Loading</p>
-
-});
-const Broader1 = dynamic(() => import('./Broader'), {
-  ssr:false,
-  loading: () => <p>Loading</p>
-
-});
-const Enlisted1 = dynamic(() => import('./Enlisted'), {
-  ssr:false,
-  loading: () => <p>Loading</p>
-
-});
-const Dreams1 = dynamic(() => import('./Dreams'), {
-  ssr:false,
-  loading: () => <p>Loading</p>
-
-});
-const Audience1 = dynamic(() => import('./Audience'), {
-  ssr:false,
-  loading: () => <p>Loading</p>
-
-});
-const Advice1 = dynamic(() => import('./Advice'), {
-  ssr:false,
-  loading: () => <p>Loading</p>
-
-});
-const Plans1 = dynamic(() => import('./Plans'), {
-  ssr:false,
-  loading: () => <p>Loading</p>
-
-});
-const Bookshelf1 = dynamic(() => import('./Bookshelf'), {
-  ssr:false,
-  loading: () => <p>Loading</p>
-
-});
+const Banner1 = dynamic(() => import('./Banner'));
+const Clients1 = dynamic(() => import('./Clients'));
+const Tradition1 = dynamic(() => import('./Tradition'));
+const Broader1 = dynamic(() => import('./Broader'));
+const Enlisted1 = dynamic(() => import('./Enlisted'));
+const Dreams1 = dynamic(() => import('./Dreams'));
+const Audience1 = dynamic(() => import('./Audience'));
+const Advice1 = dynamic(() => import('./Advice'));
+const Plans1 = dynamic(() => import('./Plans'));
+const Bookshelf1 = dynamic(() => import('./Bookshelf'));
 
 
 
