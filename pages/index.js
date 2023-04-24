@@ -1,21 +1,79 @@
 import Head from 'next/head'
 
 
-import Banner from '@/components/Banner'
-import Clients from '@/components/Clients'
-import Tradition from '@/components/Tradition'
-import Climax from '@/components/Climax'
-import Enlisted from '@/components/Enlisted'
-import Dreams from '@/components/Dreams'
-import Audience from '@/components/Audience'
-import Broader from '@/components/Broader'
-import Advice from '@/components/Advice'
-import Plans from '@/components/Plans'
-import Bookshelf from '@/components/Bookshelf'
+
+
+
+// import Banner from '@/components/Banner'
+// import Clients from '@/components/Clients'
+// import Tradition from '@/components/Tradition'
+// import Climax from '@/components/Climax'
+// import Enlisted from '@/components/Enlisted'
+// import Dreams from '@/components/Dreams'
+// import Audience from '@/components/Audience'
+// import Broader from '@/components/Broader'
+// import Advice from '@/components/Advice'
+// import Plans from '@/components/Plans'
+// import Bookshelf from '@/components/Bookshelf'
+
+const Banner1 = dynamic(() => import('./Banner'), {
+  ssr:false,
+  loading: () => <p>Loading</p>
+
+});
+const Clients1 = dynamic(() => import('./Clients'), {
+  ssr:false,
+  loading: () => <p>Loading</p>
+
+});
+const Tradition1 = dynamic(() => import('./Tradition'), {
+  ssr:false,
+  loading: () => <p>Loading</p>
+
+});
+const Broader1 = dynamic(() => import('./Broader'), {
+  ssr:false,
+  loading: () => <p>Loading</p>
+
+});
+const Enlisted1 = dynamic(() => import('./Enlisted'), {
+  ssr:false,
+  loading: () => <p>Loading</p>
+
+});
+const Dreams1 = dynamic(() => import('./Dreams'), {
+  ssr:false,
+  loading: () => <p>Loading</p>
+
+});
+const Audience1 = dynamic(() => import('./Audience'), {
+  ssr:false,
+  loading: () => <p>Loading</p>
+
+});
+const Advice1 = dynamic(() => import('./Advice'), {
+  ssr:false,
+  loading: () => <p>Loading</p>
+
+});
+const Plans1 = dynamic(() => import('./Plans'), {
+  ssr:false,
+  loading: () => <p>Loading</p>
+
+});
+const Bookshelf1 = dynamic(() => import('./Bookshelf'), {
+  ssr:false,
+  loading: () => <p>Loading</p>
+
+});
+
+
+
 
 // images
 import bannerImg from '../public/images/banner/banner.png'
 import climax from '../public/images/flods/climax.png'
+import dynamic from 'next/dynamic'
 
 
 
