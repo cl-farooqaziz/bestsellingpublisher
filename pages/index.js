@@ -105,7 +105,7 @@ export default function Home() {
 
       {/*========= Banner =========*/}
       {bannertext.map((item, i) =>
-        <Banner key={i}
+        <Banner1 key={i}
           title={item.title}
           discuss={item.discuss}
           homebannernum={item.homebannernum}
@@ -116,15 +116,15 @@ export default function Home() {
 
 
       {/*========= Clients fold =========*/}
-      <Clients />
+      <Clients1 />
 
 
       {/*========= Tradition fold =========*/}
-      <Tradition />
+      <Tradition1 />
 
 
       {/*========= Climax fold =========*/}
-      <Climax
+      <Climax1
         title='The Intro, The Climax and The Finale'
         subtitle='We Publish Excellence!'
         text='Every idea, every story, and plot are brilliant, but they need to be refined for success. Excellence doesn’t guarantee anything—it’s the right professionals who will help you find your way through our solutions. Whether you are a new author or a seasoned veteran, Best Selling Publisher makes it easy to get started in the wonderful world of publishing. We provide everything you need to write the perfect book – all in one place.'
@@ -135,31 +135,31 @@ export default function Home() {
 
 
       {/*========= Enlisted fold =========*/}
-      <Enlisted />
+      <Enlisted1 />
 
 
       {/*========= Dreams fold =========*/}
-      <Dreams />
+      <Dreams1 />
 
 
       {/*========= Audience fold =========*/}
-      <Audience />
+      <Audience1 />
 
 
       {/*========= Broader fold =========*/}
-      <Broader />
+      <Broader1 />
 
 
       {/*========= Advice fold =========*/}
-      <Advice />
+      <Advice1 />
 
 
       {/*========= Plans fold =========*/}
-      <Plans />
+      <Plans1 />
 
 
       {/*========= Bookshelf fold =========*/}
-      <Bookshelf
+      <Bookshelf1
 
       />
     </>
