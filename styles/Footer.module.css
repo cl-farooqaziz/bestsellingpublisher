@@ -9,6 +9,16 @@
   justify-content: flex-start;
   gap: 30px;
 }
+.footercenter{
+  display: flex;
+  justify-content: center;
+
+}
+.footercenter1{
+  display: flex;
+  justify-content: flex-end;
+
+}
 
 .footerLinks ul {
   display: flex;
@@ -84,6 +94,19 @@
 /* ===================== Media Queries ===================== */
 
 @media screen and (max-width: 1199px) {
+
+  .footercenter{
+    display: flex;
+    justify-content: flex-start;
+  
+  }
+  .footercenter1{
+    display: flex;
+    justify-content: flex-start;
+  
+  }
+
+
   .footer .footerRow {
     row-gap: 40px;
   }

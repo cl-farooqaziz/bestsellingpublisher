@@ -94,30 +94,18 @@ const Footer = () => {
                                 </div>
                             </div>
                         </Col>
-                        <Col xl={2} lg={4}>
+                        <Col xl={3} lg={4} className={styles.footercenter}>
                             <div className={styles.footerLinks}>
                                 <h3 className='font-16 fw-500 font-secondary txt-secondary'>Quick Links</h3>
                                 <ul className='p-0 m-0 mt-4'>
                                     <li><Link href="/">Home</Link></li>
-                                    <li><Link href="/pricing">Pricing</Link></li>
-                                    <li><Link href="/blogs">Blogs</Link></li>
                                     <li><Link href="/about">About</Link></li>
+                                    <li><Link href="/contact">Contact</Link></li>
                                 </ul>
                             </div>
                         </Col>
-                        <Col xl={2} lg={4}>
-                            <div className={styles.footerLinks}>
-                                <h3 className='font-16 fw-500 font-secondary txt-secondary'>Our Services</h3>
-                                <ul className='p-0 m-0 mt-4'>
-                                    <li><Link href="/book-publishing">Book Publishing</Link></li>
-                                    <li><Link href="/ebook-publishing">Ebook Publishing</Link></li>
-                                    <li><Link href="/digital-book-publishing">Digital Book Publishing</Link></li>
-                                    <li><Link href="/amazon-publishing">Amazon Publishing</Link></li>
-                                    <li><Link href="/self-publishing">Self Publishing</Link></li>
-                                </ul>
-                            </div>
-                        </Col>
-                        <Col xl={2} lg={4}>
+                      
+                        <Col xl={3} lg={4}>
                             <div className={`${styles.footerLinks} ${styles.contct}`}>
                                 <h3 className='font-16 fw-500 font-secondary txt-secondary'>Contact Us</h3>
                                 <ul className='p-0 m-0 mt-4'>
@@ -139,7 +127,7 @@ const Footer = () => {
                                 </ul>
                             </div>
                         </Col>
-                        <Col xl={2} lg={4}>
+                        <Col xl={3} lg={4} className={styles.footercenter1}>
                             <div className={`${styles.footerLinks} ${styles.pyment}`}>
                                 <Image className='img-fluid'
                                     src={payment1}
