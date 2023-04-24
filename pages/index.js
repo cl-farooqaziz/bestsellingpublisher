@@ -19,10 +19,11 @@ import Head from 'next/head'
 const Banner1 = dynamic(() => import('./Banner'));
 const Clients1 = dynamic(() => import('./Clients'));
 const Tradition1 = dynamic(() => import('./Tradition'));
-const Broader1 = dynamic(() => import('./Broader'));
+const Climax1 = dynamic(() => import('./Climax'));
 const Enlisted1 = dynamic(() => import('./Enlisted'));
 const Dreams1 = dynamic(() => import('./Dreams'));
 const Audience1 = dynamic(() => import('./Audience'));
+const Broader1 = dynamic(() => import('./Broader'));
 const Advice1 = dynamic(() => import('./Advice'));
 const Plans1 = dynamic(() => import('./Plans'));
 const Bookshelf1 = dynamic(() => import('./Bookshelf'));
