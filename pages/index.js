@@ -76,8 +76,8 @@ export default function Home() {
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-216290994-1" />
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-217179930-1" />
 <meta name="google-site-verification" content="l8dEmInLD7qLqlNVLMI-DxtJe5OMERfsOeXN76dOgAg" /> */}
-
-
+<title>Best Book Publishing Company - Best Selling Publisher</title>
+<link rel="icon" href="/images/favicon.png" />
 
 
       </Head>
