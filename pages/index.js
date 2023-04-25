@@ -57,7 +57,7 @@ export default function Home() {
   return (
     <>
       <Head>
-<meta charset="UTF-8" />
+{/* <meta charset="UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <title>Best Book Publishing Company - Best Selling Publisher</title>
 <meta name="description" content="Best book publishing company, Best Selling Publishers, offer a wide range of professional publishing services for authors around the world" />
@@ -75,7 +75,7 @@ export default function Home() {
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-216290994-1" />
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-217179930-1" />
-<meta name="google-site-verification" content="l8dEmInLD7qLqlNVLMI-DxtJe5OMERfsOeXN76dOgAg" />
+<meta name="google-site-verification" content="l8dEmInLD7qLqlNVLMI-DxtJe5OMERfsOeXN76dOgAg" /> */}
 
 
 
