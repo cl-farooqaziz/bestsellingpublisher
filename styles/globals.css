@@ -199,6 +199,9 @@ a:hover {
 .bg-black {
   color: #000;
 }
+.color-white {
+  color: #fff!important;
+}
 
 /*===================== colors =====================*/
 
@@ -242,6 +245,25 @@ a:hover {
   font-family: var(--secondary-fonts);
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.btns1 {
+  display: block;
+  border: 0px;
+  height: 50px;
+  width: 200px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  animation: 5s infinite gradient;
+  font-family: var(--secondary-fonts);
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    border-radius: 50px;
+    margin-right: 10px;
 }
 
 .quoteBtns {
@@ -352,6 +374,14 @@ a:hover {
 
  .contact .mx-auto{
   margin-left: unset!important;
+}
+
+.content{
+  margin-right: calc(-.0 * var(--bs-gutter-x))!important;
+  margin-left: calc(-.0 * var(--bs-gutter-x))!important;
+}
+.bookChildrenIllus{
+  margin-bottom: 10%;
 }
 
 /* ===================== Media Queries ===================== */

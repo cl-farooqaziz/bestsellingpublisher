@@ -47,7 +47,7 @@ const Clients = () => {
     return (
         <>
             <section className={styles.clientsFold}>
-                <Container fluid className='px-md-5'>
+                <Container fluid className='px-md-5 mt-3'>
                     <Row className='justify-content-center'>
                         <Col md={10}>
                             <div className={styles.homebannerlogo}>

@@ -35,44 +35,22 @@ const Header = () => {
                                 <li className={styles.navLinks}>
                                     <Link className={`${styles.menuLinks} active`} href="/">Home</Link>
                                 </li>
-                                {/* <li onClick={toggle} className={`${styles.navLinks} ${styles.servHover}`}>
-                                    <Link className={styles.menuLinks} href="#">Services
-                                        <FaAngleDown size={12} />
-                                    </Link>
-                                    <ul className={click ? `${styles.megaMenu} ${styles.active}` : `${styles.megaMenu}`}>
-                                        <li className={styles.navLinks}>
-                                            <Link className={styles.menuLinks} href="/amazon-publishing">Amazon Publishing</Link>
-                                        </li>
-                                        <li className={styles.navLinks}>
-                                            <Link className={styles.menuLinks} href="/book-publishing">Book Publishing</Link>
-                                        </li>
-                                        <li className={styles.navLinks}>
-                                            <Link className={styles.menuLinks} href="/digital-book-publishing">Digital Book Publishing</Link>
-                                        </li>
-                                        <li className={styles.navLinks}>
-                                            <Link className={styles.menuLinks} href="/ebook-publishing">Ebook Publishing</Link>
-                                        </li>
-                                        <li className={styles.navLinks}>
-                                            <Link className={styles.menuLinks} href="/self-publishing">Self Publishing</Link>
-                                        </li>
-                                    </ul>
-                                </li> */}
-                                {/* <li className={styles.navLinks}>
-                                    <Link className={styles.menuLinks} href="/pricing">Pricing</Link>
-                                </li>
-                                <li className={styles.navLinks}>
-                                    <Link className={styles.menuLinks} href="/blogs">Blogs</Link>
-                                </li> */}
                                 <li className={styles.navLinks}>
                                     <Link className={styles.menuLinks} href="/about">About</Link>
                                 </li>
                                 <li className={styles.navLinks}>
+                                    <Link className={styles.menuLinks} href="pricing">Pricing</Link>
+                                </li>
+                                <li className={styles.navLinks}>
                                     <Link className={styles.menuLinks} href="/contact">Contact</Link>
                                 </li>
-                                <li className={`${styles.navLinks} ${styles.headerTel}`}>
-                                    <Link className={`${styles.headerIcon}`} href="tel:(302) 883-8877">
+                                <li className='btns1 bg-prime'>
+                                    <Link className={`${styles.headerIcon} color-white`} href="tel:(302) 883-8877">
                                         <FaPhoneAlt className={styles.valueNum} size={14} />
                                         | (800) 781-9093 </Link>
+                                </li>
+                                <li className='btns1 bg-prime'> <Link className={`${styles.headerIcon} color-white`} href="#">
+                                     Get A Quote </Link>
                                 </li>
                             </ul>
                         </Navbar.Collapse>

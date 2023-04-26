@@ -4,6 +4,7 @@ import Image from 'next/image'
 import styles from '@/styles/Banner.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
 
+
 // images
 import bannerImg from '../public/images/banner/banner.png'
 import alignicon from '../public/images/icons/align.png'
@@ -135,9 +136,15 @@ const Banner = (props) => {
                             </div>
                         </Col>
                     </Row>
+
+                   
                 </Container>
 
+          
+
             </section>
+
+          
         </>
     )
 }
