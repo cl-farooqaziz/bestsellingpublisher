@@ -47,7 +47,7 @@ const Header = () => {
                                 <li className='btns1 bg-prime'>
                                     <Link className={`${styles.headerIcon} color-white`} href="tel:(302) 883-8877">
                                         <FaPhoneAlt className={styles.valueNum} size={14} />
-                                        | (800) 781-9093 </Link>
+                                        (800) 781-9093 </Link>
                                 </li>
                                 <li className='btns1 bg-prime'> <Link className={`${styles.headerIcon} color-white`} href="#">
                                      Get A Quote </Link>

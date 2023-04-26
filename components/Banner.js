@@ -90,7 +90,7 @@ const Banner = (props) => {
                                                         alt='Best_Publisher'
                                                     />
                                                     <div>
-                                                        <span className='font-34 fw-700 font-primary txt-secondary'>400</span>
+                                                        <span className='font-40 fw-700 font-primary txt-secondary'>400</span>
                                                         <p className='font-13 fw-800 font-primary txt-primary'>Million Words</p>
                                                     </div>
                                                 </div>
@@ -102,7 +102,7 @@ const Banner = (props) => {
                                                         alt='Best_Publisher'
                                                     />
                                                     <div>
-                                                        <span className='font-34 fw-700 font-primary txt-secondary'>100</span>
+                                                        <span className='font-40 fw-700 font-primary txt-secondary'>100</span>
                                                         <p className='font-13 fw-800 font-primary txt-primary'>Authors</p>
                                                     </div>
                                                 </div>
@@ -114,7 +114,7 @@ const Banner = (props) => {
                                                         alt='Best_Publisher'
                                                     />
                                                     <div>
-                                                        <span className='font-34 fw-700 font-primary txt-secondary'>870</span>
+                                                        <span className='font-40 fw-700 font-primary txt-secondary'>870</span>
                                                         <p className='font-13 fw-800 font-primary txt-primary'>Cups Of Coffee</p>
                                                     </div>
                                                 </div>
