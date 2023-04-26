@@ -26,7 +26,7 @@ const Tradition = () => {
         autoplay: true,
         infinite: true,
         speed: 500,
-        slidesToShow: 5,
+        slidesToShow: 4,
         slidesToScroll: 1,
         responsive: [
             {
@@ -66,7 +66,7 @@ const Tradition = () => {
                             </div>
                         </Col>
                         <Col lg={12}>
-                            <div className='mt-5'>
+                            <div className='mt-5 trade'>
                                 <Slider {...traditionslider}>
                                     <div>
                                         <Image className='img-fluid'

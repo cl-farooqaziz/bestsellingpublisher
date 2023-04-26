@@ -368,6 +368,10 @@ a:hover {
 .slick-slider img {
   margin: auto;
 }
+.trade .slick-slider img {
+  margin: auto;
+  width: 80%;
+}
 
 
 .contact{
