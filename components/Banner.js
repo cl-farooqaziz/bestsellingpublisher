@@ -81,9 +81,9 @@ const Banner = (props) => {
                                     ''
                                 }
                                 {props.bannercounter ?
-                                    <div className={`${styles.count} mt-5`}>
+                                    <div className={`${styles.count} mt-5 mainclass`}>
                                         <Row className={styles.counteRow}>
-                                            <Col>
+                                            <Col className='colo'>
                                                 <div className='d-flex align-items-center gap-3'>
                                                     <Image className='img-fluid'
                                                         src={alignicon}
@@ -95,7 +95,7 @@ const Banner = (props) => {
                                                     </div>
                                                 </div>
                                             </Col>
-                                            <Col>
+                                            <Col className='colo'>
                                                 <div className='d-flex align-items-center gap-3'>
                                                     <Image className='img-fluid'
                                                         src={authoricon}
@@ -107,7 +107,7 @@ const Banner = (props) => {
                                                     </div>
                                                 </div>
                                             </Col>
-                                            <Col md={4}>
+                                            <Col md={4} className='colo'>
                                                 <div className='d-flex align-items-center gap-3'>
                                                     <Image className='img-fluid'
                                                         src={cupicon}
