@@ -3,7 +3,7 @@
 .homeBanner {
   
   border-bottom: 1px solid #40bee2;
-  height: 90vh;
+  height: 85vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -24,8 +24,6 @@
 
 @media screen and (max-width: 991px) {
 
-
-  
   .bttns {
     gap: 20px;
   }

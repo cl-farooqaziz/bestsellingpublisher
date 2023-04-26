@@ -14,6 +14,8 @@ import mock5 from '../public/images/book-mockup/Book-Mockup5.png'
 import mock6 from '../public/images/book-mockup/Book-Mockup6.png'
 import mock7 from '../public/images/book-mockup/Book-Mockup7.png'
 import mock8 from '../public/images/book-mockup/Book-Mockup8.png'
+import mock9 from '../public/images/book-mockup/Book-Mockup9.png'
+import mock10 from '../public/images/book-mockup/Book-Mockup1.png'
 import before from '../public/images/flods/tradition-before.png'
 
 
@@ -113,6 +115,18 @@ const Tradition = () => {
                                     <div>
                                         <Image className='img-fluid'
                                             src={mock8}
+                                            alt='Best_Publisher'
+                                        />
+                                    </div>
+                                    <div>
+                                        <Image className='img-fluid'
+                                            src={mock9}
+                                            alt='Best_Publisher'
+                                        />
+                                    </div>
+                                    <div>
+                                        <Image className='img-fluid'
+                                            src={mock10}
                                             alt='Best_Publisher'
                                         />
                                     </div>

@@ -393,6 +393,12 @@ a:hover {
 
 /* ===================== Media Queries ===================== */
 
+@media screen and (min-width: 1600px) {
+  .mainclass .colo{
+    width: 55%;
+  }
+}
+
 @media screen and (max-width: 1360px) {
   br{
     display: none;
