@@ -96,7 +96,7 @@ const Footer = () => {
                         </Col>
                         <Col xl={3} lg={4} className={styles.footercenter}>
                             <div className={styles.footerLinks}>
-                                <h3 className='font-16 fw-500 font-secondary txt-secondary'>Quick Links</h3>
+                                <h3 className='font-16 fw-700 font-secondary txt-secondary'>Quick Links</h3>
                                 <ul className='p-0 m-0 mt-4'>
                                     <li><Link href="/">Home</Link></li>
                                     <li><Link href="/about">About</Link></li>
@@ -107,7 +107,7 @@ const Footer = () => {
 
                         <Col xl={3} lg={4}>
                             <div className={`${styles.footerLinks} ${styles.contct}`}>
-                                <h3 className='font-16 fw-500 font-secondary txt-secondary'>Contact Us</h3>
+                                <h3 className='font-16 fw-700 font-secondary txt-secondary'>Contact Us</h3>
                                 <ul className='p-0 m-0 mt-4'>
                                     <li>
                                         <Link href="#" className={styles.callIcon}>
@@ -141,7 +141,7 @@ const Footer = () => {
                         </Col>
                         <Col lg={12}>
                             <div className={`${styles.awards} mt-5`}>
-                                <h3 className='font-16 fw-500 font-secondary txt-secondary mb-5'>Awards</h3>
+                                <h3 className='font-16 fw-700 font-secondary txt-secondary mb-5'>Awards</h3>
                                 <Slider {...footerslider}>
                                     <div>
                                         <Image className='img-fluid mt-3'
