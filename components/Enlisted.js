@@ -83,9 +83,9 @@ const Enlisted = () => {
                                 <h2 className='font-50 fw-500 font-primary color-white mb-3'>Why Are We One of the Best Traditional <span className='bg-black color-white p-1 mt-2 d-block house'> Publishing Houses?</span></h2>
                             </div>
 
-                            <div class="bttns1black mt-4 mb-5 mb-md-0">
-                                <Link class="btns btnBlack" href="/#">Let's discuss</Link>
-                                <Link class="btns btnTransprnt" href="tel:(800)781-9093">(800)781-9093</Link>
+                            <div className="bttns1black mt-4 mb-5 mb-md-0">
+                                <Link className="btns btnBlack" href="/#">Let's discuss</Link>
+                                <Link className="btns btnTransprnt" href="tel:(800)781-9093">(800)781-9093</Link>
                             </div>
                         </Col>
                     
