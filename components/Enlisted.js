@@ -9,47 +9,14 @@ import "slick-carousel/slick/slick-theme.css";
 import before from '../public/images/flods/enlisted-before.png'
 import after from '../public/images/flods/enlisted-after.png'
 import mid from '../public/images/flods/enlisted-mid.png'
-import partner1 from '../public/images/clients/partner.png'
-import partner2 from '../public/images/clients/partner2.png'
-import partner3 from '../public/images/clients/partner3.png'
-import partner4 from '../public/images/clients/partner4.png'
-import partner5 from '../public/images/clients/partner5.png'
-import partner6 from '../public/images/clients/partner6.png'
-import partner7 from '../public/images/clients/partner7.png'
-import partner8 from '../public/images/clients/partner8.png'
+import Link from 'next/link';
+
 
 
 const Enlisted = () => {
 
-    let enlistedslider = {
-        dots: false,
-        arrows: false,
-        autoplay: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 5,
-        slidesToScroll: 1,
-        responsive: [
-            {
-                breakpoint: 992,
-                settings: {
-                    slidesToShow: 3,
-                }
-            },
-            {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 2,
-                }
-            },
-            {
-                breakpoint: 575,
-                settings: {
-                    slidesToShow: 1,
-                }
-            }
-        ]
-    };
+
+  
 
     return (
         <>
@@ -112,64 +79,16 @@ const Enlisted = () => {
                     <Row className='justify-content-center'>
                         <Col lg={8}>
                             <div className={`${styles.enlistedHead} text-center`}>
-                                <h4 className='font-30 font-primary txt-primary'>Get Enlisted With The All-Time Best Sellers</h4>
-                                <h2 className='font-50 fw-500 font-primary txt-secondary mb-3'>Why Are We One of the Best Traditional Publishing Houses?</h2>
+                                <h4 className='font-30 font-primary color-white'>Get Enlisted With The All-Time Best Sellers</h4>
+                                <h2 className='font-50 fw-500 font-primary color-white mb-3'>Why Are We One of the Best Traditional <span className='bg-black color-white p-1 mt-2 d-block house'> Publishing Houses?</span></h2>
+                            </div>
+
+                            <div class="bttns1black mt-4 mb-5 mb-md-0">
+                                <Link class="btns btnBlack" href="/#">Let's discuss</Link>
+                                <Link class="btns btnTransprnt" href="tel:(800)781-9093">(800)781-9093</Link>
                             </div>
                         </Col>
-                        <Col md={10}>
-                            <div className={`${styles.enlistedLogo} mt-5`}>
-                                <Slider {...enlistedslider}>
-                                    <div>
-                                        <Image className='img-fluid'
-                                            src={partner1}
-                                            alt='Best_Publisher'
-                                        />
-                                    </div>
-                                    <div>
-                                        <Image className='img-fluid'
-                                            src={partner2}
-                                            alt='Best_Publisher'
-                                        />
-                                    </div>
-                                    <div>
-                                        <Image className='img-fluid'
-                                            src={partner3}
-                                            alt='Best_Publisher'
-                                        />
-                                    </div>
-                                    <div>
-                                        <Image className='img-fluid'
-                                            src={partner4}
-                                            alt='Best_Publisher'
-                                        />
-                                    </div>
-                                    <div>
-                                        <Image className='img-fluid'
-                                            src={partner5}
-                                            alt='Best_Publisher'
-                                        />
-                                    </div>
-                                    <div>
-                                        <Image className='img-fluid'
-                                            src={partner6}
-                                            alt='Best_Publisher'
-                                        />
-                                    </div>
-                                    <div>
-                                        <Image className='img-fluid'
-                                            src={partner7}
-                                            alt='Best_Publisher'
-                                        />
-                                    </div>
-                                    <div>
-                                        <Image className='img-fluid'
-                                            src={partner8}
-                                            alt='Best_Publisher'
-                                        />
-                                    </div>
-                                </Slider>
-                            </div>
-                        </Col>
+                    
                     </Row>
                 </Container>
             </section>

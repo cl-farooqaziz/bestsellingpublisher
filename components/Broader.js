@@ -9,10 +9,10 @@ const Broader = () => {
     return (
         <>
             <section className={styles.broaderFlod}>
-                <Container fluid className='px-md-5'>
+                <Container fluid className='p-0'>
                     <Row className={`${styles.broaderRow} justify-content-center`}>
                         <Col lg={7}>
-                            <div className={styles.broaderTxt}>
+                            <div className={`${styles.broaderTxt} marginleft`}>
                                 <h4 className='font-30 font-primary txt-primary'>Connect With A Broader Audience With Our</h4>
                                 <h2 className='font-50 fw-500 font-primary txt-secondary mb-4'>Amazon Publishing Services</h2>
                                 <p className='font-15 font-secondary txt-secondary mb-4'>Best Selling Publisher's Amazon publishing services are among the most popular and well-known in the industry. Our process is simple and straightforward, and we provide a high-quality product that is easy to use and reliable. Additionally, our customer service is excellent, and they offer a wide range of options for writers looking to publish their work.</p>

@@ -15,6 +15,7 @@ import Broader from '@/components/Broader'
 import Advice from '@/components/Advice'
 import Plans from '@/components/Plans'
 import Bookshelf from '@/components/Bookshelf'
+import Enlistedlogo from '@/components/Enlistedlogo'
 
 // const Banner1 = dynamic(() => import('@/components/Banner'));
 // const Clients1 = dynamic(() => import('@/components/Clients'));
@@ -145,16 +146,19 @@ export default function Home() {
       {/*========= Tradition fold =========*/}
       <Tradition />
 
+          {/*========= Audience fold =========*/}
+          <Audience />
+
 
       {/*========= Climax fold =========*/}
-      <Climax
+      {/* <Climax
         title='The Intro, The Climax and The Finale'
         subtitle='We Publish Excellence!'
         text='Every idea, every story, and plot are brilliant, but they need to be refined for success. Excellence doesn’t guarantee anything—it’s the right professionals who will help you find your way through our solutions. Whether you are a new author or a seasoned veteran, Best Selling Publisher makes it easy to get started in the wonderful world of publishing. We provide everything you need to write the perfect book – all in one place.'
         btn1='Let`s discuss'
         btn2='(800)781-9093'
         imagecli={climax}
-      />
+      /> */}
 
 
       {/*========= Enlisted fold =========*/}
@@ -165,13 +169,14 @@ export default function Home() {
       <Dreams />
 
 
-      {/*========= Audience fold =========*/}
-      <Audience />
+  
 
 
       {/*========= Broader fold =========*/}
       <Broader />
 
+    {/*========= Enlistedlogo =========*/}
+    <Enlistedlogo />
 
       {/*========= Advice fold =========*/}
       <Advice />

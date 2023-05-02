@@ -30,6 +30,10 @@
 .broaderImg img {
   height: 475px;
 }
+.broaderImg {
+  display: flex;
+  justify-content: flex-end;
+}
 
 /* ===================== Media Queries ===================== */
 

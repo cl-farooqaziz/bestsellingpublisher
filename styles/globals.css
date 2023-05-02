@@ -248,9 +248,10 @@ a:hover {
 }
 .btns1 {
   display: block;
+  padding: 0 30px;
   border: 0px;
-  height: 50px;
-  width: 200px;
+  height: 41px;
+  width: fit-content;
   font-size: 14px;
   font-weight: 600;
   letter-spacing: 1px;
@@ -260,10 +261,10 @@ a:hover {
   text-transform: uppercase;
   animation: 5s infinite gradient;
   font-family: var(--secondary-fonts);
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
-    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-    border-radius: 50px;
-    margin-right: 10px;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  border-radius: 50px;
+  margin-right: 20px;
+
 }
 
 .quoteBtns {
@@ -325,6 +326,12 @@ a:hover {
 .mainclass .colo{
   width: 45%;
 }
+.bttns1black {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
 
 /* =============Scrollbar============= */
 
@@ -340,6 +347,10 @@ a:hover {
   background: #40bee2;
 }
 
+.house{
+  width: fit-content;
+  margin: auto;
+}
 
 /*===================== Changes =====================*/
 
@@ -370,7 +381,13 @@ a:hover {
 }
 .trade .slick-slider img {
   margin: auto;
-  width: 80%;
+  width: 60%;
+}
+.marginright{
+  margin-right: 5%;
+}
+.marginleft{
+  margin-left: 5%;
 }
 
 

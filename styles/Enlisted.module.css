@@ -5,6 +5,7 @@
   justify-content: center;
 }
 
+
 .enlisImg {
   display: flex;
   flex-direction: column;
@@ -39,8 +40,11 @@
 
 /* ========================== */
 
+
+
 .enlistedSlide {
   padding: 50px 0;
+  background-color: #40bee2;
 }
 
 .enlistedLogo img {

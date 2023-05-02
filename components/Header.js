@@ -52,6 +52,11 @@ const Header = () => {
                                 <li className='btns1 bg-prime'> <Link className={`${styles.headerIcon} color-white`} href="#">
                                      Get A Quote </Link>
                                 </li>
+                                <li className={styles.lastlink}> <Link className={`${styles.headerIcon} color-white`} href="#">
+                                    <span>initial consultation</span>
+                                    <span>  Contact: <strong>Jessica</strong> </span>
+                                </Link>
+                                </li>
                             </ul>
                         </Navbar.Collapse>
                     </Container>

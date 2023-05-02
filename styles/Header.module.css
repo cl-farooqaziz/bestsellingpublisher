@@ -4,6 +4,32 @@
   background-color: #fff;
   border-bottom: 1px solid #40bee2;
 }
+.lastlink span {
+  font-size: 12px;
+  color: #2d2d2d;
+  font-weight: 600;
+  line-height: 20px;
+  display: block;
+  font-family: "Mulish", sans-serif;
+}
+
+.lastlink::before {
+  content: url(https://imagedelivery.net/nJwaBs__P2JfMUeYJ4vmjQ/93300d3e-d0a7-4a34-a163-97a560e60000/public);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.lastlink{
+  font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #2d2d2d;
+    position: relative;
+    padding-left: 50px;
+    text-transform: capitalize;
+}
+
+
 
 .navMenu {
   justify-content: flex-end;
@@ -18,8 +44,8 @@
  
 }
 .menu .navLinks{
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 3px;
+    padding-right: 30px;
 }
 
 .menuLinks {
