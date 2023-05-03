@@ -55,49 +55,49 @@ const Enlistedlogo = () => {
                         <div className={`${styles.enlistedLogo} mt-5`}>
                             <Slider {...enlistedslider}>
                                 <div>
-                                    <Image className='img-fluid'
+                                    <Image loading="lazy" className='img-fluid'
                                         src={partner1}
                                         alt='Best_Publisher'
                                     />
                                 </div>
                                 <div>
-                                    <Image className='img-fluid'
+                                    <Image loading="lazy" className='img-fluid'
                                         src={partner2}
                                         alt='Best_Publisher'
                                     />
                                 </div>
                                 <div>
-                                    <Image className='img-fluid'
+                                    <Image loading="lazy" className='img-fluid'
                                         src={partner3}
                                         alt='Best_Publisher'
                                     />
                                 </div>
                                 <div>
-                                    <Image className='img-fluid'
+                                    <Image loading="lazy" className='img-fluid'
                                         src={partner4}
                                         alt='Best_Publisher'
                                     />
                                 </div>
                                 <div>
-                                    <Image className='img-fluid'
+                                    <Image loading="lazy" className='img-fluid'
                                         src={partner5}
                                         alt='Best_Publisher'
                                     />
                                 </div>
                                 <div>
-                                    <Image className='img-fluid'
+                                    <Image loading="lazy" className='img-fluid'
                                         src={partner6}
                                         alt='Best_Publisher'
                                     />
                                 </div>
                                 <div>
-                                    <Image className='img-fluid'
+                                    <Image loading="lazy" className='img-fluid'
                                         src={partner7}
                                         alt='Best_Publisher'
                                     />
                                 </div>
                                 <div>
-                                    <Image className='img-fluid'
+                                    <Image loading="lazy" className='img-fluid'
                                         src={partner8}
                                         alt='Best_Publisher'
                                     />

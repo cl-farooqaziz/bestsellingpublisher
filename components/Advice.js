@@ -14,9 +14,10 @@ const Advice = () => {
                         <Col lg={6}>
                             <Fade direction="left">
                                 <div className={styles.adviceImg}>
-                                    <Image className='img-fluid'
+                                    <Image loading="lazy" className='img-fluid'
                                         src={advice}
                                         alt='Best_Publisher'
+                                        
                                     />
                                 </div>
                             </Fade>

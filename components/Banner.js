@@ -99,7 +99,7 @@ const Banner = (props) => {
                                             <Row className={styles.counteRow}>
                                                 <Col className='colo'>
                                                     <div className='d-flex align-items-center gap-3'>
-                                                        <Image className='img-fluid'
+                                                        <Image loading="lazy" className='img-fluid'
                                                             src={alignicon}
                                                             alt='Best_Publisher'
                                                         />
@@ -111,7 +111,7 @@ const Banner = (props) => {
                                                 </Col>
                                                 <Col className='colo'>
                                                     <div className='d-flex align-items-center gap-3'>
-                                                        <Image className='img-fluid'
+                                                        <Image loading="lazy" className='img-fluid'
                                                             src={authoricon}
                                                             alt='Best_Publisher'
                                                         />
@@ -123,7 +123,7 @@ const Banner = (props) => {
                                                 </Col>
                                                 <Col md={4} className='colo'>
                                                     <div className='d-flex align-items-center gap-3'>
-                                                        <Image className='img-fluid'
+                                                        <Image loading="lazy" className='img-fluid'
                                                             src={cupicon}
                                                             alt='Best_Publisher'
                                                         />
@@ -144,7 +144,7 @@ const Banner = (props) => {
                         <Col lg={6} className={styles.bannImg}>
                             <Fade direction="right">
                                 <div className={styles.bannerImg}>
-                                    <Image className='img-fluid'
+                                    <Image loading="lazy" className='img-fluid'
                                         src={props.imageban}
                                         alt='Best_Publisher'
                                         priority

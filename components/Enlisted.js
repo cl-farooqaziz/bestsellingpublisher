@@ -33,7 +33,7 @@ const Enlisted = () => {
                         <Col lg={8}>
                             <div className={`${styles.enlisContnt} text-center mt-3`}>
                                 <div className={styles.enlisImg}>
-                                    <Image className='img-fluid'
+                                    <Image loading="lazy" className='img-fluid'
                                         src={before}
                                         alt='Best_Publisher'
                                     />
@@ -46,7 +46,7 @@ const Enlisted = () => {
                                             <p className={`${styles.para5} font-30 font-primary txt-secondary`}>5.</p>
                                             <p className={`${styles.para6} font-30 font-primary txt-secondary`}>6.</p>
                                         </div>
-                                        <Image className='img-fluid'
+                                        <Image loading="lazy" className='img-fluid'
                                             src={mid}
                                             alt='Best_Publisher'
                                         />
@@ -65,7 +65,7 @@ const Enlisted = () => {
                                             <p className='font-15 font-secondary txt-secondary mb-5'>As a leading book publishing company, we are passionate about helping our authors reach their full potential and bring their vision to life.</p>
                                         </div>
                                     </div>
-                                    <Image className='img-fluid'
+                                    <Image loading="lazy" className='img-fluid'
                                         src={after}
                                         alt='Best_Publisher'
                                     />

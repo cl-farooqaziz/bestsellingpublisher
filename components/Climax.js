@@ -58,7 +58,7 @@ const Climax = (props) => {
                         <Col lg={6}>
                             <Fade direction="left">
                                 <div className={styles.climaxImg}>
-                                    <Image className='img-fluid w-100'
+                                    <Image loading="lazy" className='img-fluid w-100'
                                         src={props.imagecli}
                                         alt='Best_Publisher'
                                     />

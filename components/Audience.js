@@ -30,7 +30,7 @@ const Audience = () => {
                         <Col lg={6}>
                         <Fade direction="right">
                             <div className={styles.audienceImg}>
-                                <Image className='img-fluid'
+                                <Image loading="lazy" className='img-fluid'
                                     src={audience}
                                     alt='Best_Publisher'
                                 />

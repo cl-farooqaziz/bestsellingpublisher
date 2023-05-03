@@ -17,7 +17,7 @@ const Plans = () => {
                         <Col lg={3} sm={6}>
                         <Fade direction="left">
                             <div className={styles.plans}>
-                                <Image className='img-fluid'
+                                <Image loading="lazy" className='img-fluid'
                                     src={rating}
                                     alt='Best_Publisher'
                                 />
@@ -30,7 +30,7 @@ const Plans = () => {
                         <Col lg={3} sm={6}>
                         <Fade direction="right">
                             <div className={styles.plans}>
-                                <Image className='img-fluid'
+                                <Image loading="lazy" className='img-fluid'
                                     src={globe}
                                     alt='Best_Publisher'
                                 />
@@ -43,7 +43,7 @@ const Plans = () => {
                         <Col lg={3} sm={6}>
                         <Fade direction="left">
                             <div className={styles.plans}>
-                                <Image className='img-fluid'
+                                <Image loading="lazy" className='img-fluid'
                                     src={project}
                                     alt='Best_Publisher'
                                 />
@@ -56,7 +56,7 @@ const Plans = () => {
                         <Col lg={3} sm={6}>
                         <Fade direction="right">
                             <div className={styles.plans}>
-                                <Image className='img-fluid'
+                                <Image loading="lazy" className='img-fluid'
                                     src={stamp}
                                     alt='Best_Publisher'
                                 />

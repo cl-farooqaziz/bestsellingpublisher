@@ -33,7 +33,7 @@ const Header = () => {
                 <Navbar expand="lg">
                     <Container fluid className='px-md-5'>
                         <Link href="/">
-                            <Image className={styles.logo}
+                            <Image loading="lazy" className={styles.logo}
                                 src={logo}
                                 alt='Best_Publisher' />
                         </Link>

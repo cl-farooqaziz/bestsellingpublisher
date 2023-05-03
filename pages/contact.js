@@ -66,17 +66,17 @@ export default function Contact() {
               <div className={styles.dispost}>
 
                 <div className={styles.bordercompany}>
-                  <Image src={location} alt='Best_Publisher' className='img-fluid mb-3' />
+                  <Image loading="lazy" src={location} alt='Best_Publisher' className='img-fluid mb-3' />
                   <h2 className='font-16 fw-700 font-primary txt-secondary text-center'>Address</h2>
                   <p className='font-10'>1001 Wilshire Boulevard #1176 Los Angeles, CA 90017</p>
                 </div>
                 <div className={styles.bordercompany}>
-                  <Image src={call} alt='Best_Publisher' className='img-fluid mb-3' />
+                  <Image loading="lazy" src={call} alt='Best_Publisher' className='img-fluid mb-3' />
                   <h2 className='font-16 fw-700 font-primary txt-secondary text-center'>Business Talk</h2>
                   <p className='font-10'> <Link href="tel:(800) 781-9093">(800) 781-9093</Link> </p>
                 </div>
                 <div className={styles.bordercompany}>
-                  <Image src={email} alt='Best_Publisher' className='img-fluid mb-3' />
+                  <Image loading="lazy" src={email} alt='Best_Publisher' className='img-fluid mb-3' />
                   <h2 className='font-16 fw-700 font-primary txt-secondary text-center'>Email Address</h2>
                   <p className='font-10'> <Link href="mailto:info@bestsellingpublisher.com">info@bestsellingpublisher.com</Link> </p>
                 </div>

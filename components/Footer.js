@@ -67,26 +67,26 @@ const Footer = () => {
                     <Row className={`${styles.footerRow} justify-content-between`}>
                         <Col xl={3} lg={4}>
                             <div className={styles.footerLogo}>
-                                <Image className='img-fluid'
+                                <Image loading="lazy" className='img-fluid'
                                     src={logo}
                                     alt='Best_Publisher'
                                 />
                                 <p className='font-14 fw-500 font-secondary txt-secondary mt-4'>Best Selling Publishers offer a wide range of professional book publishing services to give life to your words. Let your words be of fine quality with our publishing services, contact us today!</p>
                                 <div className={`${styles.socialLinks} mt-3`}>
                                     <Link href="#">
-                                        <Image className='img-fluid'
+                                        <Image loading="lazy" className='img-fluid'
                                             src={insta}
                                             alt='Best_Publisher'
                                         />
                                     </Link>
                                     <Link href="#">
-                                        <Image className='img-fluid'
+                                        <Image loading="lazy" className='img-fluid'
                                             src={twiter}
                                             alt='Best_Publisher'
                                         />
                                     </Link>
                                     <Link href="#">
-                                        <Image className='img-fluid'
+                                        <Image loading="lazy" className='img-fluid'
                                             src={fb}
                                             alt='Best_Publisher'
                                         />
@@ -129,11 +129,11 @@ const Footer = () => {
                         </Col>
                         <Col xl={3} lg={4} className={styles.footercenter1}>
                             <div className={`${styles.footerLinks} ${styles.pyment}`}>
-                                <Image className='img-fluid'
+                                <Image loading="lazy" className='img-fluid'
                                     src={payment1}
                                     alt='Best_Publisher'
                                 />
-                                <Image className='img-fluid'
+                                <Image loading="lazy" className='img-fluid'
                                     src={payment2}
                                     alt='Best_Publisher'
                                 />
@@ -144,61 +144,61 @@ const Footer = () => {
                                 <h3 className='font-16 fw-700 font-secondary txt-secondary mb-5'>Awards</h3>
                                 <Slider {...footerslider}>
                                     <div>
-                                        <Image className='img-fluid mt-3'
+                                        <Image loading="lazy" className='img-fluid mt-3'
                                             src={award1}
                                             alt='Best_Publisher'
                                         />
                                     </div>
                                     <div>
-                                        <Image className='img-fluid'
+                                        <Image loading="lazy" className='img-fluid'
                                             src={award2}
                                             alt='Best_Publisher'
                                         />
                                     </div>
                                     <div>
-                                        <Image className='img-fluid'
+                                        <Image loading="lazy" className='img-fluid'
                                             src={award3}
                                             alt='Best_Publisher'
                                         />
                                     </div>
                                     <div>
-                                        <Image className='img-fluid'
+                                        <Image loading="lazy" className='img-fluid'
                                             src={award4}
                                             alt='Best_Publisher'
                                         />
                                     </div>
                                     <div>
-                                        <Image className='img-fluid'
+                                        <Image loading="lazy" className='img-fluid'
                                             src={award5}
                                             alt='Best_Publisher'
                                         />
                                     </div>
                                     <div>
-                                        <Image className='img-fluid mt-3'
+                                        <Image loading="lazy" className='img-fluid mt-3'
                                             src={award6}
                                             alt='Best_Publisher'
                                         />
                                     </div>
                                     <div>
-                                        <Image className='img-fluid'
+                                        <Image loading="lazy" className='img-fluid'
                                             src={award7}
                                             alt='Best_Publisher'
                                         />
                                     </div>
                                     <div>
-                                        <Image className='img-fluid'
+                                        <Image loading="lazy" className='img-fluid'
                                             src={award8}
                                             alt='Best_Publisher'
                                         />
                                     </div>
                                     <div>
-                                        <Image className='img-fluid'
+                                        <Image loading="lazy" className='img-fluid'
                                             src={award9}
                                             alt='Best_Publisher'
                                         />
                                     </div>
                                     <div>
-                                        <Image className='img-fluid'
+                                        <Image loading="lazy" className='img-fluid'
                                             src={award10}
                                             alt='Best_Publisher'
                                         />

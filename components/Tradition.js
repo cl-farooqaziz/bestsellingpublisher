@@ -62,7 +62,7 @@ const Tradition = () => {
                             <div className={`${styles.mockupsHead} text-center mb-5`}>
                                 <h2 className='font-50 fw-700 font-primary txt-secondary mb-3'>Tradition Publishing House</h2>
                                 <p className='font-15 font-secondary txt-secondary'>Our Publishing Experts Can Help You</p>
-                                <Image className='img-fluid'
+                                <Image loading="lazy" className='img-fluid'
                                     src={before}
                                     alt='Best_Publisher'
                                 />
@@ -74,61 +74,61 @@ const Tradition = () => {
                             <div className='mt-5 trade'>
                                 <Slider {...traditionslider}>
                                     <div>
-                                        <Image className='img-fluid'
+                                        <Image loading="lazy" className='img-fluid'
                                             src={mock1}
                                             alt='Best_Publisher'
                                         />
                                     </div>
                                     <div>
-                                        <Image className='img-fluid'
+                                        <Image loading="lazy" className='img-fluid'
                                             src={mock2}
                                             alt='Best_Publisher'
                                         />
                                     </div>
                                     <div>
-                                        <Image className='img-fluid'
+                                        <Image loading="lazy" className='img-fluid'
                                             src={mock3}
                                             alt='Best_Publisher'
                                         />
                                     </div>
                                     <div>
-                                        <Image className='img-fluid'
+                                        <Image loading="lazy" className='img-fluid'
                                             src={mock4}
                                             alt='Best_Publisher'
                                         />
                                     </div>
                                     <div>
-                                        <Image className='img-fluid'
+                                        <Image loading="lazy" className='img-fluid'
                                             src={mock5}
                                             alt='Best_Publisher'
                                         />
                                     </div>
                                     <div>
-                                        <Image className='img-fluid'
+                                        <Image loading="lazy" className='img-fluid'
                                             src={mock6}
                                             alt='Best_Publisher'
                                         />
                                     </div>
                                     <div>
-                                        <Image className='img-fluid'
+                                        <Image loading="lazy" className='img-fluid'
                                             src={mock7}
                                             alt='Best_Publisher'
                                         />
                                     </div>
                                     <div>
-                                        <Image className='img-fluid'
+                                        <Image loading="lazy" className='img-fluid'
                                             src={mock8}
                                             alt='Best_Publisher'
                                         />
                                     </div>
                                     <div>
-                                        <Image className='img-fluid'
+                                        <Image loading="lazy" className='img-fluid'
                                             src={mock9}
                                             alt='Best_Publisher'
                                         />
                                     </div>
                                     <div>
-                                        <Image className='img-fluid'
+                                        <Image loading="lazy" className='img-fluid'
                                             src={mock10}
                                             alt='Best_Publisher'
                                         />

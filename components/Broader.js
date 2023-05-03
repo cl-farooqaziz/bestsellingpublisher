@@ -44,7 +44,7 @@ const Broader = () => {
                         <Col lg={5}>
                         <Fade direction="left">
                             <div className={styles.broaderImg}>
-                                <Image className='img-fluid'
+                                <Image loading="lazy" className='img-fluid'
                                     src={broader}
                                     alt='Best_Publisher'
                                 />
