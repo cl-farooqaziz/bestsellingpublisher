@@ -11,6 +11,7 @@ import banslider2 from '../public/images/clients/client2.png'
 import banslider3 from '../public/images/clients/client3.png'
 import banslider4 from '../public/images/clients/client4.png'
 import banslider5 from '../public/images/clients/client5.png'
+import { Fade } from "react-awesome-reveal";
 
 const Clients = () => {
 
@@ -48,6 +49,7 @@ const Clients = () => {
         <>
             <section className={styles.clientsFold}>
                 <Container fluid className='px-md-5 mt-3'>
+                <Fade direction="down">
                     <Row className='justify-content-center'>
                         <Col md={10}>
                             <div className={styles.homebannerlogo}>
@@ -86,6 +88,7 @@ const Clients = () => {
                             </div>
                         </Col>
                     </Row>
+                </Fade>
                 </Container>
             </section>
         </>

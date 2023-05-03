@@ -18,7 +18,7 @@ import mock9 from '../public/images/book-mockup/Book-Mockup9.png'
 import mock10 from '../public/images/book-mockup/Book-Mockup1.png'
 import before from '../public/images/flods/tradition-before.png'
 
-
+import { Fade } from "react-awesome-reveal";
 
 const Tradition = () => {
 
@@ -57,6 +57,7 @@ const Tradition = () => {
             <section className={styles.traditionFold}>
                 <Container fluid className='px-md-5'>
                     <Row className='justify-content-center'>
+                    <Fade direction="left">
                         <Col lg={12}>
                             <div className={`${styles.mockupsHead} text-center mb-5`}>
                                 <h2 className='font-50 fw-700 font-primary txt-secondary mb-3'>Tradition Publishing House</h2>
@@ -67,6 +68,8 @@ const Tradition = () => {
                                 />
                             </div>
                         </Col>
+                        </Fade>
+                        <Fade direction="right">
                         <Col lg={12}>
                             <div className='mt-5 trade'>
                                 <Slider {...traditionslider}>
@@ -133,6 +136,7 @@ const Tradition = () => {
                                 </Slider>
                             </div>
                         </Col>
+                        </Fade>
                     </Row>
                 </Container>
             </section>

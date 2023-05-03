@@ -1,19 +1,6 @@
 import Head from 'next/head'
-import { Playfair_Display, Mulish } from 'next/font/google'
-
 import Banner from '@/components/Banner'
 import Clients from '@/components/Clients'
-import Tradition from '@/components/Tradition'
-import Climax from '@/components/Climax'
-import Enlisted from '@/components/Enlisted'
-import Dreams from '@/components/Dreams'
-import Audience from '@/components/Audience'
-import Broader from '@/components/Broader'
-import Advice from '@/components/Advice'
-import Plans from '@/components/Plans'
-import Formdata from '@/components/Formdata'
-import { Container, Row, Col } from 'react-bootstrap'
-
 import BookPublishing from '@/components/Bookpublishing'
 import BookPromotion from '@/components/Bookpromotion'
 import BookWriting from '@/components/Bookwriting'
@@ -23,14 +10,9 @@ import BookProofRead from '@/components/Bookproofread'
 import BookGhostWriting from '@/components/Bookghostwriting'
 import BookChildrenPublish from '@/components/Bookchildrenpublish'
 import BookChildrenIllus from '@/components/Bookchildrenillus'
-import BookDigitalMarket from '@/components/Bookdigitalmarket'
-
 // images
-import climax from '../public/images/flods/bestselling.png'
 import bannerImg from '../public/images/banner/aboutus.png'
 
-const inter = Playfair_Display({ subsets: ['latin'] })
-const mulish = Mulish({ subsets: ['latin'] })
 
 export default function About() {
 
@@ -43,7 +25,7 @@ export default function About() {
       homebannernum: '(800)781-9093',
       bannercounter: 'counter',
       imageban: bannerImg,
-      
+
     }
   ]
 
@@ -72,28 +54,26 @@ export default function About() {
       {/*========= Clients fold =========*/}
       <Clients />
 
+      {/* Bookbadges */}
+      <BookPublishing />
 
+      <BookPromotion />
 
-          {/* Bookbadges */}
-          <BookPublishing />
+      <BookWriting />
 
-        <BookPromotion />
+      <BookEditing />
 
-        <BookWriting />
+      <BookMarketing />
 
-        <BookEditing />
+      <BookProofRead />
 
-        <BookMarketing />
+      <BookGhostWriting />
 
-        <BookProofRead />
+      <BookChildrenPublish />
 
-        <BookGhostWriting />
-
-        <BookChildrenPublish />
-        
-<div className='bookChildrenIllus'>
+      <div className='bookChildrenIllus'>
         <BookChildrenIllus />
-</div>
+      </div>
 
 
     </>

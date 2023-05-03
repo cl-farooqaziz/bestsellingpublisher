@@ -10,7 +10,7 @@ import before from '../public/images/flods/enlisted-before.png'
 import after from '../public/images/flods/enlisted-after.png'
 import mid from '../public/images/flods/enlisted-mid.png'
 import Link from 'next/link';
-
+import { Slide } from "react-awesome-reveal";
 
 
 const Enlisted = () => {
@@ -20,6 +20,7 @@ const Enlisted = () => {
 
     return (
         <>
+         <Slide  direction="left"> 
             <section className={styles.enlistedFlod}>
                 <Container fluid className='px-md-5'>
                     <Row className='justify-content-center'>
@@ -74,6 +75,9 @@ const Enlisted = () => {
                     </Row>
                 </Container>
             </section>
+        </Slide>
+
+        <Slide direction="right">
             <section className={styles.enlistedSlide}>
                 <Container fluid className='px-md-5'>
                     <Row className='justify-content-center'>
@@ -92,6 +96,7 @@ const Enlisted = () => {
                     </Row>
                 </Container>
             </section>
+        </Slide>
         </>
     )
 }

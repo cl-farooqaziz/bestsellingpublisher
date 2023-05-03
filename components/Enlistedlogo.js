@@ -13,7 +13,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Image from 'next/image'
-
+import { Fade } from "react-awesome-reveal";
 const Enlistedlogo = () => {
 
     let enlistedslider = {
@@ -51,6 +51,7 @@ const Enlistedlogo = () => {
             <Container fluid className='px-md-5'>
                 <Row className='justify-content-center'>
                     <Col md={10}>
+                    <Fade direction="up">
                         <div className={`${styles.enlistedLogo} mt-5`}>
                             <Slider {...enlistedslider}>
                                 <div>
@@ -103,6 +104,7 @@ const Enlistedlogo = () => {
                                 </div>
                             </Slider>
                         </div>
+                        </Fade>
                     </Col>
                 </Row>
             </Container>

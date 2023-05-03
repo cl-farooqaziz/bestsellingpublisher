@@ -1,23 +1,21 @@
 import React, { useState } from 'react'
 import styles from '@/styles/Bookbadges.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
-import Link from 'next/link'
 import Image from 'next/image'
 import Modal from 'react-bootstrap/Modal';
-import Button from 'react-bootstrap/Button';
 import Freequote from './Freequote'
-
+import { Fade } from "react-awesome-reveal";
 // images
 import bookbadges8 from '/public/images/bookbadges/8.png'
 import bookbadges1 from '/public/images/bookbadges/1.png'
 
 
-const BookChildrenIllus = (props) => {
+const BookChildrenIllus = () => {
 
 
     const [show, setShow] = useState(false);
 
-    function modal(events) { event.preventDefault(); setShow(true); }
+    function modal(e) { e.preventDefault(); setShow(true); }
     function closemodal() { setShow(false); }
 
 
@@ -56,21 +54,23 @@ const BookChildrenIllus = (props) => {
 
                         {data.map((post, i) => (
                             <Col md={6} key={i}>
-                                <Row className={`${styles.bookcontent} content`} >
-                                    <Col md={8}>
-                                        <div>
+                                <Fade direction="left">
+                                    <Row className={`${styles.bookcontent} content`} >
+                                        <Col md={8}>
+                                            <div>
 
-                                            <h2 className="fw700 font40 color-blue font-f"> {post.title}</h2>
-                                            <h4 className={`${styles.marketing} fw500 font20 font-f`}> {post.subtitle}</h4>
-                                            <p className='font15  textcolor font-f mb-4'>{post.para}</p>
-                                            <span onClick={modal} className={styles.quote} href="">{post.btnname}</span>
+                                                <h2 className="fw700 font40 color-blue font-f"> {post.title}</h2>
+                                                <h4 className={`${styles.marketing} fw500 font20 font-f`}> {post.subtitle}</h4>
+                                                <p className='font15  textcolor font-f mb-4'>{post.para}</p>
+                                                <span onClick={modal} className={styles.quote} href="">{post.btnname}</span>
 
-                                        </div>
-                                    </Col>
-                                    <Col md={4}>
-                                        <Image src={post.bookbadges1} alt='book_writing_cube' className='img-fluid'></Image>
-                                    </Col>
-                                </Row>
+                                            </div>
+                                        </Col>
+                                        <Col md={4}>
+                                            <Image src={post.bookbadges1} alt='book_writing_cube' className='img-fluid'></Image>
+                                        </Col>
+                                    </Row>
+                                </Fade>
                             </Col>
                         ))}
                     </Row>
