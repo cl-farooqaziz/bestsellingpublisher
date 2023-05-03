@@ -43,6 +43,25 @@
 
  
 }
+
+.cross {
+  position: absolute;
+  top: 22px;
+  right: 20px;
+  background-color: #223235;
+  color: white;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  border-radius: 50px;
+  font-weight: 700;
+  font-family: 'Mulish', sans-serif;
+  cursor: pointer;
+
+}
 .menu .navLinks{
   padding-left: 3px;
     padding-right: 30px;

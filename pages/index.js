@@ -1,4 +1,5 @@
 import Head from 'next/head'
+// components
 import Banner from '@/components/Banner'
 import Clients from '@/components/Clients'
 import Tradition from '@/components/Tradition'
@@ -11,13 +12,7 @@ import Advice from '@/components/Advice'
 import Plans from '@/components/Plans'
 import Bookshelf from '@/components/Bookshelf'
 import Enlistedlogo from '@/components/Enlistedlogo'
-
 // import { Helmet } from 'react-helmet'
-
-
-
-
-
 // images
 import bannerImg from '../public/images/banner/banner.png'
 
@@ -99,14 +94,8 @@ export default function Home() {
           <script type="application/ld+json">
             {JSON.stringify(schema)}
           </script>
-        </Helmet> */}
-
-
-
+         </Helmet> */}
       </Head>
-
-
-
 
       {/*========= Banner =========*/}
       {bannertext.map((item, i) =>
@@ -130,7 +119,6 @@ export default function Home() {
       {/*========= Audience fold =========*/}
       <Audience />
 
-
       {/*========= Climax fold =========*/}
       {/* <Climax
         title='The Intro, The Climax and The Finale'
@@ -140,7 +128,6 @@ export default function Home() {
         btn2='(800)781-9093'
         imagecli={climax}
       /> */}
-
 
       {/*========= Enlisted fold =========*/}
       <Enlisted />
@@ -157,15 +144,12 @@ export default function Home() {
       {/*========= Advice fold =========*/}
       <Advice />
 
-
       {/*========= Plans fold =========*/}
       <Plans />
 
-
       {/*========= Bookshelf fold =========*/}
-      <Bookshelf
-
-      />
+      <Bookshelf />
+      
     </>
   )
 }

@@ -17,7 +17,7 @@ const BookChildrenPublish = (props) => {
 
     const [show, setShow] = useState(false);
 
-    function modal(events) { event.preventDefault(); setShow(true); }
+    function modal(e) { e.preventDefault(); setShow(true); }
     function closemodal() { setShow(false); }
 
 

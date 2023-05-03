@@ -1,16 +1,10 @@
 import Head from 'next/head'
-import { Playfair_Display, Mulish } from 'next/font/google'
-
 import Banner from '@/components/Banner'
 import Clients from '@/components/Clients'
 import Climax from '@/components/Climax'
-
 // images
 import climax from '../public/images/flods/bestselling.png'
 import bannerImg from '../public/images/banner/aboutus.png'
-
-const inter = Playfair_Display({ subsets: ['latin'] })
-const mulish = Mulish({ subsets: ['latin'] })
 
 export default function About() {
 
@@ -23,17 +17,16 @@ export default function About() {
       homebannernum: '(800)781-9093',
       bannercounter: 'counter',
       imageban: bannerImg,
-      
     }
   ]
 
   return (
     <>
       <Head>
-        <title>Best Book Publishing Company - Best Selling Publisher</title>
-        <meta name="description" content="Best book publishing company, Best Selling Publishers, offer a wide range of professional publishing services for authors around the world" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/images/favicon.png" />
+          <title>Best Book Publishing Company - Best Selling Publisher</title>
+          <meta name="description" content="Best book publishing company, Best Selling Publishers, offer a wide range of professional publishing services for authors around the world" />
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <link rel="icon" href="/images/favicon.png" />
       </Head>
 
 

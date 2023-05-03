@@ -6,6 +6,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from 'react-bootstrap/Navbar';
 import { Container } from 'react-bootstrap';
 import { FaPhoneAlt, FaAngleDown } from 'react-icons/fa';
+import { Modal } from 'react-bootstrap';
+import Freequote from './Freequote';
 
 //image
 import logo from '../public/images/logo.png';
@@ -18,6 +20,12 @@ const Header = () => {
     function toggle() {
         setclick((prevState) => !prevState);
     }
+
+    const [show, setShow] = useState(false);
+
+    function modal(e) { e.preventDefault(); setShow(true); }
+    function closemodal() { setShow(false); }
+
 
     return (
         <>
@@ -49,7 +57,7 @@ const Header = () => {
                                         <FaPhoneAlt className={styles.valueNum} size={14} />
                                         (800) 781-9093 </Link>
                                 </li>
-                                <li className='btns1 bg-prime'> <Link className={`${styles.headerIcon} color-white`} href="#">
+                                <li onClick={modal} className='btns1 bg-prime'> <Link className={`${styles.headerIcon} color-white`} href="#">
                                      Get A Quote </Link>
                                 </li>
                                 <li className={styles.lastlink}> <Link className={`${styles.headerIcon} color-white`} href="#">
@@ -62,6 +70,14 @@ const Header = () => {
                     </Container>
                 </Navbar>
             </header>
+
+            <Modal show={show} onHide={closemodal} className={styles.modalnew}>
+                    <Modal.Body> <Freequote formsaspire='popquote' /> <span onClick={closemodal} className={styles.cross}>x</span> </Modal.Body>
+
+
+                </Modal>
+
+
         </>
     )
 }
