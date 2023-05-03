@@ -1,13 +1,8 @@
 import Head from 'next/head'
-// import Script from 'next/script'
-
-
-
-
 import Banner from '@/components/Banner'
 import Clients from '@/components/Clients'
 import Tradition from '@/components/Tradition'
-import Climax from '@/components/Climax'
+// import Climax from '@/components/Climax'
 import Enlisted from '@/components/Enlisted'
 import Dreams from '@/components/Dreams'
 import Audience from '@/components/Audience'
@@ -17,27 +12,15 @@ import Plans from '@/components/Plans'
 import Bookshelf from '@/components/Bookshelf'
 import Enlistedlogo from '@/components/Enlistedlogo'
 
-// const Banner1 = dynamic(() => import('@/components/Banner'));
-// const Clients1 = dynamic(() => import('@/components/Clients'));
-// const Tradition1 = dynamic(() => import('@/components/Tradition'));
-// const Climax1 = dynamic(() => import('@/components/Climax'));
-// const Enlisted1 = dynamic(() => import('@/components/Enlisted'));
-// const Dreams1 = dynamic(() => import('@/components/Dreams'));
-// const Audience1 = dynamic(() => import('@/components/Audience'));
-// const Broader1 = dynamic(() => import('@/components/Broader'));
-// const Advice1 = dynamic(() => import('@/components/Advice'));
-// const Plans1 = dynamic(() => import('@/components/Plans'));
-// const Bookshelf1 = dynamic(() => import('@/components/Bookshelf'));
+// import { Helmet } from 'react-helmet'
 
 
 
-// import { Person } from "schema-dts";
-// import { jsonLdScriptProps } from "react-schemaorg";
+
 
 // images
 import bannerImg from '../public/images/banner/banner.png'
-import climax from '../public/images/flods/climax.png'
-import dynamic from 'next/dynamic'
+
 
 
 
@@ -55,76 +38,92 @@ export default function Home() {
     }
   ]
 
+
+  // const schema = {
+  //   "@context": "https://schema.org",
+  //   "@type": "Product",
+  //   "name": "Widget",
+  //   "image": [
+  //     "https://example.com/photos/1x1/photo.jpg",
+  //     "https://example.com/photos/4x3/photo.jpg",
+  //     "https://example.com/photos/16x9/photo.jpg"
+  //   ],
+  //   "description": "A widget for your website",
+  //   "sku": "widget01",
+  //   "mpn": "ABC123",
+  //   "brand": {
+  //     "@type": "Brand",
+  //     "name": "ACME"
+  //   },
+  //   "review": {
+  //     "@type": "Review",
+  //     "reviewRating": {
+  //       "@type": "Rating",
+  //       "ratingValue": "4",
+  //       "bestRating": "5"
+  //     },
+  //     "author": {
+  //       "@type": "Person",
+  //       "name": "Fred Benson"
+  //     }
+  //   },
+  //   "aggregateRating": {
+  //     "@type": "AggregateRating",
+  //     "ratingValue": "4.4",
+  //     "reviewCount": "89"
+  //   },
+  //   "offers": {
+  //     "@type": "Offer",
+  //     "url": "https://example.com/widget01",
+  //     "priceCurrency": "USD",
+  //     "price": "29.99",
+  //     "priceValidUntil": "2022-11-05",
+  //     "availability": "https://schema.org/InStock",
+  //     "seller": {
+  //       "@type": "Organization",
+  //       "name": "Example Seller",
+  //       "url": "https://example.com"
+  //     }
+  //   }
+  // }
+
+
   return (
     <>
       <Head>
-{/* <meta charset="UTF-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<title>Best Book Publishing Company - Best Selling Publisher</title>
-<meta name="description" content="Best book publishing company, Best Selling Publishers, offer a wide range of professional publishing services for authors around the world" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="tags" content />
-<meta property="og:locale" content="en_US" />
-<meta property="og:type" content="website" />
-<meta property="og:title" content="Best Book Publishing Company - Best Selling Publisher" />
-<meta property="og:description" content="Best book publishing company, Best Selling Publishers, offer a wide range of professional publishing services for authors around the world" />
-<meta property="og:url" content="https://www.bestsellingpublisher.com/" />
-<meta property="og:site_name" content="Best Book Publishing Company - Best Selling Publisher" />
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:label1" content="Est. reading time" />
-<meta name="twitter:data1" content="5 minutes" />
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Best Book Publishing Company - Best Selling Publisher</title>
+        <meta name="description" content="Best book publishing company, Best Selling Publishers, offer a wide range of professional publishing services for authors around the world" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="tags" content />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Best Book Publishing Company - Best Selling Publisher" />
+        <meta property="og:description" content="Best book publishing company, Best Selling Publishers, offer a wide range of professional publishing services for authors around the world" />
+        <meta property="og:url" content="https://www.bestsellingpublisher.com/" />
+        <meta property="og:site_name" content="Best Book Publishing Company - Best Selling Publisher" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:label1" content="Est. reading time" />
+        <meta name="twitter:data1" content="5 minutes" />
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-216290994-1" />
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-217179930-1" />
-<meta name="google-site-verification" content="l8dEmInLD7qLqlNVLMI-DxtJe5OMERfsOeXN76dOgAg" /> */}
-<title>Best Book Publishing Company - Best Selling Publisher</title>
-<link rel="icon" href="/images/favicon.png" />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-216290994-1" />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-217179930-1" />
+        <meta name="google-site-verification" content="l8dEmInLD7qLqlNVLMI-DxtJe5OMERfsOeXN76dOgAg" />
+        <title>Best Book Publishing Company - Best Selling Publisher</title>
+        <link rel="icon" href="/images/favicon.png" />
+
+        {/* <Helmet>
+          <script type="application/ld+json">
+            {JSON.stringify(schema)}
+          </script>
+        </Helmet> */}
+
 
 
       </Head>
 
-{/* <>
 
-<script
-        {...jsonLdScriptProps<Person>({
-          "@context": "https://schema.org",
-          "@type": "Corporation",
-          "name": "bestsellingpublisher",
-          "alternateName": "best selling publisher",
-          "url": "https://www.bestsellingpublisher.com/",
-          "logo": "https://imagedelivery.net/nJwaBs__P2JfMUeYJ4vmjQ/d967f86c-9b11-4758-0dae-cba2a3d0c900/public",
-          "contactPoint": {
-            "@type": "ContactPoint",
-            "telephone": "(800)781-9093",
-            "contactType": "sales",
-            "availableLanguage": "en"
-          },
-          "sameAs": [
-            "https://www.bestsellingpublisher.com/",
-            "https://www.facebook.com/Best-Selling-Publisher-103021665842266/?ref=page_internal",
-            "https://www.instagram.com/bspublisher/",
-            "https://twitter.com/bspublisher"
-          ]
-        })}
-      />
-
-<script
-        {...jsonLdScriptProps<Person>({
-         
-          "@context": "https://schema.org/",
-          "@type": "WebSite",
-          "name": "bestsellingpublisher",
-          "url": "https://www.bestsellingpublisher.com/",
-          "potentialAction": {
-            "@type": "SearchAction",
-            "target": "https://www.bestsellingpublisher.com/search?q={search_term_string}",
-            "query-input": "required name=search_term_string"
-          }
-
-        })}
-      />
-
-</> */}
 
 
       {/*========= Banner =========*/}
@@ -146,8 +145,8 @@ export default function Home() {
       {/*========= Tradition fold =========*/}
       <Tradition />
 
-          {/*========= Audience fold =========*/}
-          <Audience />
+      {/*========= Audience fold =========*/}
+      <Audience />
 
 
       {/*========= Climax fold =========*/}
@@ -164,19 +163,14 @@ export default function Home() {
       {/*========= Enlisted fold =========*/}
       <Enlisted />
 
-
       {/*========= Dreams fold =========*/}
       <Dreams />
-
-
-  
-
 
       {/*========= Broader fold =========*/}
       <Broader />
 
-    {/*========= Enlistedlogo =========*/}
-    <Enlistedlogo />
+      {/*========= Enlistedlogo =========*/}
+      <Enlistedlogo />
 
       {/*========= Advice fold =========*/}
       <Advice />
