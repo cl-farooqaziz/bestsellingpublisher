@@ -91,25 +91,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <title>Best Book Publishing Company - Best Selling Publisher</title>
-        <meta name="description" content="Best book publishing company, Best Selling Publishers, offer a wide range of professional publishing services for authors around the world" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="tags" content />
-        <meta property="og:locale" content="en_US" />
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content="Best Book Publishing Company - Best Selling Publisher" />
-        <meta property="og:description" content="Best book publishing company, Best Selling Publishers, offer a wide range of professional publishing services for authors around the world" />
-        <meta property="og:url" content="https://www.bestsellingpublisher.com/" />
-        <meta property="og:site_name" content="Best Book Publishing Company - Best Selling Publisher" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:label1" content="Est. reading time" />
-        <meta name="twitter:data1" content="5 minutes" />
-
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-216290994-1" />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-217179930-1" />
-        <meta name="google-site-verification" content="l8dEmInLD7qLqlNVLMI-DxtJe5OMERfsOeXN76dOgAg" />
+       
         <title>Best Book Publishing Company - Best Selling Publisher</title>
         <link rel="icon" href="/images/favicon.png" />
 

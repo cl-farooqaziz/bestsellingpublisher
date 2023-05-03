@@ -3,16 +3,7 @@ import { Playfair_Display, Mulish } from 'next/font/google'
 
 import Banner from '@/components/Banner'
 import Clients from '@/components/Clients'
-import Tradition from '@/components/Tradition'
 import Climax from '@/components/Climax'
-import Enlisted from '@/components/Enlisted'
-import Dreams from '@/components/Dreams'
-import Audience from '@/components/Audience'
-import Broader from '@/components/Broader'
-import Advice from '@/components/Advice'
-import Plans from '@/components/Plans'
-import Formdata from '@/components/Formdata'
-import { Container, Row, Col } from 'react-bootstrap'
 
 // images
 import climax from '../public/images/flods/bestselling.png'
