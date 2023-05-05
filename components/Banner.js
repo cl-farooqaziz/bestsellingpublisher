@@ -147,6 +147,8 @@ const Banner = (props) => {
                                     <Image loading="lazy" className='img-fluid'
                                         src={props.imageban}
                                         alt='Best_Publisher'
+                                        width={621}
+                                        height={401}
 
                                     />
                                 </div>
