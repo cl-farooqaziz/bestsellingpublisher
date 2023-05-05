@@ -53,12 +53,12 @@ export default function Contact() {
       <Container fluid className='px-md-5'>
         <Row className='contact  gy-5'>
           <Col md={6}>
-            <Fade direction="right">
+            <Fade triggerOnce='true' duration={3000} direction="right">
               <Formdata />
             </Fade>
           </Col>
           <Col md={6}>
-            <Fade direction="left">
+            <Fade triggerOnce='true' duration={3000} direction="left">
               <div>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.    690585803517!2d-118.26396242448345!3d34.    05180727315717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.    1!3m3!1m2!1s0x80c2c7b1b4cfffff%3A0x30af400ac3d5b7a1!2s1001%20Wilshire%20Blvd%20%231176%2C%    20Los%20Angeles%2C%20CA%2090017%2C%20USA!5e0!3m2!1sen!2s!4v1682088427141!5m2!1sen!2s" width="100%" height="430"></iframe>
               </div>

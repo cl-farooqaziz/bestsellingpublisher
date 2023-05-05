@@ -57,7 +57,7 @@ const Tradition = () => {
             <section className={styles.traditionFold}>
                 <Container fluid className='px-md-5'>
                     <Row className='justify-content-center'>
-                    <Fade direction="left">
+                    <Fade triggerOnce='true' duration={3000} direction="left">
                         <Col lg={12}>
                             <div className={`${styles.mockupsHead} text-center mb-5`}>
                                 <h2 className='font-50 fw-700 font-primary txt-secondary mb-3'>Tradition Publishing House</h2>
@@ -69,7 +69,7 @@ const Tradition = () => {
                             </div>
                         </Col>
                         </Fade>
-                        <Fade direction="right">
+                        <Fade triggerOnce='true' duration={3000} direction="right">
                         <Col lg={12}>
                             <div className='mt-5 trade'>
                                 <Slider {...traditionslider}>

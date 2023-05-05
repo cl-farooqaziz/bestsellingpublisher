@@ -49,7 +49,7 @@ const Clients = () => {
         <>
             <section className={styles.clientsFold}>
                 <Container fluid className='px-md-5 mt-3'>
-                <Fade direction="down">
+                <Fade triggerOnce='true' duration={3000} direction="down">
                     <Row className='justify-content-center'>
                         <Col md={10}>
                             <div className={styles.homebannerlogo}>

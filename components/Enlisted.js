@@ -20,7 +20,7 @@ const Enlisted = () => {
 
     return (
         <>
-         <Slide  direction="left"> 
+         <Slide triggerOnce='true' duration={3000}  direction="left"> 
             <section className={styles.enlistedFlod}>
                 <Container fluid className='px-md-5'>
                     <Row className='justify-content-center'>
@@ -77,7 +77,7 @@ const Enlisted = () => {
             </section>
         </Slide>
 
-        <Slide direction="right">
+        <Slide triggerOnce='true' duration={3000} direction="right">
             <section className={styles.enlistedSlide}>
                 <Container fluid className='px-md-5'>
                     <Row className='justify-content-center'>
