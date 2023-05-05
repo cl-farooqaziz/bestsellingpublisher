@@ -147,21 +147,21 @@ const Banner = (props) => {
                                     <Image loading="lazy" className='img-fluid'
                                         src={props.imageban}
                                         alt='Best_Publisher'
-                                        
+
                                     />
                                 </div>
                             </Fade>
                         </Col>
                     </Row>
                     {/* <Reveal keyframes={customAnimation}>SADDADASDAS</Reveal> */}
-                   
+
                 </Container>
 
-          
+
 
             </section>
 
-          
+
         </>
     )
 }
