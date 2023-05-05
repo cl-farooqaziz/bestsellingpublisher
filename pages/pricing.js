@@ -11,7 +11,7 @@ import BookGhostWriting from '@/components/Bookghostwriting'
 import BookChildrenPublish from '@/components/Bookchildrenpublish'
 import BookChildrenIllus from '@/components/Bookchildrenillus'
 // images
-import bannerImg from '../public/images/banner/aboutus.png'
+import bannerImg from '../public/images/banner/aboutus.webp'
 
 
 export default function About() {

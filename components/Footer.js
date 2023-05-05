@@ -100,6 +100,7 @@ const Footer = () => {
                                 <ul className='p-0 m-0 mt-4'>
                                     <li><Link href="/">Home</Link></li>
                                     <li><Link href="/about">About</Link></li>
+                                    <li><Link href="/pricing">Pricing</Link></li>
                                     <li><Link href="/contact">Contact</Link></li>
                                 </ul>
                             </div>

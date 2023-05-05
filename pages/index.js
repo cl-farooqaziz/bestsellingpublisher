@@ -14,7 +14,7 @@ import Bookshelf from '@/components/Bookshelf'
 import Enlistedlogo from '@/components/Enlistedlogo'
 // import { Helmet } from 'react-helmet'
 // images
-import bannerImg from '../public/images/banner/banner.png'
+import bannerImg from '../public/images/banner/banner.webp'
 
 
 

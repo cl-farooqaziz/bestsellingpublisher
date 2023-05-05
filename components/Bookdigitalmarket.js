@@ -1,12 +1,9 @@
 import React, { useState } from 'react'
 import styles from '@/styles/Bookbadges.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
-import Link from 'next/link'
 import Image from 'next/image'
 import Modal from 'react-bootstrap/Modal';
-import Button from 'react-bootstrap/Button';
 import Freequote from './Freequote'
-
 // images
 import bookbadges2 from '/public/images/bookbadges/2.png'
 import bookbadges3 from '/public/images/bookbadges/3.png'

@@ -88,7 +88,7 @@
     border: 2px solid #40bee2;
     color: #fff;
     margin-left: 3%;
-     font-family: 'Mulish', sans-serif; 
+     font-family:'Playfair Display', serif; 
     text-decoration: none;
     border-radius: 50px;
 }
@@ -96,16 +96,15 @@
     color: white;
     background-color: #223235;
 }
-
 .popquote{
     padding: 10% 8%;
 }
 .popquote h4{
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 700;
     text-align: center;
+    margin-bottom: 5%;
 }
-
 @media (max-width:1200px)  { 
 
     .freediscuss {
