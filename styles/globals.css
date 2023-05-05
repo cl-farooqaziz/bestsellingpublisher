@@ -203,6 +203,10 @@ a:hover {
   color: #fff!important;
 }
 
+img{
+  display: none!important;
+}
+
 /*===================== colors =====================*/
 
 .txt-primary {
@@ -330,6 +334,20 @@ a:hover {
   display: flex;
   justify-content: center;
   gap: 20px;
+}
+
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
 }
 
 

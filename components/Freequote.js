@@ -41,7 +41,7 @@ const Freequote = (props) => {
 
       <div className={styles[props.formsaspire]}>
 
-        <h4 className="t-center font-20 fw-700 colortextgrey font-primary">Get A Free Quote</h4>
+        <h4 className="t-center font-20 fw-700 colortextgrey font-primary">Get A <span className='txt-primary'>Free</span> Quote</h4>
         <form className={styles.formalign} onSubmit={handleSubmit} >
           <label className={styles.label}>Full Name*</label>
           <input type="text" className={styles.formfree} required name="name" placeholder="Your name..." />

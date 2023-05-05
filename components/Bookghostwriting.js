@@ -54,7 +54,7 @@ const BookGhostWriting = () => {
 
                         {data.map((post, i) => (
                             <Col md={6} key={i}>
-                                <Fade triggerOnce='true' duration={3000} direction="left">
+                                <Fade triggerOnce='true' duration={4000} direction="left">
                                     <Row className={`${styles.bookcontent} content`} >
                                         <Col md={8}>
                                             <div>

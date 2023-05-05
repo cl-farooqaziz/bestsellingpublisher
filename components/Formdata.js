@@ -57,7 +57,7 @@ const Formdata = () => {
 
                     <Form.Group className="mb-4" controlId="phone">
                         <Form.Label className='font-13 font-secondary' name="phone">Phone *</Form.Label>
-                        <Form.Control type="tel" placeholder="(123)-456-789" />
+                        <Form.Control type="number" placeholder="(123)-456-789" />
                     </Form.Group>
 
                     <Form.Group className="mb-4" controlId="comments">

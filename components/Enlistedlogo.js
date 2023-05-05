@@ -51,7 +51,7 @@ const Enlistedlogo = () => {
             <Container fluid className='px-md-5'>
                 <Row className='justify-content-center'>
                     <Col md={10}>
-                    <Fade triggerOnce='true' duration={3000} direction="up">
+                    <Fade triggerOnce='true' duration={4000} direction="up">
                         <div className={`${styles.enlistedLogo} mt-5`}>
                             <Slider {...enlistedslider}>
                                 <div>

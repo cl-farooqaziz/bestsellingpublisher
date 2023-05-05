@@ -54,7 +54,7 @@ const BookPromotion = () => {
 
                         {data.map((post, i) => (
                             <Col md={6} key={i}>
-                                <Fade triggerOnce='true' duration={3000} direction="right">
+                                <Fade triggerOnce='true' duration={4000} direction="right">
                                     <Row className={`${styles.bookcontent} content`} >
                                         <Col md={8}>
                                             <div>

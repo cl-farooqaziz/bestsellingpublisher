@@ -4,17 +4,16 @@ import { Container, Row, Col } from 'react-bootstrap'
 import Image from 'next/image'
 import Modal from 'react-bootstrap/Modal';
 import Freequote from './Freequote'
-
 // images
 import bookbadges1 from '/public/images/bookbadges/1.png'
 import { Fade } from "react-awesome-reveal";
 
-const BookPublishing = (props) => {
+const BookPublishing = () => {
 
 
     const [show, setShow] = useState(false);
 
-    function modal(events) { event.preventDefault(); setShow(true); }
+    function modal(e) { e.preventDefault(); setShow(true); }
     function closemodal() { setShow(false); }
 
 
@@ -45,7 +44,7 @@ const BookPublishing = (props) => {
 
                         {data.map((post, i) => (
                             <Col md={6} key={i}>
-                                <Fade triggerOnce='true' duration={3000} direction="left">
+                                <Fade triggerOnce='true' duration={4000} direction="left">
                                     <Row className={`${styles.bookcontent} content`} >
                                         <Col md={8}>
                                             <div>

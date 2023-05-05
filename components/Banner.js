@@ -1,4 +1,3 @@
-import React, { useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import styles from '@/styles/Banner.module.css'
@@ -7,7 +6,6 @@ import { Container, Row, Col } from 'react-bootstrap'
 // import { Reveal } from "react-awesome-reveal";
 import { Fade } from "react-awesome-reveal";
 // images
-
 import alignicon from '../public/images/icons/align.png'
 import authoricon from '../public/images/icons/author.png'
 import cupicon from '../public/images/icons/cup.png'
@@ -27,17 +25,13 @@ import cupicon from '../public/images/icons/cup.png'
 
 const Banner = (props) => {
 
-    const [show, setShow] = useState(false);
-    const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
-
     return (
         <>
             <section className={`${styles.homeBanner}`}>
                 <Container fluid className='px-md-5'>
                     <Row>
                         <Col lg={6}>
-                            <Fade triggerOnce='true' duration={3000}  direction="left">
+                            <Fade triggerOnce='true' duration={4000} direction="left">
                                 <div className={styles.bannerTxt}>
                                     {props.title ?
                                         props.title
@@ -142,7 +136,7 @@ const Banner = (props) => {
                             </Fade>
                         </Col>
                         <Col lg={6} className={styles.bannImg}>
-                            <Fade triggerOnce='true' duration={3000}  direction="right">
+                            <Fade triggerOnce='true' duration={4000} direction="right">
                                 <div className={styles.bannerImg}>
                                     <Image loading="lazy" className='img-fluid'
                                         src={props.imageban}

@@ -9,12 +9,12 @@ import bookbadges2 from '/public/images/bookbadges/2.png'
 import bookbadges3 from '/public/images/bookbadges/3.png'
 
 
-const BookDigitalMarket = (props) => {
+const BookDigitalMarket = () => {
 
 
     const [show, setShow] = useState(false);
 
-    function modal(events) { event.preventDefault(); setShow(true); }
+    function modal(e) { e.preventDefault(); setShow(true); }
     function closemodal() { setShow(false); }
 
 

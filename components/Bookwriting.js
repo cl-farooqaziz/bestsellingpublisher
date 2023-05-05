@@ -4,7 +4,6 @@ import { Container, Row, Col } from 'react-bootstrap'
 import Image from 'next/image'
 import Modal from 'react-bootstrap/Modal';
 import Freequote from './Freequote'
-
 // images
 import bookbadges4 from '/public/images/bookbadges/4.png'
 import bookbadges5 from '/public/images/bookbadges/5.png'
@@ -56,7 +55,7 @@ const BookWriting = () => {
                         {data.map((post, i) => (
                             <Col md={6} key={i}>
 
-                                <Fade triggerOnce='true' duration={3000} direction="left">
+                                <Fade triggerOnce='true' duration={4000} direction="left">
                                     <Row className={`${styles.bookcontent} content`} >
                                         <Col md={8}>
                                             <div>

@@ -15,7 +15,7 @@ const Plans = () => {
                 <Container fluid className='px-md-5'>
                     <Row className={`${styles.plansRow} justify-content-center align-items-center text-center`}>
                         <Col lg={3} sm={6}>
-                        <Fade triggerOnce='true' duration={3000} direction="left">
+                        <Fade triggerOnce='true' duration={4000} direction="left">
                             <div className={styles.plans}>
                                 <Image loading="lazy" className='img-fluid'
                                     src={rating}
@@ -28,7 +28,7 @@ const Plans = () => {
                             </Fade>
                         </Col>
                         <Col lg={3} sm={6}>
-                        <Fade triggerOnce='true' duration={3000} direction="right">
+                        <Fade triggerOnce='true' duration={4000} direction="right">
                             <div className={styles.plans}>
                                 <Image loading="lazy" className='img-fluid'
                                     src={globe}
@@ -41,7 +41,7 @@ const Plans = () => {
                             </Fade>
                         </Col>
                         <Col lg={3} sm={6}>
-                        <Fade triggerOnce='true' duration={3000} direction="left">
+                        <Fade triggerOnce='true' duration={4000} direction="left">
                             <div className={styles.plans}>
                                 <Image loading="lazy" className='img-fluid'
                                     src={project}
@@ -54,7 +54,7 @@ const Plans = () => {
                             </Fade>
                         </Col>
                         <Col lg={3} sm={6}>
-                        <Fade triggerOnce='true' duration={3000} direction="right">
+                        <Fade triggerOnce='true' duration={4000} direction="right">
                             <div className={styles.plans}>
                                 <Image loading="lazy" className='img-fluid'
                                     src={stamp}

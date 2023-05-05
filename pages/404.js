@@ -22,7 +22,7 @@ const Error = () => {
 <Container>
     <Row>
         <Col>
-            <h2 className='fw-800 font60 color-blue t-center mb-4 font-primary'>404 NOT FOUND</h2>
+            <h2 className='fw-800 font60 color-blue t-center mb-4 font-secondary'>404 NOT FOUND</h2>
             <h4 className="fw500 font40 colortextgrey t-center font-secondary mb-2">THIS IS SOMEWHAT EMBARRASSING, ISN’T IT?</h4>
             <p className="font18 fw400 colortextgrey t-center font-secondary mb-4">It looks like nothing was found at this location. Maybe try a search?</p>
 

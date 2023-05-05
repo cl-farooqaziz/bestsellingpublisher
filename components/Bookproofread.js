@@ -10,12 +10,12 @@ import bookbadges3 from '/public/images/bookbadges/3.png'
 import { Fade } from "react-awesome-reveal";
 
 
-const BookProofRead = (props) => {
+const BookProofRead = () => {
 
 
     const [show, setShow] = useState(false);
 
-    function modal(events) { event.preventDefault(); setShow(true); }
+    function modal(e) { e.preventDefault(); setShow(true); }
     function closemodal() { setShow(false); }
 
 
@@ -54,7 +54,7 @@ const BookProofRead = (props) => {
 
                         {data.map((post, i) => (
                             <Col md={6} key={i}>
-                                <Fade triggerOnce='true' duration={3000} direction="right">
+                                <Fade triggerOnce='true' duration={4000} direction="right">
                                     <Row className={`${styles.bookcontent} content`} >
                                         <Col md={8}>
                                             <div>
