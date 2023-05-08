@@ -8,12 +8,9 @@ import Freequote from './Freequote'
 import bookbadges2 from '/public/images/bookbadges/2.png'
 import bookbadges3 from '/public/images/bookbadges/3.png'
 
-
 const BookDigitalMarket = () => {
 
-
     const [show, setShow] = useState(false);
-
     function modal(e) { e.preventDefault(); setShow(true); }
     function closemodal() { setShow(false); }
 
@@ -35,9 +32,6 @@ const BookDigitalMarket = () => {
         },
 
     ];
-
-
-
 
     return (
         <>

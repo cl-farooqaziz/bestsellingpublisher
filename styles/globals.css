@@ -229,6 +229,10 @@ a:hover {
   font-family: var(--secondary-fonts);
 }
 
+img{
+  display: none;
+}
+
 /*===================== buttons =====================*/
 
 .btns {
