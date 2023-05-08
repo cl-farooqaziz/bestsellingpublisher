@@ -4,7 +4,8 @@ import styles from '@/styles/Bookshelf.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
 import Formdata from '@/components/Formdata';
 import { Fade } from "react-awesome-reveal";
-const Bookshelf = (props) => {
+
+const Bookshelf = () => {
     return (
         <>
             <section className={styles.bookshelfFlod}>

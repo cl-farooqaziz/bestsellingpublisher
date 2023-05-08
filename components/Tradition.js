@@ -46,7 +46,7 @@ const Tradition = () => {
             {
                 breakpoint: 575,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 2,
                 }
             }
         ]

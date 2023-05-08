@@ -6,7 +6,6 @@ import { Container, Row, Col } from 'react-bootstrap'
 import Slider from 'react-slick'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
 // images
 import logo from '../public/images/logo.png'
 import insta from '../public/images/icons/instagram.png'
@@ -24,9 +23,6 @@ import award7 from '../public/images/clients/awards7.png'
 import award8 from '../public/images/clients/awards8.png'
 import award9 from '../public/images/clients/awards9.png'
 import award10 from '../public/images/clients/awards10.png'
-
-
-
 
 const Footer = () => {
 

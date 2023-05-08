@@ -10,11 +10,10 @@ import bookbadges6 from '/public/images/bookbadges/6.png'
 import bookbadges7 from '/public/images/bookbadges/7.png'
 
 
-const BookChildrenPublish = (props) => {
+const BookChildrenPublish = () => {
 
 
     const [show, setShow] = useState(false);
-
     function modal(e) { e.preventDefault(); setShow(true); }
     function closemodal() { setShow(false); }
 

@@ -4,6 +4,7 @@ import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import { useState } from 'react';
 import Router from 'next/router';
+
 const Formdata = () => {
 
     const [score, setScore] = useState('Let`s discuss');
@@ -35,9 +36,7 @@ const Formdata = () => {
       }
   
     }
-
-
-
+    
     return (
         <>
             <div className={styles.bookshelfForm}>
@@ -47,22 +46,22 @@ const Formdata = () => {
                     </h3>
                     <Form.Group className="mb-4" controlId="name">
                         <Form.Label className='font-13 font-secondary' name="name">Full Name *</Form.Label>
-                        <Form.Control type="text" placeholder="Your Name" />
+                        <Form.Control type="text" required placeholder="Your Name" />
                     </Form.Group>
 
                     <Form.Group className="mb-4" controlId="email">
                         <Form.Label className='font-13 font-secondary' name="email">Email Address *</Form.Label>
-                        <Form.Control type="email" placeholder="Type Email Address" />
+                        <Form.Control type="email" required placeholder="Type Email Address" />
                     </Form.Group>
 
                     <Form.Group className="mb-4" controlId="phone">
                         <Form.Label className='font-13 font-secondary' name="phone">Phone *</Form.Label>
-                        <Form.Control type="number" placeholder="(123)-456-789" />
+                        <Form.Control type="number" required placeholder="(123)-456-789" />
                     </Form.Group>
 
                     <Form.Group className="mb-4" controlId="comments">
                         <Form.Label className='font-13 font-secondary' name="comments">Comments</Form.Label>
-                        <Form.Control type="text" placeholder="Message" />
+                        <Form.Control type="text" required placeholder="Message" />
                     </Form.Group>
 
                     <Button className='btns quoteBtns mt-3' type="submit"> {score} </Button>

@@ -14,7 +14,6 @@ const BookDigitalMarket = () => {
     function modal(e) { e.preventDefault(); setShow(true); }
     function closemodal() { setShow(false); }
 
-
     const data = [
 
         {
@@ -69,8 +68,6 @@ const BookDigitalMarket = () => {
 
                 <Modal show={show} onHide={closemodal} className={styles.modalnew}>
                     <Modal.Body> <Freequote formsaspire='popquote' /> <span onClick={closemodal} className={styles.cross}>x</span> </Modal.Body>
-
-
                 </Modal>
 
 

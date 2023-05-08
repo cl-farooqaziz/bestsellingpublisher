@@ -12,3 +12,8 @@
     row-gap: 40px;
   }
 }
+@media screen and (max-width: 480px) {
+  .plansFlod {
+    padding: 50px 0;
+  }
+}

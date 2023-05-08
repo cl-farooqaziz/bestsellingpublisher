@@ -13,7 +13,10 @@
   
   .bookshelfForm form ::placeholder {
     font-size: 12px;
-    font-family: "Molish" sans-serif;
+    font-weight: 500;
+    color: #a6a6a6;
+  
+    
   }
   
   .bookshelfForm form input:focus {

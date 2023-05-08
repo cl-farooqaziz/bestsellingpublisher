@@ -117,3 +117,15 @@
     padding: 50px 0 50px;
   }
 }
+
+@media screen and (max-width: 480px) {
+ 
+  .footerLinks ul li a {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Molish,sans-serif;
+    color: #000;
+}
+
+
+}

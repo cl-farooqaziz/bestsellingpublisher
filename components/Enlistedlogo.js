@@ -40,7 +40,7 @@ const Enlistedlogo = () => {
             {
                 breakpoint: 575,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 2,
                 }
             }
         ]
@@ -51,59 +51,59 @@ const Enlistedlogo = () => {
             <Container fluid className='px-md-5'>
                 <Row className='justify-content-center'>
                     <Col md={10}>
-                    <Fade triggerOnce='true' duration={4000} direction="up">
-                        <div className={`${styles.enlistedLogo} mt-5`}>
-                            <Slider {...enlistedslider}>
-                                <div>
-                                    <Image loading="lazy" className='img-fluid'
-                                        src={partner1}
-                                        alt='Best_Publisher'
-                                    />
-                                </div>
-                                <div>
-                                    <Image loading="lazy" className='img-fluid'
-                                        src={partner2}
-                                        alt='Best_Publisher'
-                                    />
-                                </div>
-                                <div>
-                                    <Image loading="lazy" className='img-fluid'
-                                        src={partner3}
-                                        alt='Best_Publisher'
-                                    />
-                                </div>
-                                <div>
-                                    <Image loading="lazy" className='img-fluid'
-                                        src={partner4}
-                                        alt='Best_Publisher'
-                                    />
-                                </div>
-                                <div>
-                                    <Image loading="lazy" className='img-fluid'
-                                        src={partner5}
-                                        alt='Best_Publisher'
-                                    />
-                                </div>
-                                <div>
-                                    <Image loading="lazy" className='img-fluid'
-                                        src={partner6}
-                                        alt='Best_Publisher'
-                                    />
-                                </div>
-                                <div>
-                                    <Image loading="lazy" className='img-fluid'
-                                        src={partner7}
-                                        alt='Best_Publisher'
-                                    />
-                                </div>
-                                <div>
-                                    <Image loading="lazy" className='img-fluid'
-                                        src={partner8}
-                                        alt='Best_Publisher'
-                                    />
-                                </div>
-                            </Slider>
-                        </div>
+                        <Fade triggerOnce='true' duration={4000} direction="up">
+                            <div className={`${styles.enlistedLogo}`}>
+                                <Slider {...enlistedslider}>
+                                    <div>
+                                        <Image loading="lazy" className='img-fluid'
+                                            src={partner1}
+                                            alt='Best_Publisher'
+                                        />
+                                    </div>
+                                    <div>
+                                        <Image loading="lazy" className='img-fluid'
+                                            src={partner2}
+                                            alt='Best_Publisher'
+                                        />
+                                    </div>
+                                    <div>
+                                        <Image loading="lazy" className='img-fluid'
+                                            src={partner3}
+                                            alt='Best_Publisher'
+                                        />
+                                    </div>
+                                    <div>
+                                        <Image loading="lazy" className='img-fluid'
+                                            src={partner4}
+                                            alt='Best_Publisher'
+                                        />
+                                    </div>
+                                    <div>
+                                        <Image loading="lazy" className='img-fluid'
+                                            src={partner5}
+                                            alt='Best_Publisher'
+                                        />
+                                    </div>
+                                    <div>
+                                        <Image loading="lazy" className='img-fluid'
+                                            src={partner6}
+                                            alt='Best_Publisher'
+                                        />
+                                    </div>
+                                    <div>
+                                        <Image loading="lazy" className='img-fluid'
+                                            src={partner7}
+                                            alt='Best_Publisher'
+                                        />
+                                    </div>
+                                    <div>
+                                        <Image loading="lazy" className='img-fluid'
+                                            src={partner8}
+                                            alt='Best_Publisher'
+                                        />
+                                    </div>
+                                </Slider>
+                            </div>
                         </Fade>
                     </Col>
                 </Row>

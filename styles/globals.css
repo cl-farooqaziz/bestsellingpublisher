@@ -229,6 +229,9 @@ a:hover {
   font-family: var(--secondary-fonts);
 }
 
+.text1-center{
+  text-align: center;
+}
 
 
 /*===================== buttons =====================*/
@@ -587,51 +590,38 @@ input[type=number] {
 /* ===================== */
 
 @media screen and (max-width: 575px) {
+
+  .font-14, .font-15 {
+    font-size: 16px;
+}
+.font-24, .font-30 {
+  font-size: 18px;
+}
   .font-16 {
-    font-size: 12px;
+    font-size: 16px;
   }
-
-  .font-18 {
-    font-size: 13px;
-  }
-
-  .font-20 {
-    font-size: 13px;
-  }
-
-  .font-24 {
-    font-size: 15px;
-  }
-
-  .font-30 {
-    font-size: 15px;
-  }
-
-  .font-32 {
-    font-size: 18px;
-  }
-
-  .font-34 {
-    font-size: 20px;
-  }
-
-  .font-38 {
-    font-size: 20px;
-  }
-
-  .font-40 {
-    font-size: 24px;
-  }
-
-  .font-45 {
-    font-size: 24px;
-  }
-
-  .font-48 {
-    font-size: 22px;
-  }
+  .font-26 {
+    font-size: 28px;
+}
 
   .font-50 {
-    font-size: 24px;
+    font-size: 35px;
+    line-height: 45px;
   }
+  .font-13 {
+    font-size: 18px;
+}
+.font-18, .font-20 {
+  font-size: 18px;
+}
+.font-10{
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 3%;
+}
+.marginright {
+  padding-left: 2%;
+  margin-bottom: 15%;
+}
+
 }

@@ -1,24 +1,12 @@
 import React from 'react'
-import Banner from '@/components/Banner'
 import Head from 'next/head'
-import bannerImg from '../public/images/banner/aboutus.webp'
+import styles from '@/styles/Error.module.css'
+import { Container, Row, Col } from 'react-bootstrap'
+import Link from 'next/link'
+
 
 
 const Thankyou = () => {
-
-  const thankuHead = <h1 className='font50 fw-800 color-blue font-primary'>Thank You</h1>
-
-  const bannertext = [
-    {
-      title: thankuHead,
-      pra: 'Our representative will contact you shortly.',
-      banners: 'bookpublishingservices',
-      thankyou: 'thankyou',
-      img1:bannerImg,
-    }
-  ]
-
-
   return (
     <>
       <Head>
@@ -30,17 +18,24 @@ const Thankyou = () => {
 
       </Head>
 
-      {/* banner components */}
+      <div className={styles.error}>
+        <Container>
+          <Row>
+            <Col>
+              <h2 className='fw-800 font60 color-blue text1-center font-secondary'>Thank-you</h2>
+              <h4 className="fw500 font-16 colortextgrey text1-center font-secondary mb-0">Our representative will contact you shortly.</h4>
+              <div className='mt-4 text1-center'>
+                <Link href="#" className={styles.btn404}>Let's Discuss</Link>
+                <Link href="tel:8007819093" className={styles.btn404}>(800) 781-9093</Link>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </div>
 
-      {bannertext.map((item, i) =>
-        <Banner key={i}
-          title={item.title}
-          text={item.pra}
-          bannershome={item.banners}
-          thankyou={item.thankyou}
-          imageban={item.img1}
-        />
-      )}
+
+
+
 
     </>
   )

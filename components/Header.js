@@ -16,7 +16,6 @@ import logo from '../public/images/logo.png';
 const Header = () => {
 
     const [show, setShow] = useState(false);
-
     function modal(e) { e.preventDefault(); setShow(true); }
     function closemodal() { setShow(false); }
 
