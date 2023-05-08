@@ -138,7 +138,7 @@ const Banner = (props) => {
                         <Col lg={6} className={styles.bannImg}>
                             <Fade triggerOnce='true' duration={4000} direction="right">
                                 <div className={styles.bannerImg}>
-                                    <Image loading="lazy" className='img-fluid'
+                                    <Image className='img-fluid'
                                         src={props.imageban}
                                         alt='Best_Publisher'
                                     />
