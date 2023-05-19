@@ -27,7 +27,7 @@ const Enlisted = () => {
                             <Slide triggerOnce='true' duration={4000} direction="right">
                                 <div className={`${styles.enlistedHead} text-center`}>
                                     <h4 className='font-30 font-primary txt-primary'>Get Enlisted With The All-Time Best Sellers</h4>
-                                    <h2 className='font-50 fw-500 font-primary txt-secondary mb-3'>Why Are We One of the Best Traditional Publishing Houses?</h2>
+                                    <h2 className='font-50 fw-500 font-primary txt-secondary mb-3'>Why Are We One of the Best Self-Publishing Houses?</h2>
                                 </div>
                             </Slide>
                         </Col>
@@ -87,7 +87,7 @@ const Enlisted = () => {
                             <Col lg={8}>
                                 <div className={`${styles.enlistedHead} text-center`}>
                                     <h4 className='font-30 font-primary color-white'>Get Enlisted With The All-Time Best Sellers</h4>
-                                    <h2 className='font-50 fw-500 font-primary color-white mb-3'>Why Are We One of the Best Traditional <span className='bg-black color-white p-1 mt-2 d-block house'> Publishing Houses?</span></h2>
+                                    <h2 className='font-50 fw-500 font-primary color-white mb-3'>Why Are We One of the Best <span className='bg-black color-white p-1 mt-2 d-block house'> Self-Publishing Houses?</span></h2>
                                 </div>
 
                                 <div className="bttns1black mt-4 mb-5 mb-md-0">

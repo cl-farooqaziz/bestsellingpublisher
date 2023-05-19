@@ -24,7 +24,7 @@ const Broader = () => {
                                             <li>Idea research and analysis</li>
                                             <li>Proofreading to eliminate errors</li>
                                             <li>Book Cover design and illustration</li>
-                                            <li>Traditional and self-publishing</li>
+                                            <li> Self-publishing</li>
                                             <li>Video Book Trailers</li>
                                         </ul>
                                     </Col>

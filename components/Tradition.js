@@ -60,7 +60,7 @@ const Tradition = () => {
                     <Fade triggerOnce='true' duration={4000} direction="left">
                         <Col lg={12}>
                             <div className={`${styles.mockupsHead} text-center mb-5`}>
-                                <h2 className='font-50 fw-700 font-primary txt-secondary mb-3'>Tradition Publishing House</h2>
+                                <h2 className='font-50 fw-700 font-primary txt-secondary mb-3'>Self-Publishing House</h2>
                                 <p className='font-15 font-secondary txt-secondary'>Our Publishing Experts Can Help You</p>
                                 <Image loading="lazy" className='img-fluid'
                                     src={before}
