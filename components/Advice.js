@@ -25,8 +25,8 @@ const Advice = () => {
                         <Col lg={6}>
                             <Fade triggerOnce='true' duration={4000} direction="right">
                                 <div className={`${styles.adviceTxt} marginright`}>
-                                    <h4 className='font-30 font-primary txt-primary mb-3'>Here’s a good piece of advice;</h4>
-                                    <h2 className='font-50 fw-500 font-primary txt-secondary'>Book Publishing Services Become Stress-free When a Best Selling Publisher Takes Charge!</h2>
+                                    <h4 className='font-30 font-primary txt-primary mb-3'>Here’s a friendly piece of advice:</h4>
+                                    <h2 className='font-50 fw-500 font-primary txt-secondary'>Your Job is half done when you have a Best Selling Publisher Take Charge!</h2>
                                 </div>
                             </Fade>
                         </Col>

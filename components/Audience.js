@@ -16,8 +16,8 @@ const Audience = () => {
                         <Col lg={6}>
                             <Fade triggerOnce='true' duration={4000} direction="left">
                                 <div className={styles.audienceTxt}>
-                                    <h2 className='font-50 fw-300 font-primary txt-white mb-3'>Reach Your Audience Effectively with Our Digital <span className='bg-black txt-white mt-2 w-75 p-1 fw-500 d-block'>Publishing Services</span></h2>
-                                    <p className='font-15 font-secondary txt-white mb-5'>Best Selling Publisher brings your dream of book writing to life.</p>
+                                    <h2 className='font-50 fw-300 font-primary txt-white mb-3'>Have Your Story Told to the World with Our Digital  <span className='bg-black txt-white mt-2 w-75 p-1 fw-500 d-block'>Publishing Services</span></h2>
+                                    <p className='font-15 font-secondary txt-white mb-5'>Best Selling Publisher well help you realize your dream. Get your book published and leave your mark in the world.</p>
                                     <div className={`${styles.bttns} mt-4 mb-5 mb-md-0`}>
                                         <Link className='btns btnBlack' href="#">Let's discuss</Link>
                                         <Link className='btns btnTransprnt' href="tel:(800)781-9093">(800)781-9093</Link>

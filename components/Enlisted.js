@@ -26,8 +26,8 @@ const Enlisted = () => {
                         <Col lg={8}>
                             <Slide triggerOnce='true' duration={4000} direction="right">
                                 <div className={`${styles.enlistedHead} text-center`}>
-                                    <h4 className='font-30 font-primary txt-primary'>Get Enlisted With The All-Time Best Sellers</h4>
-                                    <h2 className='font-50 fw-500 font-primary txt-secondary mb-3'>Why Are We One of the Best Self-Publishing Houses?</h2>
+                                    <h4 className='font-30 font-primary txt-primary'>Be a Part of the Best Sellers’ Fraternity </h4>
+                                    <h2 className='font-50 fw-500 font-primary txt-secondary mb-3'>What Makes Us the Most Preferred Book Publishers?</h2>
                                 </div>
                             </Slide>
                         </Col>
@@ -53,18 +53,19 @@ const Enlisted = () => {
                                                 alt='Best_Publisher'
                                             />
                                             <div>
-                                                <p className='font-30 font-primary txt-secondary mt-5'>Experience and Quality</p>
-                                                <p className='font-15 font-secondary txt-secondary'>We are a highly experienced and reputable book publishing company.</p>
+                                                <p className='font-30 font-primary txt-secondary mt-5'>Experience Delivering Only the Best</p>
+                                                <p className='font-15 font-secondary txt-secondary'>We’ve been in the market longer than most book publishers out there. Long before Publishing was in fashion, delivering top notch pieces for our clients.
+</p>
                                                 <p className='font-30 font-primary txt-secondary mt-5'>Industry Experts</p>
-                                                <p className='font-15 font-secondary txt-secondary'>Our best seller publishing team is composed of industry experts.</p>
+                                                <p className='font-15 font-secondary txt-secondary'>The best seller publishing team consists of top industry experts, focused to uplift our writers. </p>
                                                 <p className='font-30 font-primary txt-secondary mt-5'>Range of Services</p>
-                                                <p className='font-15 font-secondary txt-secondary'>We offer a wide range of book publishing services, including manuscript editing, formatting, and publishing consultation.</p>
+                                                <p className='font-15 font-secondary txt-secondary'>We have a wide array of publishing services available including manuscript editing, formatting, publishing consultation and Social Media Marketing.</p>
                                                 <p className='font-30 font-primary txt-secondary mt-5'>Goal-Driven</p>
-                                                <p className='font-15 font-secondary txt-secondary'>We have a proven track record of success in helping our authors achieve their publishing goals.</p>
+                                                <p className='font-15 font-secondary txt-secondary'>While most publishers keep misguiding you for extra money, we are here fully focused to get the best results for you.</p>
                                                 <p className='font-30 font-primary txt-secondary mt-5'>Affordable Packages</p>
-                                                <p className='font-15 font-secondary txt-secondary'>We offer competitive pricing and terms that are favorable to our authors.</p>
+                                                <p className='font-15 font-secondary txt-secondary'>Our book publishing and consultation charges are pocket friendly for our clients, we believe in building long terms relations and mutual growth.</p>
                                                 <p className='font-30 font-primary txt-secondary mt-5'>Passion and Creativity</p>
-                                                <p className='font-15 font-secondary txt-secondary mb-5'>As a leading book publishing company, we are passionate about helping our authors reach their full potential and bring their vision to life.</p>
+                                                <p className='font-15 font-secondary txt-secondary mb-5'>With a vast experience under our belt we make sure we instill every bit of passion into your work. Everything that leaves our workshop should be a piece of art, never compromising on aesthetics and creativity.</p>
                                             </div>
                                         </div>
                                     </Slide>
@@ -86,13 +87,13 @@ const Enlisted = () => {
                         <Row className='justify-content-center'>
                             <Col lg={8}>
                                 <div className={`${styles.enlistedHead} text-center`}>
-                                    <h4 className='font-30 font-primary color-white'>Get Enlisted With The All-Time Best Sellers</h4>
-                                    <h2 className='font-50 fw-500 font-primary color-white mb-3'>Why Are We One of the Best <span className='bg-black color-white p-1 mt-2 d-block house'> Self-Publishing Houses?</span></h2>
+                                    <h4 className='font-30 font-primary color-white'>Enlist Yourself with the All-Time Best </h4>
+                                    <h2 className='font-50 fw-500 font-primary color-white mb-3'>Your book deserves only the <span className='bg-black color-white p-1 mt-2 d-block house'> Best Selling Publishers.</span></h2>
                                 </div>
 
                                 <div className="bttns1black mt-4 mb-5 mb-md-0">
-                                    <Link className="btns btnBlack" href="/#">Let's discuss</Link>
-                                    <Link className="btns btnTransprnt" href="tel:(800)781-9093">(800)781-9093</Link>
+                                    <Link className="btns btnBlack" href="/#">Get Onboard </Link>
+                                    <Link className="btns btnTransprnt" href="tel:(800)781-9093">(800) 781-9093</Link>
                                 </div>
                             </Col>
 

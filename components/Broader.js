@@ -14,27 +14,27 @@ const Broader = () => {
                         <Col lg={7}>
                         <Fade triggerOnce='true' duration={4000} direction="right">
                             <div className={`${styles.broaderTxt} marginleft`}>
-                                <h4 className='font-30 font-primary txt-primary'>Connect With A Broader Audience With Our</h4>
-                                <h2 className='font-50 fw-500 font-primary txt-secondary mb-4'>Amazon Publishing Services</h2>
-                                <p className='font-15 font-secondary txt-secondary mb-4'>Best Selling Publisher's Amazon publishing services are among the most popular and well-known in the industry. Our process is simple and straightforward, and we provide a high-quality product that is easy to use and reliable. Additionally, our customer service is excellent, and they offer a wide range of options for writers looking to publish their work.</p>
+                                <h4 className='font-30 font-primary txt-primary'>Engage with a Larger Audience Our</h4>
+                                <h2 className='font-50 fw-500 font-primary txt-secondary mb-4'>Amazon Book Publishing Services</h2>
+                                <p className='font-15 font-secondary txt-secondary mb-4'>Best Selling Publisher sets the industry standards when it comes to Amazon Publishing Services. Our processes are simple and streamlined, tailor-made to meet your goals. With a phenomenal customer service, Best Selling Publisher can easily be termed as the place to get the job done.</p>
                                 <h4 className='font-30 font-primary txt-secondary mb-4'>Our Package Include</h4>
                                 <Row className={styles.listRow}>
                                     <Col md={6}>
                                         <ul className={`${styles.broaderList} p-0 mb-0`}>
-                                            <li>Idea research and analysis</li>
-                                            <li>Proofreading to eliminate errors</li>
-                                            <li>Book Cover design and illustration</li>
-                                            <li> Self-publishing</li>
-                                            <li>Video Book Trailers</li>
+                                            <li>Idea Research and feasibility</li>
+                                            <li>Proofreading</li>
+                                            <li>Book Cover design an Illustrations </li>
+                                            <li>Self-Publishing </li>
+                                            <li>Manuscript Drafting</li>
                                         </ul>
                                     </Col>
                                     <Col md={6}>
                                         <ul className={`${styles.broaderList} p-0 mb-0`}>
-                                            <li>Manuscript drafting</li>
-                                            <li>Critical reviews</li>
-                                            <li>Preparing text for publication</li>
-                                            <li>Publishing on best libraries</li>
-                                            <li>Branding and marketing</li>
+                                            <li>Book Video Trailer</li>
+                                            <li>Critical Reviews</li>
+                                            <li>Content Preparation for publication</li>
+                                            <li>Publishing on best platforms</li>
+                                            <li>Branding and Marketing</li>
                                         </ul>
                                     </Col>
                                 </Row>

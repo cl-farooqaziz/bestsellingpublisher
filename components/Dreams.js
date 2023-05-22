@@ -13,8 +13,8 @@ const Dreams = () => {
                         <Col lg={8}>
                             <Fade triggerOnce='true' duration={4000} direction="left">
                                 <div className={`${styles.dreamsHead} text-center`}>
-                                    <h2 className='font-50 fw-500 font-primary txt-secondary mb-3'>Our EBook Publishing Services to Turn Your Dreams Into Reality</h2>
-                                    <p className='font-15 font-secondary txt-secondary mb-5'>Every idea, every story, and plot are brilliant, but they need to be refined for success. Excellence doesn’t guarantee anything—it’s the right professionals who will help you find your way through our solutions. Whether you are a new author or a seasoned veteran, Best Selling Publisher makes it easy to get started in the wonderful world of publishing. We provide everything you need to write the perfect book – all in one place.</p>
+                                    <h2 className='font-50 fw-500 font-primary txt-secondary mb-3'>Realizing Publishing Dreams for Authors around the World </h2>
+                                    <p className='font-15 font-secondary txt-secondary mb-5'>Your story and every bit of your idea is just a little fine tune away from perfection. Take that leap and make your work recognized around the globe. Best Selling Publisher turns publication and writing hassles, seamless and smooth. Get started now! </p>
                                 </div>
                             </Fade>
                         </Col>
@@ -23,8 +23,8 @@ const Dreams = () => {
                                 <Col lg={4}>
                                     <Fade triggerOnce='true' duration={4000} direction="right">
                                         <div className={`${styles.dreamsCard} bg-gray text-center`}>
-                                            <h3 className='font-26 fw-500 font-primary txt-secondary pb-2'>Top-Notch Services</h3>
-                                            <p className='font-15 font-secondary txt-secondary mt-3 pb-5'>Best Selling Publisher offers a comprehensive suite of eBook publishing services that are designed to meet the needs of authors at every stage of the publishing process.</p>
+                                            <h3 className='font-26 fw-500 font-primary txt-secondary pb-2'>Top Notch Services </h3>
+                                            <p className='font-15 font-secondary txt-secondary mt-3 pb-5'>Best Selling Publisher offers a comprehensive suite of eBook publications, designed to meet frequent needs of authors, at every stage of the publishing process.</p>
                                             <Link className='btns btnPrimary mt-5 mx-auto' href="#">Let's discuss</Link>
                                         </div>
                                     </Fade>
@@ -33,7 +33,7 @@ const Dreams = () => {
                                     <Fade triggerOnce='true' duration={4000} direction="left">
                                         <div className={`${styles.dreamsCard} bg-gray text-center`}>
                                             <h3 className='font-26 fw-500 font-primary txt-secondary pb-2'>Experience and Dedication</h3>
-                                            <p className='font-15 font-secondary txt-secondary mt-3 pb-5'>We have a team of experienced and professional eBook editors and publishers who are committed to helping authors publish their books successfully.</p>
+                                            <p className='font-15 font-secondary txt-secondary mt-3 pb-5'>We’re a team of experienced and professional eBook editors, publishers and marketers, committed to help authors publish their work successfully.</p>
                                             <Link className='btns btnPrimary mt-5 mx-auto' href="#">Let's discuss</Link>
                                         </div>
                                     </Fade>
@@ -41,8 +41,8 @@ const Dreams = () => {
                                 <Col lg={4}>
                                     <Fade triggerOnce='true' duration={4000} direction="right">
                                         <div className={`${styles.dreamsCard} bg-gray text-center`}>
-                                            <h3 className='font-26 fw-500 font-primary txt-secondary pb-2'>Cost-Effective Packages</h3>
-                                            <p className='font-15 font-secondary txt-secondary mt-3 pb-5 pb-lg-0'>Our eBook publishing services are affordable and customizable, so you can choose the level of support that's right for you. Whether you're looking for a simple manuscript conversion or a comprehensive package that includes extensive assistance, we can help you meet your goals.</p>
+                                            <h3 className='font-26 fw-500 font-primary txt-secondary pb-2'>Cost Effective Packages</h3>
+                                            <p className='font-15 font-secondary txt-secondary mt-3 pb-5 pb-lg-0'>Our eBook publishing services are affordable and pocket friendly, so you can cherry pick as per your requirement. Whether you're looking for a simple manuscript conversion or a comprehensive plan, with extensive assistance, we help you meet your goals.</p>
                                             <Link className='btns btnPrimary mt-5 mx-auto' href="#">Let's discuss</Link>
                                         </div>
                                     </Fade>

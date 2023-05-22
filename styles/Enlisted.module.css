@@ -19,23 +19,24 @@
 }
 
 .para2 {
-  margin-top: 73px;
+  margin-top: 102px;
 }
 
 .para3 {
-  margin-top: 73px;
+  margin-top: 70px;
+
 }
 
 .para4 {
-  margin-top: 97px;
+  margin-top: 95px;
 }
 
 .para5 {
-  margin-top: 76px;
+  margin-top: 110px;
 }
 
 .para6 {
-  margin-top: 73px;
+  margin-top: 100px;
 }
 
 /* ========================== */
@@ -55,8 +56,30 @@
 
 @media screen and (max-width: 767px) {
   .midImg {
-    margin-left: 30px;
+    margin-left: 0px;
   }
+  .enlisImg img {
+    display: none;
+}
+  .para1 {
+    display: none;
+}
+  .para2 {
+   display: none;
+}
+  .para3 {
+    display: none;
+}
+  .para4 {
+    display: none;
+}
+  .para5 {
+    display: none;
+}
+  .para6 {
+    display: none;
+}
+
 }
 @media screen and (max-width: 480px) {
   .para2 {

@@ -88,6 +88,16 @@ const Banner = (props) => {
                                         :
                                         ''
                                     }
+
+                                {props.homebannernum2 ?
+                                        <div className={`${styles.bttns} mt-5`}>
+                                           <Link className='btns btnSecondary' href="tel:(800)781-9093"> {props.homebannernum2}</Link>
+                                        </div>
+                                        :
+                                        ''
+                                }
+
+
                                     {props.bannercounter ?
                                         <div className={`${styles.count} mt-5 mainclass`}>
                                             <Row className={styles.counteRow}>

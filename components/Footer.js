@@ -67,7 +67,7 @@ const Footer = () => {
                                     src={logo}
                                     alt='Best_Publisher'
                                 />
-                                <p className='font-14 fw-500 font-secondary txt-secondary mt-4'>Best Selling Publishers offer a wide range of professional book publishing services to give life to your words. Let your words be of fine quality with our publishing services, contact us today!</p>
+                                <p className='font-14 fw-500 font-secondary txt-secondary mt-4'>We’re making real-time rigorous efforts to make your book a huge success. If you have a story to tell, be part of our process. Contact us today!</p>
                                 <div className={`${styles.socialLinks} mt-3`}>
                                     <Link href="#">
                                         <Image loading="lazy" className='img-fluid'

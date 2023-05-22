@@ -19,6 +19,7 @@ export default function Contact() {
   const bannertext = [
     {
       title: newSpan,
+      text: 'Take that first step to turn your book into a huge success!',
       discuss: 'LETS DISCUSS',
       homebannernum: '(800)781-9093',
       bannercounter: 'counter',
@@ -39,6 +40,7 @@ export default function Contact() {
       {bannertext.map((item, i) =>
         <Banner key={i}
           title={item.title}
+          text={item.text}
           discuss={item.discuss}
           homebannernum={item.homebannernum}
           bannercounter={item.bannercounter}
