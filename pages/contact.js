@@ -11,6 +11,7 @@ import email from '../public/images/icons/email2.png'
 import call from '../public/images/icons/call2.png'
 import Link from 'next/link'
 import { Fade } from "react-awesome-reveal";
+import img2 from '../public/images/banner/img2.png'
 
 export default function Contact() {
 
@@ -24,6 +25,7 @@ export default function Contact() {
       homebannernum: '(800)781-9093',
       bannercounter: 'counter',
       imageban: bannerImg,
+      img2: img2,
     }
   ]
 
@@ -45,6 +47,7 @@ export default function Contact() {
           homebannernum={item.homebannernum}
           bannercounter={item.bannercounter}
           imageban={item.imageban}
+          img2={item.img2}
         />
       )}
 

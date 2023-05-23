@@ -14,7 +14,8 @@ import Bookshelf from '@/components/Bookshelf'
 import Enlistedlogo from '@/components/Enlistedlogo'
 // import { Helmet } from 'react-helmet'
 // images
-import bannerImg from '../public/images/banner/banner.webp'
+import bannerImg from '../public/images/banner/banner.png'
+import img2 from '../public/images/banner/img2.png'
 
 
 
@@ -30,6 +31,7 @@ export default function Home() {
       homebannernum: '(800)781-9093',
       bannercounter: 'counter',
       imageban: bannerImg,
+      img2: img2,
     }
   ]
 
@@ -105,6 +107,7 @@ export default function Home() {
           homebannernum={item.homebannernum}
           bannercounter={item.bannercounter}
           imageban={item.imageban}
+          img2={item.img2}
         />
       )}
 

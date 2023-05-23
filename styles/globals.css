@@ -429,6 +429,13 @@ input[type=number] {
   margin-bottom: 10%;
 }
 
+.gloslider .slick-slide img {
+  display: block;
+  padding: 9%;
+}
+.truealign{
+  align-items: center;
+}
 /* ===================== Media Queries ===================== */
 
 @media screen and (min-width: 1600px) {

@@ -5,11 +5,20 @@ import { Container, Row, Col } from 'react-bootstrap'
 // import { keyframes } from "@emotion/react";
 // import { Reveal } from "react-awesome-reveal";
 import { Fade } from "react-awesome-reveal";
+
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 // images
 import alignicon from '../public/images/icons/align.png'
 import authoricon from '../public/images/icons/author.png'
 import cupicon from '../public/images/icons/cup.png'
 
+
+import banslider1 from '../public/images/banner/logo/1.png'
+import banslider2 from '../public/images/banner/logo/2.png'
+import banslider3 from '../public/images/banner/logo/3.png'
+import banslider4 from '../public/images/banner/logo/4.png'
 
 // const customAnimation = keyframes`
 //   from {
@@ -23,13 +32,46 @@ import cupicon from '../public/images/icons/cup.png'
 //   }
 // `;
 
+
+
+
 const Banner = (props) => {
+
+    let bannerslider = {
+        dots: false,
+        arrows: false,
+        autoplay: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 3,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 575,
+                settings: {
+                    slidesToShow: 2,
+                }
+            }
+        ]
+    };
 
     return (
         <>
             <section className={`${styles.homeBanner}`}>
                 <Container fluid className='px-md-5'>
-                    <Row>
+                    <Row className='truealign'>
                         <Col lg={6}>
                             <Fade triggerOnce='true' duration={4000} direction="left">
                                 <div className={styles.bannerTxt}>
@@ -81,7 +123,7 @@ const Banner = (props) => {
                                     }
 
                                     {props.discuss ?
-                                        <div className={`${styles.bttns} mt-5`}>
+                                        <div className={`${styles.bttns} mt-4`}>
                                             <Link className='btns btnPrimary' href="#">{props.discuss}</Link>
                                             <Link className='btns btnSecondary' href="tel:(800)781-9093"> {props.homebannernum}</Link>
                                         </div>
@@ -89,17 +131,17 @@ const Banner = (props) => {
                                         ''
                                     }
 
-                                {props.homebannernum2 ?
-                                        <div className={`${styles.bttns} mt-5`}>
-                                           <Link className='btns btnSecondary' href="tel:(800)781-9093"> {props.homebannernum2}</Link>
+                                    {props.homebannernum2 ?
+                                        <div className={`${styles.bttns} mt-3`}>
+                                            <Link className='btns btnSecondary' href="tel:(800)781-9093"> {props.homebannernum2}</Link>
                                         </div>
                                         :
                                         ''
-                                }
+                                    }
 
 
                                     {props.bannercounter ?
-                                        <div className={`${styles.count} mt-5 mainclass`}>
+                                        <div className={`${styles.count} mt-3 mainclass`}>
                                             <Row className={styles.counteRow}>
                                                 <Col className='colo'>
                                                     <div className='d-flex align-items-center gap-3'>
@@ -142,6 +184,58 @@ const Banner = (props) => {
                                         :
                                         ''
                                     }
+
+                                    {props.img2 ?
+                                        <div className={styles.banshortimg}>
+                                            <Image src={props.img2} alt='Best_Publisher' className='img-fluid mt-4'></Image>
+
+                                        </div>
+                                        :
+                                        ''
+                                    }
+
+                                    <Slider {...bannerslider} className='mt-4 gloslider'>
+                                        <div>
+                                            <Image loading="lazy" className='img-fluid'
+                                                src={banslider1}
+                                                alt='Best_Publisher'
+                                            />
+                                        </div>
+                                        <div>
+                                            <Image loading="lazy" className='img-fluid'
+                                                src={banslider2}
+                                                alt='Best_Publisher'
+                                            />
+                                        </div>
+                                        <div>
+                                            <Image loading="lazy" className='img-fluid'
+                                                src={banslider3}
+                                                alt='Best_Publisher'
+                                            />
+                                        </div>
+                                        <div>
+                                            <Image loading="lazy" className='img-fluid'
+                                                src={banslider4}
+                                                alt='Best_Publisher'
+                                            />
+                                        </div>
+                                        <div>
+                                            <Image loading="lazy" className='img-fluid'
+                                                src={banslider1}
+                                                alt='Best_Publisher'
+                                            />
+                                        </div>
+                                        <div>
+                                            <Image loading="lazy" className='img-fluid'
+                                                src={banslider2}
+                                                alt='Best_Publisher'
+                                            />
+                                        </div>
+                                     
+                                    </Slider>
+
+
+
                                 </div>
                             </Fade>
                         </Col>

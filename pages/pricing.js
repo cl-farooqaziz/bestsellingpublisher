@@ -11,7 +11,8 @@ import BookGhostWriting from '@/components/Bookghostwriting'
 import BookChildrenPublish from '@/components/Bookchildrenpublish'
 import BookChildrenIllus from '@/components/Bookchildrenillus'
 // images
-import bannerImg from '../public/images/banner/aboutus.webp'
+import bannerImg from '../public/images/banner/aboutus.png'
+import img2 from '../public/images/banner/img2.png'
 
 
 export default function About() {
@@ -25,6 +26,7 @@ export default function About() {
       homebannernum: '(800)781-9093',
       bannercounter: 'counter',
       imageban: bannerImg,
+      img2: img2,
 
     }
   ]
@@ -47,6 +49,7 @@ export default function About() {
           homebannernum={item.homebannernum}
           bannercounter={item.bannercounter}
           imageban={item.imageban}
+          img2={item.img2}
         />
       )}
 
