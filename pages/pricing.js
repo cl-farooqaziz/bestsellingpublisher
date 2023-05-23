@@ -22,7 +22,7 @@ export default function About() {
   const bannertext = [
     {
       title: newSpan,
-      discuss: 'LETS DISCUSS',
+      discuss: `LET'S DISCUSS`,
       homebannernum: '(800)781-9093',
       bannercounter: 'counter',
       imageban: bannerImg,

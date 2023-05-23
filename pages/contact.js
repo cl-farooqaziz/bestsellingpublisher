@@ -21,7 +21,7 @@ export default function Contact() {
     {
       title: newSpan,
       text: 'Take that first step to turn your book into a huge success!',
-      discuss: 'LETS DISCUSS',
+      discuss: `LET'S DISCUSS`,
       homebannernum: '(800)781-9093',
       bannercounter: 'counter',
       imageban: bannerImg,
