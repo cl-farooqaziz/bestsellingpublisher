@@ -12,7 +12,7 @@ const Advice = () => {
                 <Container fluid className='p-0'>
                     <Row className={`${styles.adviceRow} justify-content-center align-items-center`}>
                         <Col lg={6}>
-                            <Fade triggerOnce='true' duration={4000} direction="left">
+                           
                                 <div className={styles.adviceImg}>
                                     <Image loading="lazy" className='img-fluid'
                                         src={advice}
@@ -20,15 +20,15 @@ const Advice = () => {
                                         
                                     />
                                 </div>
-                            </Fade>
+                            
                         </Col>
                         <Col lg={6}>
-                            <Fade triggerOnce='true' duration={4000} direction="right">
+                           
                                 <div className={`${styles.adviceTxt} marginright`}>
                                     <h4 className='font-30 font-primary txt-primary mb-3'>Here’s a friendly piece of advice:</h4>
                                     <h2 className='font-50 fw-500 font-primary txt-secondary'>Your Job is half done when you have a Best Selling Publisher Take Charge!</h2>
                                 </div>
-                            </Fade>
+                            
                         </Col>
                     </Row>
                 </Container>

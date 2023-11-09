@@ -12,7 +12,7 @@ const Climax = (props) => {
                 <Container fluid className='p-0'>
                     <Row className={`${styles.climaxRow} justify-content-center align-items-center`}>
                         <Col lg={6}>
-                            <Fade triggerOnce='true' duration={4000} direction="right">
+                           
                                 <div className={`${styles.climaxTxt} marginleft`}>
                                     {props.title ?
                                         <h4 className='font-30 font-primary txt-primary'>{props.title}</h4>
@@ -47,18 +47,18 @@ const Climax = (props) => {
                                         <Link className='btns btnSecondary' href="tel:(800)781-9093"> {props.btn2} </Link>
                                     </div>
                                 </div>
-                            </Fade>
+                            
 
                         </Col>
                         <Col lg={6}>
-                            <Fade triggerOnce='true' duration={4000} direction="left">
+                           
                                 <div className={styles.climaxImg}>
                                     <Image loading="lazy" className='img-fluid w-100'
                                         src={props.imagecli}
                                         alt='Best_Publisher'
                                     />
                                 </div>
-                            </Fade>
+                            
                         </Col>
                     </Row>
                 </Container>

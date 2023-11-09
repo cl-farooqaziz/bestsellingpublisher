@@ -12,7 +12,7 @@ const Bookshelf = () => {
                 <Container fluid className='px-md-5'>
                     <Row className={`${styles.bookshelfRow} justify-content-between`}>
                         <Col xl={6}>
-                            <Fade triggerOnce='true' duration={4000} direction="right">
+                           
                                 <div className={styles.bookshelfTxt}>
                                     <h4 className='font-24 fw-600 font-primary txt-primary mb-3'>Amazon or Any Platform of your Choice</h4>
                                     <h2 className='font-50 fw-700 font-primary txt-secondary'>Comprehensive  <br className='d-none d-md-block' /> Book Publishing Services</h2>
@@ -24,13 +24,13 @@ const Bookshelf = () => {
                                         <Link className='btns btnSecondary' href="tel:(800)781-9093">(800)781-9093</Link>
                                     </div>
                                 </div>
-                            </Fade>
+                            
                         </Col>
                         <Col xl={6}>
-                            <Fade triggerOnce='true' duration={4000} direction="left">
+                           
 
                                 <Formdata />
-                            </Fade>
+                            
 
                         </Col>
                     </Row>

@@ -12,7 +12,7 @@ const Broader = () => {
                 <Container fluid className='p-0'>
                     <Row className={`${styles.broaderRow} justify-content-center`}>
                         <Col lg={7}>
-                        <Fade triggerOnce='true' duration={4000} direction="right">
+                       
                             <div className={`${styles.broaderTxt} marginleft`}>
                                 <h4 className='font-30 font-primary txt-primary'>Engage with a Larger Audience Our</h4>
                                 <h2 className='font-50 fw-500 font-primary txt-secondary mb-4'>Amazon Book Publishing Services</h2>
@@ -39,17 +39,17 @@ const Broader = () => {
                                     </Col>
                                 </Row>
                             </div>
-                            </Fade>
+                            
                         </Col>
                         <Col lg={5}>
-                        <Fade triggerOnce='true' duration={4000} direction="left">
+                       
                             <div className={styles.broaderImg}>
                                 <Image loading="lazy" className='img-fluid'
                                     src={broader}
                                     alt='Best_Publisher'
                                 />
                             </div>
-                            </Fade>
+                            
                         </Col>
                     </Row>
                 </Container>

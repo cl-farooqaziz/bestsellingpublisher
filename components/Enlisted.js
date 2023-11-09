@@ -24,12 +24,12 @@ const Enlisted = () => {
                 <Container fluid className='px-md-5'>
                     <Row className='justify-content-center'>
                         <Col lg={8}>
-                            <Slide triggerOnce='true' duration={4000} direction="right">
+                          
                                 <div className={`${styles.enlistedHead} text-center`}>
                                     <h4 className='font-30 font-primary txt-primary'>Be a Part of the Best Sellers’ Fraternity </h4>
                                     <h2 className='font-50 fw-500 font-primary txt-secondary mb-3'>What Makes Us the Most Preferred Book Publishers?</h2>
                                 </div>
-                            </Slide>
+                           
                         </Col>
                         <Col lg={8}>
                             <div className={`${styles.enlisContnt} text-center mt-3`}>
@@ -38,7 +38,7 @@ const Enlisted = () => {
                                         src={before}
                                         alt='Best_Publisher'
                                     />
-                                    <Slide triggerOnce='true' duration={4000} direction="left">
+                                   
                                         <div className={styles.midImg}>
                                             <div>
                                                 <p className={`${styles.para1} font-30 font-primary txt-secondary mt-5 mb-5`}>1.</p>
@@ -68,7 +68,7 @@ const Enlisted = () => {
                                                 <p className='font-15 font-secondary txt-secondary mb-5'>With a vast experience under our belt we make sure we instill every bit of passion into your work. Everything that leaves our workshop should be a piece of art, never compromising on aesthetics and creativity.</p>
                                             </div>
                                         </div>
-                                    </Slide>
+                                   
                                     <Image loading="lazy" className='img-fluid'
                                         src={after}
                                         alt='Best_Publisher'
@@ -81,7 +81,7 @@ const Enlisted = () => {
             </section>
 
 
-            <Slide triggerOnce='true' duration={4000} direction="right">
+          
                 <section className={styles.enlistedSlide}>
                     <Container fluid className='px-md-5'>
                         <Row className='justify-content-center'>
@@ -100,7 +100,7 @@ const Enlisted = () => {
                         </Row>
                     </Container>
                 </section>
-            </Slide>
+           
         </>
     )
 }

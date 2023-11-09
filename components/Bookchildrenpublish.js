@@ -53,7 +53,7 @@ const BookChildrenPublish = () => {
 
                         {data.map((post, i) => (
                             <Col md={6} key={i}>
-                                <Fade triggerOnce='true' duration={4000} direction="right">
+                               
                                     <Row className={`${styles.bookcontent} content`} >
                                         <Col md={8}>
                                             <div>
@@ -69,7 +69,7 @@ const BookChildrenPublish = () => {
                                             <Image loading="lazy" src={post.bookbadges1} alt='book_writing_cube' className='img-fluid'></Image>
                                         </Col>
                                     </Row>
-                                </Fade>
+                                
                             </Col>
                         ))}
                     </Row>

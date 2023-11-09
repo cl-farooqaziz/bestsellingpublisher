@@ -73,7 +73,7 @@ const Banner = (props) => {
                 <Container fluid className='px-md-5'>
                     <Row className='truealign'>
                         <Col lg={6}>
-                            <Fade triggerOnce='true' duration={4000} direction="left">
+                         
                                 <div className={styles.bannerTxt}>
                                     {props.title ?
                                         props.title
@@ -237,17 +237,17 @@ const Banner = (props) => {
 
 
                                 </div>
-                            </Fade>
+                            
                         </Col>
                         <Col lg={6} className={styles.bannImg}>
-                            <Fade triggerOnce='true' duration={4000} direction="right">
+                           
                                 <div className={styles.bannerImg}>
                                     <Image className='img-fluid'
                                         src={props.imageban}
                                         alt='Best_Publisher'
                                     />
                                 </div>
-                            </Fade>
+                            
                         </Col>
                     </Row>
                     {/* <Reveal keyframes={customAnimation}>SADDADASDAS</Reveal> */}
