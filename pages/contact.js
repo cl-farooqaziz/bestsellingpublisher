@@ -12,6 +12,7 @@ import call from '../public/images/icons/call2.png'
 import Link from 'next/link'
 import { Fade } from "react-awesome-reveal";
 import img2 from '../public/images/banner/img2.png'
+import Enlistedlogo from '@/components/Enlistedlogo'
 
 export default function Contact() {
 

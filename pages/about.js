@@ -6,6 +6,7 @@ import Climax from '@/components/Climax'
 import climax from '../public/images/flods/bestselling.png'
 import bannerImg from '../public/images/banner/aboutus.png'
 import img2 from '../public/images/banner/img2.png'
+import Enlistedlogo from '@/components/Enlistedlogo'
 
 export default function About() {
 
