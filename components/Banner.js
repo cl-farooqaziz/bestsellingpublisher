@@ -145,7 +145,7 @@ const Banner = (props) => {
                                             <Row className={styles.counteRow}>
                                                 <Col className='colo'>
                                                     <div className='d-flex align-items-center gap-3'>
-                                                        <Image loading="lazy" className='img-fluid'
+                                                        <Image quality={100}   loading="lazy" className='img-fluid'
                                                             src={alignicon}
                                                             alt='Best_Publisher'
                                                         />
@@ -157,7 +157,7 @@ const Banner = (props) => {
                                                 </Col>
                                                 <Col className='colo'>
                                                     <div className='d-flex align-items-center gap-3'>
-                                                        <Image loading="lazy" className='img-fluid'
+                                                        <Image quality={100}   loading="lazy" className='img-fluid'
                                                             src={authoricon}
                                                             alt='Best_Publisher'
                                                         />
@@ -169,7 +169,7 @@ const Banner = (props) => {
                                                 </Col>
                                                 <Col md={4} className='colo'>
                                                     <div className='d-flex align-items-center gap-3'>
-                                                        <Image loading="lazy" className='img-fluid'
+                                                        <Image quality={100}   loading="lazy" className='img-fluid'
                                                             src={cupicon}
                                                             alt='Best_Publisher'
                                                         />
@@ -187,7 +187,7 @@ const Banner = (props) => {
 
                                     {props.img2 ?
                                         <div className={styles.banshortimg}>
-                                            <Image src={props.img2} alt='Best_Publisher' className='img-fluid mt-4'></Image>
+                                            <Image quality={100}   src={props.img2} alt='Best_Publisher' className='img-fluid mt-4'></Image>
 
                                         </div>
                                         :
@@ -196,37 +196,37 @@ const Banner = (props) => {
 
                                     <Slider {...bannerslider} className='mt-4 gloslider'>
                                         <div>
-                                            <Image loading="lazy" className='img-fluid'
+                                            <Image quality={100}   loading="lazy" className='img-fluid'
                                                 src={banslider1}
                                                 alt='Best_Publisher'
                                             />
                                         </div>
                                         <div>
-                                            <Image loading="lazy" className='img-fluid'
+                                            <Image quality={100}   loading="lazy" className='img-fluid'
                                                 src={banslider2}
                                                 alt='Best_Publisher'
                                             />
                                         </div>
                                         <div>
-                                            <Image loading="lazy" className='img-fluid'
+                                            <Image quality={100}   loading="lazy" className='img-fluid'
                                                 src={banslider3}
                                                 alt='Best_Publisher'
                                             />
                                         </div>
                                         <div>
-                                            <Image loading="lazy" className='img-fluid'
+                                            <Image quality={100}   loading="lazy" className='img-fluid'
                                                 src={banslider4}
                                                 alt='Best_Publisher'
                                             />
                                         </div>
                                         <div>
-                                            <Image loading="lazy" className='img-fluid'
+                                            <Image quality={100}   loading="lazy" className='img-fluid'
                                                 src={banslider1}
                                                 alt='Best_Publisher'
                                             />
                                         </div>
                                         <div>
-                                            <Image loading="lazy" className='img-fluid'
+                                            <Image quality={100}   loading="lazy" className='img-fluid'
                                                 src={banslider2}
                                                 alt='Best_Publisher'
                                             />
@@ -242,7 +242,7 @@ const Banner = (props) => {
                         <Col lg={6} className={styles.bannImg}>
                            
                                 <div className={styles.bannerImg}>
-                                    <Image className='img-fluid'
+                                    <Image quality={100}   className='img-fluid'
                                         src={props.imageban}
                                         alt='Best_Publisher'
                                     />

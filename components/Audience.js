@@ -28,7 +28,7 @@ const Audience = () => {
                         <Col lg={6}>
                            
                                 <div className={styles.audienceImg}>
-                                    <Image loading="lazy" className='img-fluid'
+                                    <Image quality={100}   loading="lazy" className='img-fluid'
                                         src={audience}
                                         alt='Best_Publisher'
                                     />

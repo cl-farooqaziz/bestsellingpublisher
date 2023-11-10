@@ -48,56 +48,56 @@ const Enlistedlogo = () => {
 
     return (
         <>
-            <Container fluid className='px-md-5'>
+            <Container fluid className='px-md-5 mt-4'>
                 <Row className='justify-content-center'>
                     <Col md={10}>
                        
                             <div className={`${styles.enlistedLogo}`}>
                                 <Slider {...enlistedslider}>
                                     <div>
-                                        <Image loading="lazy" className='img-fluid'
+                                        <Image quality={100}   loading="lazy" className='img-fluid'
                                             src={partner1}
                                             alt='Best_Publisher'
                                         />
                                     </div>
                                     <div>
-                                        <Image loading="lazy" className='img-fluid'
+                                        <Image quality={100}   loading="lazy" className='img-fluid'
                                             src={partner2}
                                             alt='Best_Publisher'
                                         />
                                     </div>
                                     <div>
-                                        <Image loading="lazy" className='img-fluid'
+                                        <Image quality={100}   loading="lazy" className='img-fluid'
                                             src={partner3}
                                             alt='Best_Publisher'
                                         />
                                     </div>
                                     <div>
-                                        <Image loading="lazy" className='img-fluid'
+                                        <Image quality={100}   loading="lazy" className='img-fluid'
                                             src={partner4}
                                             alt='Best_Publisher'
                                         />
                                     </div>
                                     <div>
-                                        <Image loading="lazy" className='img-fluid'
+                                        <Image quality={100}   loading="lazy" className='img-fluid'
                                             src={partner5}
                                             alt='Best_Publisher'
                                         />
                                     </div>
                                     <div>
-                                        <Image loading="lazy" className='img-fluid'
+                                        <Image quality={100}   loading="lazy" className='img-fluid'
                                             src={partner6}
                                             alt='Best_Publisher'
                                         />
                                     </div>
                                     <div>
-                                        <Image loading="lazy" className='img-fluid'
+                                        <Image quality={100}   loading="lazy" className='img-fluid'
                                             src={partner7}
                                             alt='Best_Publisher'
                                         />
                                     </div>
                                     <div>
-                                        <Image loading="lazy" className='img-fluid'
+                                        <Image quality={100}   loading="lazy" className='img-fluid'
                                             src={partner8}
                                             alt='Best_Publisher'
                                         />

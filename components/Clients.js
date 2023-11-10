@@ -55,31 +55,31 @@ const Clients = () => {
                             <div className={styles.homebannerlogo}>
                                 <Slider {...bannerslider}>
                                     <div>
-                                        <Image loading="lazy" className='img-fluid'
+                                        <Image quality={100}   loading="lazy" className='img-fluid'
                                             src={banslider1}
                                             alt='Best_Publisher'
                                         />
                                     </div>
                                     <div>
-                                        <Image loading="lazy" className='img-fluid'
+                                        <Image quality={100}   loading="lazy" className='img-fluid'
                                             src={banslider2}
                                             alt='Best_Publisher'
                                         />
                                     </div>
                                     <div>
-                                        <Image loading="lazy" className='img-fluid'
+                                        <Image quality={100}   loading="lazy" className='img-fluid'
                                             src={banslider3}
                                             alt='Best_Publisher'
                                         />
                                     </div>
                                     <div>
-                                        <Image loading="lazy" className='img-fluid'
+                                        <Image quality={100}   loading="lazy" className='img-fluid'
                                             src={banslider4}
                                             alt='Best_Publisher'
                                         />
                                     </div>
                                     <div>
-                                        <Image loading="lazy" className='img-fluid'
+                                        <Image quality={100}   loading="lazy" className='img-fluid'
                                             src={banslider5}
                                             alt='Best_Publisher'
                                         />

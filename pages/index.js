@@ -113,7 +113,9 @@ export default function Home() {
 
 
       {/*========= Clients fold =========*/}
-      <Clients />
+      {/* <Clients /> */}
+
+      <Enlistedlogo />
 
 
       {/*========= Tradition fold =========*/}
@@ -142,7 +144,7 @@ export default function Home() {
       <Broader />
 
       {/*========= Enlistedlogo =========*/}
-      <Enlistedlogo />
+      {/* <Enlistedlogo /> */}
 
       {/*========= Advice fold =========*/}
       <Advice />

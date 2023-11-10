@@ -55,7 +55,8 @@ export default function About() {
 
 
       {/*========= Clients fold =========*/}
-      <Clients />
+      {/* <Clients /> */}
+      <Enlistedlogo />
 
       {/* Bookbadges */}
       <BookPublishing />

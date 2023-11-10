@@ -66,7 +66,7 @@ const BookChildrenPublish = () => {
                                             </div>
                                         </Col>
                                         <Col md={4}>
-                                            <Image loading="lazy" src={post.bookbadges1} alt='book_writing_cube' className='img-fluid'></Image>
+                                            <Image quality={100}   loading="lazy" src={post.bookbadges1} alt='book_writing_cube' className='img-fluid'></Image>
                                         </Col>
                                     </Row>
                                 
