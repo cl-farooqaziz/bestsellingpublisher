@@ -55,7 +55,7 @@ const Header = () => {
                                 </li>
                                 <li className={styles.lastlink}> <Link className={`${styles.headerIcon} color-white`} href="#">
                                     <span>initial consultation</span>
-                                    <span>  Contact: <strong>Jessica</strong> </span>
+                                    <span>  Contact: <strong>Amelia</strong> </span>
                                 </Link>
                                 </li>
                             </ul>

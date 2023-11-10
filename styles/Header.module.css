@@ -14,7 +14,7 @@
 }
 
 .lastlink::before {
-  content: url(https://imagedelivery.net/nJwaBs__P2JfMUeYJ4vmjQ/93300d3e-d0a7-4a34-a163-97a560e60000/public);
+  content: url(../public/images/new.png);
   position: absolute;
   left: 0;
   top: 0;
