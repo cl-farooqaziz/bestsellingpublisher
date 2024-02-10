@@ -21,7 +21,7 @@ const Plans = () => {
                                     src={rating}
                                     alt='Best_Publisher'
                                 />
-                                <p className='font-18 fw-500 font-secondary  txt-secondary mt-3 w-60 line-height1 mx-auto'>
+                                <p className='font-18 fw-500 font-secondary  txt-white mt-3 w-60 line-height1 mx-auto'>
                                     100% Customer <span className='d-block'>Satisfaction</span>
                                 </p>
                             </div>
@@ -34,7 +34,7 @@ const Plans = () => {
                                     src={globe}
                                     alt='Best_Publisher'
                                 />
-                                <p className='font-18 fw-500 font-secondary  txt-secondary mt-3 w-60 line-height1 mx-auto'>
+                                <p className='font-18 fw-500 font-secondary  txt-white mt-3 w-60 line-height1 mx-auto'>
                                     2500+ Customers in <span className='d-block'>51+ Countries</span>
                                 </p>
                             </div>
@@ -47,7 +47,7 @@ const Plans = () => {
                                     src={project}
                                     alt='Best_Publisher'
                                 />
-                                <p className='font-18 fw-500 font-secondary  txt-secondary mt-3 w-60 line-height1 mx-auto'>
+                                <p className='font-18 fw-500 font-secondary  txt-white mt-3 w-60 line-height1 mx-auto'>
                                     Flexible <span className='d-block'>Plans</span>
                                 </p>
                             </div>
@@ -60,7 +60,7 @@ const Plans = () => {
                                     src={stamp}
                                     alt='Best_Publisher'
                                 />
-                                <p className='font-18 fw-500 font-secondary  txt-secondary mt-3 w-60 line-height1 mx-auto'>
+                                <p className='font-18 fw-500 font-secondary  txt-white mt-3 w-60 line-height1 mx-auto'>
                                     All Royalties <span className='d-block'>Belong To You</span>
                                 </p>
                             </div>

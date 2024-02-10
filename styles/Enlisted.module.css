@@ -45,7 +45,8 @@
 
 .enlistedSlide {
   padding: 50px 0;
-  background-color: #40bee2;
+  background: rgb(152,152,152);
+background: linear-gradient(151deg, rgba(152,152,152,1) 0%, rgba(54,69,79,1) 100%);
 }
 
 .enlistedLogo img {
